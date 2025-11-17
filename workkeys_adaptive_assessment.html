@@ -361,13 +361,13 @@
     <div class="container">
         <div class="header">
             <h1>ACT WorkKeys Adaptive Assessment</h1>
-            <p>This test adapts to your skill level - questions get harder or easier based on your performance</p>
+            <p>33 questions per category • Adaptive difficulty (Levels 3-7) • No repeats</p>
         </div>
         
         <div class="progress-section" id="progressSection" style="display: none;">
             <div class="progress-info">
                 <div class="level-indicator" id="currentLevel">Current Level: 4</div>
-                <div class="question-count" id="questionCount">Question 1 of 15</div>
+                <div class="question-count" id="questionCount">Question 1 of 33</div>
             </div>
         </div>
 
@@ -699,15 +699,16 @@
         let currentCategory = null;
         let currentLevel = 4; // Start at level 4
         let questionCount = 0;
-        let maxQuestions = 15;
+        let maxQuestions = 33; // Actual ACT WorkKeys length per category
         let correctCount = 0;
+        let fullQuestionBank = null; // Will load from JSON
         let consecutiveCorrect = 0;
         let consecutiveWrong = 0;
         let userAnswer = null;
         let questionHistory = [];
         let usedQuestions = new Set();
 
-        function startAssessment(category) {
+        async function startAssessment(category) {
             currentCategory = category;
             currentLevel = 4;
             questionCount = 0;
@@ -721,6 +722,16 @@
             document.getElementById('contentArea').style.display = 'block';
             document.getElementById('progressSection').style.display = 'flex';
             
+            // Load Level 7 questions from JSON if not already loaded
+            if (!fullQuestionBank) {
+                try {
+                    const response = await fetch('workkeys_level7_questions_full.json');
+                    fullQuestionBank = await response.json();
+                } catch (error) {
+                    console.log('Could not load external JSON, using embedded questions');
+                }
+            }
+            
             loadNextQuestion();
         }
 
@@ -732,8 +743,17 @@
                 return;
             }
 
-            // Get question from current level
-            const questions = questionBank[currentCategory][currentLevel];
+            // Get questions from current level - try full question bank first for level 7
+            let questions;
+            if (currentLevel === 7 && fullQuestionBank) {
+                // Use external JSON for Level 7 questions
+                const categoryMap = {math: 'math', reading: 'reading', locating: 'locating'};
+                questions = fullQuestionBank[categoryMap[currentCategory]];
+            } else {
+                // Use embedded questions for levels 3-6
+                questions = questionBank[currentCategory][currentLevel];
+            }
+            
             if (!questions || questions.length === 0) {
                 showResults();
                 return;
@@ -742,10 +762,15 @@
             // Find an unused question at this level
             let questionIndex = 0;
             let attempts = 0;
+            let maxAttempts = Math.min(questions.length * 2, 100);
             do {
                 questionIndex = Math.floor(Math.random() * questions.length);
                 attempts++;
-                if (attempts > 10) break; // Prevent infinite loop
+                if (attempts > maxAttempts) {
+                    // If we've tried many times, just use any question
+                    questionIndex = Math.floor(Math.random() * questions.length);
+                    break;
+                }
             } while (usedQuestions.has(`${currentLevel}-${questionIndex}`));
 
             usedQuestions.add(`${currentLevel}-${questionIndex}`);
