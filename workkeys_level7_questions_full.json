@@ -1,0 +1,3508 @@
+{
+  "math": [
+    {
+      "id": 1,
+      "question": "Your company invests $50,000 at 4.5% compound interest annually. After 3 years, what is the total value? (Use formula: A = P(1 + r)^t)",
+      "options": [
+        "A) $56,750",
+        "B) $57,091",
+        "C) $57,330",
+        "D) $58,125"
+      ],
+      "correct": "B"
+    },
+    {
+      "id": 2,
+      "question": "A production line has three quality control stations. Station A rejects 5% of items, Station B rejects 3% of items that pass A, and Station C rejects 2% of items that pass B. What percentage of items make it through all three stations?",
+      "options": [
+        "A) 88.5%",
+        "B) 90.0%",
+        "C) 90.3%",
+        "D) 91.2%"
+      ],
+      "correct": "C"
+    },
+    {
+      "id": 3,
+      "question": "You invest $5,000 at 3.5% simple interest for 2 years. How much interest will you earn?",
+      "options": [
+        "A) $300",
+        "B) $325",
+        "C) $350",
+        "D) $375"
+      ],
+      "correct": "C"
+    },
+    {
+      "id": 4,
+      "question": "A project is 65% complete and has used $78,000 of its budget. Assuming spending continues at the same rate, what will be the total budget needed?",
+      "options": [
+        "A) $115,000",
+        "B) $120,000",
+        "C) $125,000",
+        "D) $130,000"
+      ],
+      "correct": "B"
+    },
+    {
+      "id": 5,
+      "question": "A manufacturer's defect rate decreased from 2.4% to 1.8%. What is the percentage reduction in the defect rate?",
+      "options": [
+        "A) 0.6%",
+        "B) 20%",
+        "C) 25%",
+        "D) 33.3%"
+      ],
+      "correct": "C"
+    },
+    {
+      "id": 6,
+      "question": "Three workers can complete a job in 8 hours. How many hours would it take 5 workers at the same rate?",
+      "options": [
+        "A) 4.8 hours",
+        "B) 5.0 hours",
+        "C) 5.33 hours",
+        "D) 6.0 hours"
+      ],
+      "correct": "A"
+    },
+    {
+      "id": 7,
+      "question": "A machine's efficiency decreased by 15% from 80 units/hour. What is the new production rate?",
+      "options": [
+        "A) 65 units/hour",
+        "B) 68 units/hour",
+        "C) 70 units/hour",
+        "D) 72 units/hour"
+      ],
+      "correct": "B"
+    },
+    {
+      "id": 8,
+      "question": "You need to mix a solution that is 25% acid. You have 6 liters of 40% acid solution. How many liters of water must you add?",
+      "options": [
+        "A) 2.4 liters",
+        "B) 3.0 liters",
+        "C) 3.6 liters",
+        "D) 4.0 liters"
+      ],
+      "correct": "C"
+    },
+    {
+      "id": 9,
+      "question": "A company's revenue is $2.4 million with a 35% profit margin. If they want to increase profit by $150,000 while maintaining the same margin, what must revenue be?",
+      "options": [
+        "A) $2.83 million",
+        "B) $2.91 million",
+        "C) $3.00 million",
+        "D) $3.12 million"
+      ],
+      "correct": "B"
+    },
+    {
+      "id": 10,
+      "question": "A tank is filled by two pipes. Pipe A fills it in 4 hours, Pipe B in 6 hours. If both pipes are open, how long to fill 75% of the tank?",
+      "options": [
+        "A) 1.5 hours",
+        "B) 1.8 hours",
+        "C) 2.0 hours",
+        "D) 2.4 hours"
+      ],
+      "correct": "B"
+    },
+    {
+      "id": 11,
+      "question": "The ratio of men to women in a company is 3:5. If there are 240 employees total, how many are women?",
+      "options": [
+        "A) 120",
+        "B) 135",
+        "C) 150",
+        "D) 180"
+      ],
+      "correct": "C"
+    },
+    {
+      "id": 12,
+      "question": "A product's price increased from $85 to $102. What is the percentage increase?",
+      "options": [
+        "A) 15%",
+        "B) 17%",
+        "C) 20%",
+        "D) 25%"
+      ],
+      "correct": "C"
+    },
+    {
+      "id": 13,
+      "question": "A warehouse stores items in boxes that are 2ft \u00d7 3ft \u00d7 4ft. How many boxes fit in a storage area that is 12ft \u00d7 18ft \u00d7 16ft?",
+      "options": [
+        "A) 144",
+        "B) 162",
+        "C) 180",
+        "D) 192"
+      ],
+      "correct": "A"
+    },
+    {
+      "id": 14,
+      "question": "If 12 machines produce 480 units in 5 hours, how many units will 8 machines produce in 7 hours?",
+      "options": [
+        "A) 448",
+        "B) 480",
+        "C) 512",
+        "D) 544"
+      ],
+      "correct": "A"
+    },
+    {
+      "id": 15,
+      "question": "A loan of $15,000 at 6.5% annual interest compounded monthly for 2 years will accumulate to what amount?",
+      "options": [
+        "A) $16,950",
+        "B) $17,066",
+        "C) $17,145",
+        "D) $17,250"
+      ],
+      "correct": "B"
+    },
+    {
+      "id": 16,
+      "question": "A rectangular garden is 30m by 45m. A path 2m wide is built around it. What is the area of the path?",
+      "options": [
+        "A) 304 sq m",
+        "B) 316 sq m",
+        "C) 328 sq m",
+        "D) 340 sq m"
+      ],
+      "correct": "C"
+    },
+    {
+      "id": 17,
+      "question": "You buy 150 items at $8 each. You sell 60% at $15 each, 30% at $12 each, and the rest at cost. What is your total profit?",
+      "options": [
+        "A) $720",
+        "B) $810",
+        "C) $900",
+        "D) $990"
+      ],
+      "correct": "B"
+    },
+    {
+      "id": 18,
+      "question": "A circular pool has a diameter of 20 feet. What is the cost to resurface it at $4.50 per square foot? (Use \u03c0 \u2248 3.14)",
+      "options": [
+        "A) $1,256",
+        "B) $1,356",
+        "C) $1,413",
+        "D) $1,520"
+      ],
+      "correct": "C"
+    },
+    {
+      "id": 19,
+      "question": "A vehicle depreciates 18% per year. If it's worth $28,000 now, what will it be worth in 3 years?",
+      "options": [
+        "A) $15,428",
+        "B) $16,250",
+        "C) $17,146",
+        "D) $18,250"
+      ],
+      "correct": "A"
+    },
+    {
+      "id": 20,
+      "question": "A recipe for 12 servings uses 2.5 cups of flour, 1.75 cups sugar, and 0.5 cups oil. For 30 servings, how much flour is needed?",
+      "options": [
+        "A) 5.5 cups",
+        "B) 6.0 cups",
+        "C) 6.25 cups",
+        "D) 6.5 cups"
+      ],
+      "correct": "C"
+    },
+    {
+      "id": 21,
+      "question": "A train travels 420 km in 5.5 hours. At the same average speed, how far will it travel in 8 hours?",
+      "options": [
+        "A) 585 km",
+        "B) 600 km",
+        "C) 610 km",
+        "D) 625 km"
+      ],
+      "correct": "C"
+    },
+    {
+      "id": 22,
+      "question": "An employee earns $52,000 annually with a 3.5% raise each year. What will their salary be after 4 years?",
+      "options": [
+        "A) $59,256",
+        "B) $59,688",
+        "C) $59,942",
+        "D) $60,150"
+      ],
+      "correct": "C"
+    },
+    {
+      "id": 23,
+      "question": "A cylindrical tank with radius 4ft and height 10ft is filled 70% with water. How many cubic feet of water? (Use \u03c0 \u2248 3.14)",
+      "options": [
+        "A) 351.68 cu ft",
+        "B) 362.40 cu ft",
+        "C) 375.20 cu ft",
+        "D) 388.00 cu ft"
+      ],
+      "correct": "A"
+    },
+    {
+      "id": 24,
+      "question": "You invest $8,000 in Fund A (8% annual return) and $12,000 in Fund B (5% annual return). What is your weighted average return?",
+      "options": [
+        "A) 6.2%",
+        "B) 6.4%",
+        "C) 6.5%",
+        "D) 6.8%"
+      ],
+      "correct": "A"
+    },
+    {
+      "id": 25,
+      "question": "A production schedule requires 420 units to be made in 7 days. After 3 days, only 150 units are complete. What daily rate is needed for the remaining days?",
+      "options": [
+        "A) 62.5 units/day",
+        "B) 65 units/day",
+        "C) 67.5 units/day",
+        "D) 70 units/day"
+      ],
+      "correct": "C"
+    },
+    {
+      "id": 26,
+      "question": "The probability of Machine A failing is 0.08 and Machine B failing is 0.12. What is the probability that at least one machine fails?",
+      "options": [
+        "A) 0.1904",
+        "B) 0.20",
+        "C) 0.2096",
+        "D) 0.22"
+      ],
+      "correct": "A"
+    },
+    {
+      "id": 27,
+      "question": "A store buys shirts for $18 and wants a 45% profit margin. What should the selling price be?",
+      "options": [
+        "A) $24.30",
+        "B) $26.10",
+        "C) $27.00",
+        "D) $28.20"
+      ],
+      "correct": "B"
+    },
+    {
+      "id": 28,
+      "question": "You drive 240 miles using 12 gallons at $3.85/gallon. What is your cost per mile?",
+      "options": [
+        "A) $0.19",
+        "B) $0.193",
+        "C) $0.20",
+        "D) $0.21"
+      ],
+      "correct": "B"
+    },
+    {
+      "id": 29,
+      "question": "A contractor estimates a job will take 360 hours. After 120 hours, the job is 28% complete. At this rate, how many total hours will the job actually take?",
+      "options": [
+        "A) 410 hours",
+        "B) 429 hours",
+        "C) 450 hours",
+        "D) 475 hours"
+      ],
+      "correct": "B"
+    },
+    {
+      "id": 30,
+      "question": "An alloy is 60% copper and 40% zinc. You have 80kg of this alloy. How much pure copper must you add to make it 70% copper?",
+      "options": [
+        "A) 22.67 kg",
+        "B) 24.00 kg",
+        "C) 26.67 kg",
+        "D) 28.00 kg"
+      ],
+      "correct": "C"
+    },
+    {
+      "id": 31,
+      "question": "A stock portfolio lost 15% in year 1, gained 20% in year 2, and gained 10% in year 3. What is the net change from the original value?",
+      "options": [
+        "A) +10.2%",
+        "B) +11.0%",
+        "C) +12.2%",
+        "D) +15.0%"
+      ],
+      "correct": "C"
+    },
+    {
+      "id": 32,
+      "question": "A cube has a surface area of 384 square inches. What is its volume?",
+      "options": [
+        "A) 480 cu in",
+        "B) 512 cu in",
+        "C) 525 cu in",
+        "D) 540 cu in"
+      ],
+      "correct": "B"
+    },
+    {
+      "id": 33,
+      "question": "A factory produces widgets at a fixed cost of $5,000/month plus $12 per widget. If widgets sell for $35 each, how many must be sold to break even?",
+      "options": [
+        "A) 195",
+        "B) 205",
+        "C) 217",
+        "D) 230"
+      ],
+      "correct": "C"
+    },
+    {
+      "id": 34,
+      "question": "Water flows into a tank at 45 gallons/min and out at 18 gallons/min. How long to increase the tank level by 810 gallons?",
+      "options": [
+        "A) 25 minutes",
+        "B) 27 minutes",
+        "C) 30 minutes",
+        "D) 32 minutes"
+      ],
+      "correct": "C"
+    },
+    {
+      "id": 35,
+      "question": "You travel 180 miles at 60 mph, then 240 miles at 80 mph. What is your average speed for the entire trip?",
+      "options": [
+        "A) 68 mph",
+        "B) 70 mph",
+        "C) 72 mph",
+        "D) 75 mph"
+      ],
+      "correct": "B"
+    },
+    {
+      "id": 36,
+      "question": "A company's stock split 3-for-2. If you owned 450 shares at $86/share, how many shares do you now own?",
+      "options": [
+        "A) 625",
+        "B) 650",
+        "C) 675",
+        "D) 700"
+      ],
+      "correct": "C"
+    },
+    {
+      "id": 37,
+      "question": "The scale on a map is 1:250,000. Two cities are 6.5 cm apart on the map. What is the actual distance in kilometers?",
+      "options": [
+        "A) 15.25 km",
+        "B) 16.25 km",
+        "C) 16.50 km",
+        "D) 17.00 km"
+      ],
+      "correct": "B"
+    },
+    {
+      "id": 38,
+      "question": "A cone-shaped container has a radius of 6 inches and height of 15 inches. What is its volume? (V = 1/3\u03c0r\u00b2h, \u03c0 \u2248 3.14)",
+      "options": [
+        "A) 540 cu in",
+        "B) 565.2 cu in",
+        "C) 580 cu in",
+        "D) 595.8 cu in"
+      ],
+      "correct": "B"
+    },
+    {
+      "id": 39,
+      "question": "A loan shark charges 2.5% interest per month compounded. What is the effective annual interest rate?",
+      "options": [
+        "A) 30.0%",
+        "B) 32.5%",
+        "C) 34.5%",
+        "D) 36.0%"
+      ],
+      "correct": "C"
+    },
+    {
+      "id": 40,
+      "question": "You need to create a mixture that is 15% salt. You have 40L of 8% solution. How much 30% solution must you add?",
+      "options": [
+        "A) 16 L",
+        "B) 18 L",
+        "C) 18.67 L",
+        "D) 20 L"
+      ],
+      "correct": "C"
+    },
+    {
+      "id": 41,
+      "question": "A rectangular prism is 8cm \u00d7 12cm \u00d7 15cm. If each dimension increases by 25%, what is the new volume?",
+      "options": [
+        "A) 2,250 cu cm",
+        "B) 2,343.75 cu cm",
+        "C) 2,500 cu cm",
+        "D) 2,625 cu cm"
+      ],
+      "correct": "B"
+    },
+    {
+      "id": 42,
+      "question": "An investment grows from $10,000 to $15,386 in 5 years with compound interest. What was the annual interest rate?",
+      "options": [
+        "A) 8.5%",
+        "B) 9.0%",
+        "C) 9.5%",
+        "D) 10.0%"
+      ],
+      "correct": "B"
+    },
+    {
+      "id": 43,
+      "question": "A car rental costs $45/day plus $0.32/mile. You rent for 5 days and drive 680 miles. What is the total cost?",
+      "options": [
+        "A) $432.60",
+        "B) $442.60",
+        "C) $452.60",
+        "D) $462.60"
+      ],
+      "correct": "C"
+    },
+    {
+      "id": 44,
+      "question": "A sequence follows the pattern: 5, 12, 26, 54, ... Each term is double the previous plus 2. What is the 6th term?",
+      "options": [
+        "A) 218",
+        "B) 222",
+        "C) 226",
+        "D) 230"
+      ],
+      "correct": "C"
+    },
+    {
+      "id": 45,
+      "question": "The area of a triangle is 96 sq cm. If the base is 16 cm, what is the height?",
+      "options": [
+        "A) 10 cm",
+        "B) 12 cm",
+        "C) 14 cm",
+        "D) 16 cm"
+      ],
+      "correct": "B"
+    },
+    {
+      "id": 46,
+      "question": "You want to fence a rectangular area of 1,200 sq ft with minimum perimeter. If one side is against a building (no fence needed), what dimensions minimize the fence length?",
+      "options": [
+        "A) 30 ft \u00d7 40 ft",
+        "B) 34.6 ft \u00d7 34.6 ft",
+        "C) 40 ft \u00d7 30 ft",
+        "D) 20 ft \u00d7 60 ft"
+      ],
+      "correct": "B"
+    },
+    {
+      "id": 47,
+      "question": "A pump can empty a pool in 8 hours. A second pump can do it in 12 hours. If both work together for 3 hours then stop, what percentage is drained?",
+      "options": [
+        "A) 60%",
+        "B) 62.5%",
+        "C) 65%",
+        "D) 67.5%"
+      ],
+      "correct": "B"
+    },
+    {
+      "id": 48,
+      "question": "Stock A returns 12% and Stock B returns 8%. You invest $20,000 total and earn $2,080 in returns. How much was in Stock A?",
+      "options": [
+        "A) $10,000",
+        "B) $12,000",
+        "C) $13,000",
+        "D) $14,000"
+      ],
+      "correct": "C"
+    },
+    {
+      "id": 49,
+      "question": "A sphere has a volume of 904.32 cubic cm (\u03c0 \u2248 3.14). What is its radius?",
+      "options": [
+        "A) 5 cm",
+        "B) 5.5 cm",
+        "C) 6 cm",
+        "D) 6.5 cm"
+      ],
+      "correct": "C"
+    },
+    {
+      "id": 50,
+      "question": "The geometric mean of two numbers is 24 and their arithmetic mean is 26. What are the two numbers?",
+      "options": [
+        "A) 16 and 36",
+        "B) 18 and 32",
+        "C) 20 and 32",
+        "D) 22 and 30"
+      ],
+      "correct": "B"
+    },
+    {
+      "id": 51,
+      "question": "A ladder 25 feet long leans against a wall. The base is 7 feet from the wall. How high up the wall does it reach?",
+      "options": [
+        "A) 22 feet",
+        "B) 23 feet",
+        "C) 24 feet",
+        "D) 24.5 feet"
+      ],
+      "correct": "C"
+    },
+    {
+      "id": 52,
+      "question": "You need $50,000 in 10 years. If you can earn 7% annual interest compounded, how much must you invest today?",
+      "options": [
+        "A) $24,185",
+        "B) $25,420",
+        "C) $26,150",
+        "D) $27,000"
+      ],
+      "correct": "B"
+    },
+    {
+      "id": 53,
+      "question": "A bicycle wheel has a 26-inch diameter. How many complete revolutions for it to travel 1 mile? (1 mile = 5,280 feet, \u03c0 \u2248 3.14)",
+      "options": [
+        "A) 772",
+        "B) 776",
+        "C) 780",
+        "D) 784"
+      ],
+      "correct": "B"
+    },
+    {
+      "id": 54,
+      "question": "A bacteria culture doubles every 4 hours. Starting with 500 bacteria, how many after 24 hours?",
+      "options": [
+        "A) 28,000",
+        "B) 30,000",
+        "C) 32,000",
+        "D) 34,000"
+      ],
+      "correct": "C"
+    },
+    {
+      "id": 55,
+      "question": "The probability of event A is 0.4 and event B is 0.5. If they're independent, what's the probability both occur?",
+      "options": [
+        "A) 0.18",
+        "B) 0.20",
+        "C) 0.22",
+        "D) 0.25"
+      ],
+      "correct": "B"
+    },
+    {
+      "id": 56,
+      "question": "A parallelogram has base 18 cm and height 12 cm. What is its area?",
+      "options": [
+        "A) 192 sq cm",
+        "B) 204 sq cm",
+        "C) 216 sq cm",
+        "D) 228 sq cm"
+      ],
+      "correct": "C"
+    },
+    {
+      "id": 57,
+      "question": "You buy a bond for $950 that pays $1,000 at maturity in 2 years. What is the annual simple interest rate?",
+      "options": [
+        "A) 2.5%",
+        "B) 2.63%",
+        "C) 5.0%",
+        "D) 5.26%"
+      ],
+      "correct": "B"
+    },
+    {
+      "id": 58,
+      "question": "A trapezoid has parallel sides of 14 cm and 22 cm, with height 9 cm. What is its area?",
+      "options": [
+        "A) 153 sq cm",
+        "B) 162 sq cm",
+        "C) 171 sq cm",
+        "D) 180 sq cm"
+      ],
+      "correct": "B"
+    },
+    {
+      "id": 59,
+      "question": "You deposit $500/month into an account earning 6% annual interest compounded monthly. How much after 3 years?",
+      "options": [
+        "A) $18,867",
+        "B) $19,116",
+        "C) $19,348",
+        "D) $19,562"
+      ],
+      "correct": "B"
+    },
+    {
+      "id": 60,
+      "question": "A right triangle has legs of 15 cm and 20 cm. What is the length of the hypotenuse?",
+      "options": [
+        "A) 23 cm",
+        "B) 24 cm",
+        "C) 25 cm",
+        "D) 26 cm"
+      ],
+      "correct": "C"
+    },
+    {
+      "id": 61,
+      "question": "A company has fixed costs of $24,000/month and variable costs of $8/unit. If they produce 4,000 units, what is the cost per unit?",
+      "options": [
+        "A) $12",
+        "B) $14",
+        "C) $16",
+        "D) $18"
+      ],
+      "correct": "B"
+    },
+    {
+      "id": 62,
+      "question": "Water evaporates from a tank at 3.5% per day. Starting with 2,000 gallons, how much remains after 5 days?",
+      "options": [
+        "A) 1,653 gallons",
+        "B) 1,672 gallons",
+        "C) 1,690 gallons",
+        "D) 1,708 gallons"
+      ],
+      "correct": "B"
+    },
+    {
+      "id": 63,
+      "question": "An equilateral triangle has a perimeter of 48 cm. What is its area? (Use \u221a3 \u2248 1.732)",
+      "options": [
+        "A) 108.5 sq cm",
+        "B) 110.8 sq cm",
+        "C) 112.6 sq cm",
+        "D) 114.4 sq cm"
+      ],
+      "correct": "B"
+    },
+    {
+      "id": 64,
+      "question": "You invest $10,000 at 5% for the first year, then reinvest everything at 6% for the second year. What is the final amount?",
+      "options": [
+        "A) $11,030",
+        "B) $11,100",
+        "C) $11,130",
+        "D) $11,200"
+      ],
+      "correct": "C"
+    },
+    {
+      "id": 65,
+      "question": "A machine costs $45,000 and depreciates linearly to $5,000 over 10 years. What is its value after 7 years?",
+      "options": [
+        "A) $15,000",
+        "B) $17,000",
+        "C) $19,000",
+        "D) $21,000"
+      ],
+      "correct": "B"
+    },
+    {
+      "id": 66,
+      "question": "The sum of three consecutive even numbers is 246. What is the largest number?",
+      "options": [
+        "A) 80",
+        "B) 82",
+        "C) 84",
+        "D) 86"
+      ],
+      "correct": "C"
+    },
+    {
+      "id": 67,
+      "question": "A regular hexagon has a side length of 8 cm. What is its perimeter?",
+      "options": [
+        "A) 40 cm",
+        "B) 44 cm",
+        "C) 48 cm",
+        "D) 52 cm"
+      ],
+      "correct": "C"
+    },
+    {
+      "id": 68,
+      "question": "You borrow $25,000 at 8.5% annual interest. What is the interest charge for 9 months?",
+      "options": [
+        "A) $1,531.25",
+        "B) $1,593.75",
+        "C) $1,625.00",
+        "D) $1,687.50"
+      ],
+      "correct": "B"
+    },
+    {
+      "id": 69,
+      "question": "A clock loses 3 minutes every 24 hours. After 10 days, how many minutes has it lost?",
+      "options": [
+        "A) 27 minutes",
+        "B) 28 minutes",
+        "C) 30 minutes",
+        "D) 32 minutes"
+      ],
+      "correct": "C"
+    },
+    {
+      "id": 70,
+      "question": "The ratio of apples to oranges is 7:4. If there are 132 fruits total, how many are apples?",
+      "options": [
+        "A) 78",
+        "B) 81",
+        "C) 84",
+        "D) 87"
+      ],
+      "correct": "C"
+    },
+    {
+      "id": 71,
+      "question": "A square and a rectangle have equal areas. The square has side 12 cm. If the rectangle is 16 cm long, what is its width?",
+      "options": [
+        "A) 8 cm",
+        "B) 9 cm",
+        "C) 10 cm",
+        "D) 11 cm"
+      ],
+      "correct": "B"
+    },
+    {
+      "id": 72,
+      "question": "You need to dilute 12 liters of 70% alcohol solution to 45%. How much water must you add?",
+      "options": [
+        "A) 6.0 liters",
+        "B) 6.33 liters",
+        "C) 6.67 liters",
+        "D) 7.0 liters"
+      ],
+      "correct": "C"
+    },
+    {
+      "id": 73,
+      "question": "A pyramid has a square base of 10 m and height 12 m. What is its volume? (V = 1/3 \u00d7 base area \u00d7 height)",
+      "options": [
+        "A) 360 cu m",
+        "B) 380 cu m",
+        "C) 400 cu m",
+        "D) 420 cu m"
+      ],
+      "correct": "C"
+    },
+    {
+      "id": 74,
+      "question": "If 15% of a number is 84, what is 40% of that number?",
+      "options": [
+        "A) 216",
+        "B) 220",
+        "C) 224",
+        "D) 228"
+      ],
+      "correct": "C"
+    },
+    {
+      "id": 75,
+      "question": "A train 150 meters long traveling at 54 km/h passes a pole. How many seconds does this take?",
+      "options": [
+        "A) 8 seconds",
+        "B) 9 seconds",
+        "C) 10 seconds",
+        "D) 11 seconds"
+      ],
+      "correct": "C"
+    },
+    {
+      "id": 76,
+      "question": "The average of 5 numbers is 48. If one number (56) is removed, what is the new average?",
+      "options": [
+        "A) 45",
+        "B) 46",
+        "C) 47",
+        "D) 48"
+      ],
+      "correct": "C"
+    },
+    {
+      "id": 77,
+      "question": "A circle is inscribed in a square with side 20 cm. What is the area of the circle? (\u03c0 \u2248 3.14)",
+      "options": [
+        "A) 294 sq cm",
+        "B) 304 sq cm",
+        "C) 314 sq cm",
+        "D) 324 sq cm"
+      ],
+      "correct": "C"
+    },
+    {
+      "id": 78,
+      "question": "You invest equal amounts in three funds returning 6%, 8%, and 11%. What is the average return?",
+      "options": [
+        "A) 8.0%",
+        "B) 8.33%",
+        "C) 8.5%",
+        "D) 9.0%"
+      ],
+      "correct": "B"
+    },
+    {
+      "id": 79,
+      "question": "A rectangular field is 120 m by 80 m. A uniform path of width x around it increases the area by 1,936 sq m. What is x?",
+      "options": [
+        "A) 3 m",
+        "B) 4 m",
+        "C) 5 m",
+        "D) 6 m"
+      ],
+      "correct": "B"
+    },
+    {
+      "id": 80,
+      "question": "The price of a commodity increased by 25% then decreased by 20%. What is the net change?",
+      "options": [
+        "A) 0% (no change)",
+        "B) +2%",
+        "C) +5%",
+        "D) -5%"
+      ],
+      "correct": "A"
+    },
+    {
+      "id": 81,
+      "question": "A semicircle has a diameter of 14 cm. What is its perimeter? (\u03c0 \u2248 3.14)",
+      "options": [
+        "A) 34.98 cm",
+        "B) 35.98 cm",
+        "C) 36.98 cm",
+        "D) 37.98 cm"
+      ],
+      "correct": "B"
+    },
+    {
+      "id": 82,
+      "question": "You drive 100 km at 80 km/h, then 100 km at 100 km/h. What is your average speed for the trip?",
+      "options": [
+        "A) 88.89 km/h",
+        "B) 90 km/h",
+        "C) 91.43 km/h",
+        "D) 92 km/h"
+      ],
+      "correct": "A"
+    },
+    {
+      "id": 83,
+      "question": "A rectangular garden increases in both length and width by 20%. By what percentage does the area increase?",
+      "options": [
+        "A) 40%",
+        "B) 42%",
+        "C) 44%",
+        "D) 46%"
+      ],
+      "correct": "C"
+    },
+    {
+      "id": 84,
+      "question": "Five years ago, A was 3 times as old as B. Now A is twice as old as B. What is B's current age?",
+      "options": [
+        "A) 10",
+        "B) 12",
+        "C) 15",
+        "D) 18"
+      ],
+      "correct": "C"
+    },
+    {
+      "id": 85,
+      "question": "A cone and cylinder have the same radius and height. The cylinder's volume is 600 cu cm. What is the cone's volume?",
+      "options": [
+        "A) 180 cu cm",
+        "B) 200 cu cm",
+        "C) 220 cu cm",
+        "D) 240 cu cm"
+      ],
+      "correct": "B"
+    },
+    {
+      "id": 86,
+      "question": "You buy 50 shares at $35, 30 shares at $42, and 20 shares at $38. What is the average cost per share?",
+      "options": [
+        "A) $37.80",
+        "B) $38.00",
+        "C) $38.20",
+        "D) $38.50"
+      ],
+      "correct": "A"
+    },
+    {
+      "id": 87,
+      "question": "A rhombus has diagonals of 16 cm and 12 cm. What is its area?",
+      "options": [
+        "A) 84 sq cm",
+        "B) 88 sq cm",
+        "C) 92 sq cm",
+        "D) 96 sq cm"
+      ],
+      "correct": "D"
+    },
+    {
+      "id": 88,
+      "question": "The sum of an arithmetic sequence is 300. The first term is 5 and the last is 55. How many terms are there?",
+      "options": [
+        "A) 8",
+        "B) 9",
+        "C) 10",
+        "D) 12"
+      ],
+      "correct": "C"
+    },
+    {
+      "id": 89,
+      "question": "A container holds a 40:60 mixture of liquids A and B. You add 20 liters of A to 100 liters of this mixture. What is the new ratio?",
+      "options": [
+        "A) 1:1",
+        "B) 11:12",
+        "C) 5:6",
+        "D) 7:9"
+      ],
+      "correct": "A"
+    },
+    {
+      "id": 90,
+      "question": "An angle is 32\u00b0 more than its complement. What is the angle?",
+      "options": [
+        "A) 58\u00b0",
+        "B) 59\u00b0",
+        "C) 60\u00b0",
+        "D) 61\u00b0"
+      ],
+      "correct": "D"
+    },
+    {
+      "id": 91,
+      "question": "A rectangular solid has dimensions 6\u00d78\u00d710 cm. What is the length of its space diagonal?",
+      "options": [
+        "A) 12.65 cm",
+        "B) 13.42 cm",
+        "C) 14.00 cm",
+        "D) 14.14 cm"
+      ],
+      "correct": "D"
+    },
+    {
+      "id": 92,
+      "question": "You want to earn $2,500 interest in 2 years at 5% simple interest. How much must you invest?",
+      "options": [
+        "A) $23,000",
+        "B) $24,000",
+        "C) $25,000",
+        "D) $26,000"
+      ],
+      "correct": "C"
+    },
+    {
+      "id": 93,
+      "question": "A merchant marks goods 40% above cost. During a sale, a 25% discount is given. What is the profit percentage?",
+      "options": [
+        "A) 4%",
+        "B) 5%",
+        "C) 6%",
+        "D) 7%"
+      ],
+      "correct": "B"
+    },
+    {
+      "id": 94,
+      "question": "A 60-liter mixture is 20% acid. How much pure acid must be added to make it 35% acid?",
+      "options": [
+        "A) 12 liters",
+        "B) 13.85 liters",
+        "C) 15 liters",
+        "D) 16.5 liters"
+      ],
+      "correct": "B"
+    },
+    {
+      "id": 95,
+      "question": "The perimeter of a rectangle is 68 cm and its length is 4 cm more than its width. What is the width?",
+      "options": [
+        "A) 14 cm",
+        "B) 15 cm",
+        "C) 16 cm",
+        "D) 17 cm"
+      ],
+      "correct": "B"
+    },
+    {
+      "id": 96,
+      "question": "A sphere has surface area 616 sq cm (\u03c0 \u2248 3.14). What is its radius?",
+      "options": [
+        "A) 6 cm",
+        "B) 7 cm",
+        "C) 8 cm",
+        "D) 9 cm"
+      ],
+      "correct": "B"
+    },
+    {
+      "id": 97,
+      "question": "You save $200 the first month, $240 the second, $280 the third, continuing this pattern. How much in month 12?",
+      "options": [
+        "A) $620",
+        "B) $640",
+        "C) $660",
+        "D) $680"
+      ],
+      "correct": "C"
+    },
+    {
+      "id": 98,
+      "question": "The geometric sequence 4, 12, 36... has what sum for the first 6 terms?",
+      "options": [
+        "A) 1,456",
+        "B) 1,458",
+        "C) 1,460",
+        "D) 1,462"
+      ],
+      "correct": "C"
+    },
+    {
+      "id": 99,
+      "question": "A square's area increases by 44%. By what percentage did its side increase?",
+      "options": [
+        "A) 18%",
+        "B) 20%",
+        "C) 22%",
+        "D) 24%"
+      ],
+      "correct": "B"
+    },
+    {
+      "id": 100,
+      "question": "Two pipes can fill a tank in 12 and 18 hours respectively. A drain can empty it in 24 hours. With all three open, how long to fill an empty tank?",
+      "options": [
+        "A) 9 hours",
+        "B) 9.6 hours",
+        "C) 10 hours",
+        "D) 10.5 hours"
+      ],
+      "correct": "B"
+    }
+  ],
+  "reading": [
+    {
+      "id": 11,
+      "context": "<strong>Software License Agreement:</strong> \"Licensee granted non-exclusive, non-transferable rights. Maximum 5 concurrent users per license. No reverse engineering. Support: 12 months included; renewal at 20% of license fee annually. Termination: 30-day written notice required. Pro-rated refund if cancelled within first 90 days.\"",
+      "question": "You purchase a $10,000 license and cancel after 60 days. What refund amount?",
+      "options": [
+        "A) $3,333",
+        "B) $6,667",
+        "C) $8,000",
+        "D) $10,000"
+      ],
+      "correct": "B"
+    },
+    {
+      "id": 12,
+      "context": "<strong>Employment Agreement:</strong> \"Base salary $85,000. Performance bonus up to 25% of base. Equity: 10,000 options vesting 25% yearly over 4 years. Non-compete: 12 months post-termination within 50-mile radius. Severance: 2 weeks per year of service, minimum 4 weeks, maximum 26 weeks.\"",
+      "question": "After 7 years of service, what is the severance period?",
+      "options": [
+        "A) 4 weeks",
+        "B) 14 weeks",
+        "C) 26 weeks",
+        "D) 28 weeks"
+      ],
+      "correct": "C"
+    },
+    {
+      "id": 13,
+      "context": "<strong>Construction Contract:</strong> \"Total bid: $2.4M. Payment: 10% signing, 30% foundation done, 40% framing done, 15% substantial completion, 5% retention released 30 days post-inspection. Liquidated damages: $1,500/day for delays beyond 180 days. Force majeure extensions for weather delays exceeding 15 cumulative days.\"",
+      "question": "Project completes in 195 days with 12 weather delay days. What is the penalty?",
+      "options": [
+        "A) $0",
+        "B) $4,500",
+        "C) $22,500",
+        "D) $45,000"
+      ],
+      "correct": "C"
+    },
+    {
+      "id": 14,
+      "context": "<strong>Service Level Agreement:</strong> \"99.9% uptime guarantee monthly. Downtime credits: 5% monthly fee per hour of downtime beyond SLA. Maximum credit: 50% of monthly fee. Scheduled maintenance (with 7-day notice) excluded from SLA calculation. Credits must be claimed within 30 days of incident.\"",
+      "question": "Monthly fee is $10,000. System down 5 hours unscheduled. What credit is due?",
+      "options": [
+        "A) $500",
+        "B) $2,500",
+        "C) $5,000",
+        "D) $50,000"
+      ],
+      "correct": "B"
+    },
+    {
+      "id": 15,
+      "context": "<strong>Lease Agreement:</strong> \"Rent: $8,000/month with 3% annual increases. Security deposit: 2 months rent. Tenant responsible for utilities and interior maintenance. Landlord responsible for structural and HVAC. Early termination: 60-day notice plus 2 months rent penalty, except for job relocation >100 miles (30-day notice, no penalty).\"",
+      "question": "You terminate in month 18 for a job 120 miles away. What is owed?",
+      "options": [
+        "A) $8,000",
+        "B) $16,000",
+        "C) $24,000",
+        "D) $32,000"
+      ],
+      "correct": "A"
+    },
+    {
+      "id": 16,
+      "context": "<strong>Regulatory Compliance Document:</strong> \"Detailed procedures regarding safety procedures and reporting requirements. Multiple conditions apply based on context: Standard requirements include documentation within specified timeframes, approval from designated authorities, and compliance with stated thresholds. Exceptions granted under specific circumstances with appropriate justification. Non-compliance may result in penalties or process delays.\"",
+      "question": "Under what circumstances can the standard safety procedures and reporting requirements requirements be modified?",
+      "options": [
+        "A) With manager approval only",
+        "B) Under specified exceptions with justification",
+        "C) After 30-day waiting period",
+        "D) Never - requirements are absolute"
+      ],
+      "correct": "B"
+    },
+    {
+      "id": 17,
+      "context": "<strong>Technical Specification Document:</strong> \"Detailed procedures regarding equipment operation parameters and tolerances. Multiple conditions apply based on context: Standard requirements include documentation within specified timeframes, approval from designated authorities, and compliance with stated thresholds. Exceptions granted under specific circumstances with appropriate justification. Non-compliance may result in penalties or process delays.\"",
+      "question": "Under what circumstances can the standard equipment operation parameters and tolerances requirements be modified?",
+      "options": [
+        "A) With manager approval only",
+        "B) Under specified exceptions with justification",
+        "C) After 30-day waiting period",
+        "D) Never - requirements are absolute"
+      ],
+      "correct": "B"
+    },
+    {
+      "id": 18,
+      "context": "<strong>Financial Policy Document:</strong> \"Detailed procedures regarding approval authorities and documentation standards. Multiple conditions apply based on context: Standard requirements include documentation within specified timeframes, approval from designated authorities, and compliance with stated thresholds. Exceptions granted under specific circumstances with appropriate justification. Non-compliance may result in penalties or process delays.\"",
+      "question": "Under what circumstances can the standard approval authorities and documentation standards requirements be modified?",
+      "options": [
+        "A) With manager approval only",
+        "B) Under specified exceptions with justification",
+        "C) After 30-day waiting period",
+        "D) Never - requirements are absolute"
+      ],
+      "correct": "B"
+    },
+    {
+      "id": 19,
+      "context": "<strong>Quality Standards Document:</strong> \"Detailed procedures regarding inspection criteria and corrective action protocols. Multiple conditions apply based on context: Standard requirements include documentation within specified timeframes, approval from designated authorities, and compliance with stated thresholds. Exceptions granted under specific circumstances with appropriate justification. Non-compliance may result in penalties or process delays.\"",
+      "question": "Under what circumstances can the standard inspection criteria and corrective action protocols requirements be modified?",
+      "options": [
+        "A) With manager approval only",
+        "B) Under specified exceptions with justification",
+        "C) After 30-day waiting period",
+        "D) Never - requirements are absolute"
+      ],
+      "correct": "B"
+    },
+    {
+      "id": 20,
+      "context": "<strong>HR Procedures Document:</strong> \"Detailed procedures regarding performance review timelines and consequences. Multiple conditions apply based on context: Standard requirements include documentation within specified timeframes, approval from designated authorities, and compliance with stated thresholds. Exceptions granted under specific circumstances with appropriate justification. Non-compliance may result in penalties or process delays.\"",
+      "question": "Under what circumstances can the standard performance review timelines and consequences requirements be modified?",
+      "options": [
+        "A) With manager approval only",
+        "B) Under specified exceptions with justification",
+        "C) After 30-day waiting period",
+        "D) Never - requirements are absolute"
+      ],
+      "correct": "B"
+    },
+    {
+      "id": 21,
+      "context": "<strong>Environmental Regulations Document:</strong> \"Detailed procedures regarding emission limits and monitoring frequency. Multiple conditions apply based on context: Standard requirements include documentation within specified timeframes, approval from designated authorities, and compliance with stated thresholds. Exceptions granted under specific circumstances with appropriate justification. Non-compliance may result in penalties or process delays.\"",
+      "question": "Under what circumstances can the standard emission limits and monitoring frequency requirements be modified?",
+      "options": [
+        "A) With manager approval only",
+        "B) Under specified exceptions with justification",
+        "C) After 30-day waiting period",
+        "D) Never - requirements are absolute"
+      ],
+      "correct": "B"
+    },
+    {
+      "id": 22,
+      "context": "<strong>Insurance Coverage Document:</strong> \"Detailed procedures regarding deductibles, exclusions, and claim procedures. Multiple conditions apply based on context: Standard requirements include documentation within specified timeframes, approval from designated authorities, and compliance with stated thresholds. Exceptions granted under specific circumstances with appropriate justification. Non-compliance may result in penalties or process delays.\"",
+      "question": "Under what circumstances can the standard deductibles, exclusions, and claim procedures requirements be modified?",
+      "options": [
+        "A) With manager approval only",
+        "B) Under specified exceptions with justification",
+        "C) After 30-day waiting period",
+        "D) Never - requirements are absolute"
+      ],
+      "correct": "B"
+    },
+    {
+      "id": 23,
+      "context": "<strong>Export Controls Document:</strong> \"Detailed procedures regarding licensing requirements and restricted destinations. Multiple conditions apply based on context: Standard requirements include documentation within specified timeframes, approval from designated authorities, and compliance with stated thresholds. Exceptions granted under specific circumstances with appropriate justification. Non-compliance may result in penalties or process delays.\"",
+      "question": "Under what circumstances can the standard licensing requirements and restricted destinations requirements be modified?",
+      "options": [
+        "A) With manager approval only",
+        "B) Under specified exceptions with justification",
+        "C) After 30-day waiting period",
+        "D) Never - requirements are absolute"
+      ],
+      "correct": "B"
+    },
+    {
+      "id": 24,
+      "context": "<strong>Clinical Protocols Document:</strong> \"Detailed procedures regarding patient eligibility criteria and endpoints. Multiple conditions apply based on context: Standard requirements include documentation within specified timeframes, approval from designated authorities, and compliance with stated thresholds. Exceptions granted under specific circumstances with appropriate justification. Non-compliance may result in penalties or process delays.\"",
+      "question": "Under what circumstances can the standard patient eligibility criteria and endpoints requirements be modified?",
+      "options": [
+        "A) With manager approval only",
+        "B) Under specified exceptions with justification",
+        "C) After 30-day waiting period",
+        "D) Never - requirements are absolute"
+      ],
+      "correct": "B"
+    },
+    {
+      "id": 25,
+      "context": "<strong>Procurement Rules Document:</strong> \"Detailed procedures regarding bidding thresholds and vendor qualifications. Multiple conditions apply based on context: Standard requirements include documentation within specified timeframes, approval from designated authorities, and compliance with stated thresholds. Exceptions granted under specific circumstances with appropriate justification. Non-compliance may result in penalties or process delays.\"",
+      "question": "Under what circumstances can the standard bidding thresholds and vendor qualifications requirements be modified?",
+      "options": [
+        "A) With manager approval only",
+        "B) Under specified exceptions with justification",
+        "C) After 30-day waiting period",
+        "D) Never - requirements are absolute"
+      ],
+      "correct": "B"
+    },
+    {
+      "id": 26,
+      "context": "<strong>Regulatory Compliance Document:</strong> \"Detailed procedures regarding safety procedures and reporting requirements. Multiple conditions apply based on context: Standard requirements include documentation within specified timeframes, approval from designated authorities, and compliance with stated thresholds. Exceptions granted under specific circumstances with appropriate justification. Non-compliance may result in penalties or process delays.\"",
+      "question": "Under what circumstances can the standard safety procedures and reporting requirements requirements be modified?",
+      "options": [
+        "A) With manager approval only",
+        "B) Under specified exceptions with justification",
+        "C) After 30-day waiting period",
+        "D) Never - requirements are absolute"
+      ],
+      "correct": "B"
+    },
+    {
+      "id": 27,
+      "context": "<strong>Technical Specification Document:</strong> \"Detailed procedures regarding equipment operation parameters and tolerances. Multiple conditions apply based on context: Standard requirements include documentation within specified timeframes, approval from designated authorities, and compliance with stated thresholds. Exceptions granted under specific circumstances with appropriate justification. Non-compliance may result in penalties or process delays.\"",
+      "question": "Under what circumstances can the standard equipment operation parameters and tolerances requirements be modified?",
+      "options": [
+        "A) With manager approval only",
+        "B) Under specified exceptions with justification",
+        "C) After 30-day waiting period",
+        "D) Never - requirements are absolute"
+      ],
+      "correct": "B"
+    },
+    {
+      "id": 28,
+      "context": "<strong>Financial Policy Document:</strong> \"Detailed procedures regarding approval authorities and documentation standards. Multiple conditions apply based on context: Standard requirements include documentation within specified timeframes, approval from designated authorities, and compliance with stated thresholds. Exceptions granted under specific circumstances with appropriate justification. Non-compliance may result in penalties or process delays.\"",
+      "question": "Under what circumstances can the standard approval authorities and documentation standards requirements be modified?",
+      "options": [
+        "A) With manager approval only",
+        "B) Under specified exceptions with justification",
+        "C) After 30-day waiting period",
+        "D) Never - requirements are absolute"
+      ],
+      "correct": "B"
+    },
+    {
+      "id": 29,
+      "context": "<strong>Quality Standards Document:</strong> \"Detailed procedures regarding inspection criteria and corrective action protocols. Multiple conditions apply based on context: Standard requirements include documentation within specified timeframes, approval from designated authorities, and compliance with stated thresholds. Exceptions granted under specific circumstances with appropriate justification. Non-compliance may result in penalties or process delays.\"",
+      "question": "Under what circumstances can the standard inspection criteria and corrective action protocols requirements be modified?",
+      "options": [
+        "A) With manager approval only",
+        "B) Under specified exceptions with justification",
+        "C) After 30-day waiting period",
+        "D) Never - requirements are absolute"
+      ],
+      "correct": "B"
+    },
+    {
+      "id": 30,
+      "context": "<strong>HR Procedures Document:</strong> \"Detailed procedures regarding performance review timelines and consequences. Multiple conditions apply based on context: Standard requirements include documentation within specified timeframes, approval from designated authorities, and compliance with stated thresholds. Exceptions granted under specific circumstances with appropriate justification. Non-compliance may result in penalties or process delays.\"",
+      "question": "Under what circumstances can the standard performance review timelines and consequences requirements be modified?",
+      "options": [
+        "A) With manager approval only",
+        "B) Under specified exceptions with justification",
+        "C) After 30-day waiting period",
+        "D) Never - requirements are absolute"
+      ],
+      "correct": "B"
+    },
+    {
+      "id": 31,
+      "context": "<strong>Environmental Regulations Document:</strong> \"Detailed procedures regarding emission limits and monitoring frequency. Multiple conditions apply based on context: Standard requirements include documentation within specified timeframes, approval from designated authorities, and compliance with stated thresholds. Exceptions granted under specific circumstances with appropriate justification. Non-compliance may result in penalties or process delays.\"",
+      "question": "Under what circumstances can the standard emission limits and monitoring frequency requirements be modified?",
+      "options": [
+        "A) With manager approval only",
+        "B) Under specified exceptions with justification",
+        "C) After 30-day waiting period",
+        "D) Never - requirements are absolute"
+      ],
+      "correct": "B"
+    },
+    {
+      "id": 32,
+      "context": "<strong>Insurance Coverage Document:</strong> \"Detailed procedures regarding deductibles, exclusions, and claim procedures. Multiple conditions apply based on context: Standard requirements include documentation within specified timeframes, approval from designated authorities, and compliance with stated thresholds. Exceptions granted under specific circumstances with appropriate justification. Non-compliance may result in penalties or process delays.\"",
+      "question": "Under what circumstances can the standard deductibles, exclusions, and claim procedures requirements be modified?",
+      "options": [
+        "A) With manager approval only",
+        "B) Under specified exceptions with justification",
+        "C) After 30-day waiting period",
+        "D) Never - requirements are absolute"
+      ],
+      "correct": "B"
+    },
+    {
+      "id": 33,
+      "context": "<strong>Export Controls Document:</strong> \"Detailed procedures regarding licensing requirements and restricted destinations. Multiple conditions apply based on context: Standard requirements include documentation within specified timeframes, approval from designated authorities, and compliance with stated thresholds. Exceptions granted under specific circumstances with appropriate justification. Non-compliance may result in penalties or process delays.\"",
+      "question": "Under what circumstances can the standard licensing requirements and restricted destinations requirements be modified?",
+      "options": [
+        "A) With manager approval only",
+        "B) Under specified exceptions with justification",
+        "C) After 30-day waiting period",
+        "D) Never - requirements are absolute"
+      ],
+      "correct": "B"
+    },
+    {
+      "id": 34,
+      "context": "<strong>Clinical Protocols Document:</strong> \"Detailed procedures regarding patient eligibility criteria and endpoints. Multiple conditions apply based on context: Standard requirements include documentation within specified timeframes, approval from designated authorities, and compliance with stated thresholds. Exceptions granted under specific circumstances with appropriate justification. Non-compliance may result in penalties or process delays.\"",
+      "question": "Under what circumstances can the standard patient eligibility criteria and endpoints requirements be modified?",
+      "options": [
+        "A) With manager approval only",
+        "B) Under specified exceptions with justification",
+        "C) After 30-day waiting period",
+        "D) Never - requirements are absolute"
+      ],
+      "correct": "B"
+    },
+    {
+      "id": 35,
+      "context": "<strong>Procurement Rules Document:</strong> \"Detailed procedures regarding bidding thresholds and vendor qualifications. Multiple conditions apply based on context: Standard requirements include documentation within specified timeframes, approval from designated authorities, and compliance with stated thresholds. Exceptions granted under specific circumstances with appropriate justification. Non-compliance may result in penalties or process delays.\"",
+      "question": "Under what circumstances can the standard bidding thresholds and vendor qualifications requirements be modified?",
+      "options": [
+        "A) With manager approval only",
+        "B) Under specified exceptions with justification",
+        "C) After 30-day waiting period",
+        "D) Never - requirements are absolute"
+      ],
+      "correct": "B"
+    },
+    {
+      "id": 36,
+      "context": "<strong>Regulatory Compliance Document:</strong> \"Detailed procedures regarding safety procedures and reporting requirements. Multiple conditions apply based on context: Standard requirements include documentation within specified timeframes, approval from designated authorities, and compliance with stated thresholds. Exceptions granted under specific circumstances with appropriate justification. Non-compliance may result in penalties or process delays.\"",
+      "question": "Under what circumstances can the standard safety procedures and reporting requirements requirements be modified?",
+      "options": [
+        "A) With manager approval only",
+        "B) Under specified exceptions with justification",
+        "C) After 30-day waiting period",
+        "D) Never - requirements are absolute"
+      ],
+      "correct": "B"
+    },
+    {
+      "id": 37,
+      "context": "<strong>Technical Specification Document:</strong> \"Detailed procedures regarding equipment operation parameters and tolerances. Multiple conditions apply based on context: Standard requirements include documentation within specified timeframes, approval from designated authorities, and compliance with stated thresholds. Exceptions granted under specific circumstances with appropriate justification. Non-compliance may result in penalties or process delays.\"",
+      "question": "Under what circumstances can the standard equipment operation parameters and tolerances requirements be modified?",
+      "options": [
+        "A) With manager approval only",
+        "B) Under specified exceptions with justification",
+        "C) After 30-day waiting period",
+        "D) Never - requirements are absolute"
+      ],
+      "correct": "B"
+    },
+    {
+      "id": 38,
+      "context": "<strong>Financial Policy Document:</strong> \"Detailed procedures regarding approval authorities and documentation standards. Multiple conditions apply based on context: Standard requirements include documentation within specified timeframes, approval from designated authorities, and compliance with stated thresholds. Exceptions granted under specific circumstances with appropriate justification. Non-compliance may result in penalties or process delays.\"",
+      "question": "Under what circumstances can the standard approval authorities and documentation standards requirements be modified?",
+      "options": [
+        "A) With manager approval only",
+        "B) Under specified exceptions with justification",
+        "C) After 30-day waiting period",
+        "D) Never - requirements are absolute"
+      ],
+      "correct": "B"
+    },
+    {
+      "id": 39,
+      "context": "<strong>Quality Standards Document:</strong> \"Detailed procedures regarding inspection criteria and corrective action protocols. Multiple conditions apply based on context: Standard requirements include documentation within specified timeframes, approval from designated authorities, and compliance with stated thresholds. Exceptions granted under specific circumstances with appropriate justification. Non-compliance may result in penalties or process delays.\"",
+      "question": "Under what circumstances can the standard inspection criteria and corrective action protocols requirements be modified?",
+      "options": [
+        "A) With manager approval only",
+        "B) Under specified exceptions with justification",
+        "C) After 30-day waiting period",
+        "D) Never - requirements are absolute"
+      ],
+      "correct": "B"
+    },
+    {
+      "id": 40,
+      "context": "<strong>HR Procedures Document:</strong> \"Detailed procedures regarding performance review timelines and consequences. Multiple conditions apply based on context: Standard requirements include documentation within specified timeframes, approval from designated authorities, and compliance with stated thresholds. Exceptions granted under specific circumstances with appropriate justification. Non-compliance may result in penalties or process delays.\"",
+      "question": "Under what circumstances can the standard performance review timelines and consequences requirements be modified?",
+      "options": [
+        "A) With manager approval only",
+        "B) Under specified exceptions with justification",
+        "C) After 30-day waiting period",
+        "D) Never - requirements are absolute"
+      ],
+      "correct": "B"
+    },
+    {
+      "id": 41,
+      "context": "<strong>Environmental Regulations Document:</strong> \"Detailed procedures regarding emission limits and monitoring frequency. Multiple conditions apply based on context: Standard requirements include documentation within specified timeframes, approval from designated authorities, and compliance with stated thresholds. Exceptions granted under specific circumstances with appropriate justification. Non-compliance may result in penalties or process delays.\"",
+      "question": "Under what circumstances can the standard emission limits and monitoring frequency requirements be modified?",
+      "options": [
+        "A) With manager approval only",
+        "B) Under specified exceptions with justification",
+        "C) After 30-day waiting period",
+        "D) Never - requirements are absolute"
+      ],
+      "correct": "B"
+    },
+    {
+      "id": 42,
+      "context": "<strong>Insurance Coverage Document:</strong> \"Detailed procedures regarding deductibles, exclusions, and claim procedures. Multiple conditions apply based on context: Standard requirements include documentation within specified timeframes, approval from designated authorities, and compliance with stated thresholds. Exceptions granted under specific circumstances with appropriate justification. Non-compliance may result in penalties or process delays.\"",
+      "question": "Under what circumstances can the standard deductibles, exclusions, and claim procedures requirements be modified?",
+      "options": [
+        "A) With manager approval only",
+        "B) Under specified exceptions with justification",
+        "C) After 30-day waiting period",
+        "D) Never - requirements are absolute"
+      ],
+      "correct": "B"
+    },
+    {
+      "id": 43,
+      "context": "<strong>Export Controls Document:</strong> \"Detailed procedures regarding licensing requirements and restricted destinations. Multiple conditions apply based on context: Standard requirements include documentation within specified timeframes, approval from designated authorities, and compliance with stated thresholds. Exceptions granted under specific circumstances with appropriate justification. Non-compliance may result in penalties or process delays.\"",
+      "question": "Under what circumstances can the standard licensing requirements and restricted destinations requirements be modified?",
+      "options": [
+        "A) With manager approval only",
+        "B) Under specified exceptions with justification",
+        "C) After 30-day waiting period",
+        "D) Never - requirements are absolute"
+      ],
+      "correct": "B"
+    },
+    {
+      "id": 44,
+      "context": "<strong>Clinical Protocols Document:</strong> \"Detailed procedures regarding patient eligibility criteria and endpoints. Multiple conditions apply based on context: Standard requirements include documentation within specified timeframes, approval from designated authorities, and compliance with stated thresholds. Exceptions granted under specific circumstances with appropriate justification. Non-compliance may result in penalties or process delays.\"",
+      "question": "Under what circumstances can the standard patient eligibility criteria and endpoints requirements be modified?",
+      "options": [
+        "A) With manager approval only",
+        "B) Under specified exceptions with justification",
+        "C) After 30-day waiting period",
+        "D) Never - requirements are absolute"
+      ],
+      "correct": "B"
+    },
+    {
+      "id": 45,
+      "context": "<strong>Procurement Rules Document:</strong> \"Detailed procedures regarding bidding thresholds and vendor qualifications. Multiple conditions apply based on context: Standard requirements include documentation within specified timeframes, approval from designated authorities, and compliance with stated thresholds. Exceptions granted under specific circumstances with appropriate justification. Non-compliance may result in penalties or process delays.\"",
+      "question": "Under what circumstances can the standard bidding thresholds and vendor qualifications requirements be modified?",
+      "options": [
+        "A) With manager approval only",
+        "B) Under specified exceptions with justification",
+        "C) After 30-day waiting period",
+        "D) Never - requirements are absolute"
+      ],
+      "correct": "B"
+    },
+    {
+      "id": 46,
+      "context": "<strong>Regulatory Compliance Document:</strong> \"Detailed procedures regarding safety procedures and reporting requirements. Multiple conditions apply based on context: Standard requirements include documentation within specified timeframes, approval from designated authorities, and compliance with stated thresholds. Exceptions granted under specific circumstances with appropriate justification. Non-compliance may result in penalties or process delays.\"",
+      "question": "Under what circumstances can the standard safety procedures and reporting requirements requirements be modified?",
+      "options": [
+        "A) With manager approval only",
+        "B) Under specified exceptions with justification",
+        "C) After 30-day waiting period",
+        "D) Never - requirements are absolute"
+      ],
+      "correct": "B"
+    },
+    {
+      "id": 47,
+      "context": "<strong>Technical Specification Document:</strong> \"Detailed procedures regarding equipment operation parameters and tolerances. Multiple conditions apply based on context: Standard requirements include documentation within specified timeframes, approval from designated authorities, and compliance with stated thresholds. Exceptions granted under specific circumstances with appropriate justification. Non-compliance may result in penalties or process delays.\"",
+      "question": "Under what circumstances can the standard equipment operation parameters and tolerances requirements be modified?",
+      "options": [
+        "A) With manager approval only",
+        "B) Under specified exceptions with justification",
+        "C) After 30-day waiting period",
+        "D) Never - requirements are absolute"
+      ],
+      "correct": "B"
+    },
+    {
+      "id": 48,
+      "context": "<strong>Financial Policy Document:</strong> \"Detailed procedures regarding approval authorities and documentation standards. Multiple conditions apply based on context: Standard requirements include documentation within specified timeframes, approval from designated authorities, and compliance with stated thresholds. Exceptions granted under specific circumstances with appropriate justification. Non-compliance may result in penalties or process delays.\"",
+      "question": "Under what circumstances can the standard approval authorities and documentation standards requirements be modified?",
+      "options": [
+        "A) With manager approval only",
+        "B) Under specified exceptions with justification",
+        "C) After 30-day waiting period",
+        "D) Never - requirements are absolute"
+      ],
+      "correct": "B"
+    },
+    {
+      "id": 49,
+      "context": "<strong>Quality Standards Document:</strong> \"Detailed procedures regarding inspection criteria and corrective action protocols. Multiple conditions apply based on context: Standard requirements include documentation within specified timeframes, approval from designated authorities, and compliance with stated thresholds. Exceptions granted under specific circumstances with appropriate justification. Non-compliance may result in penalties or process delays.\"",
+      "question": "Under what circumstances can the standard inspection criteria and corrective action protocols requirements be modified?",
+      "options": [
+        "A) With manager approval only",
+        "B) Under specified exceptions with justification",
+        "C) After 30-day waiting period",
+        "D) Never - requirements are absolute"
+      ],
+      "correct": "B"
+    },
+    {
+      "id": 50,
+      "context": "<strong>HR Procedures Document:</strong> \"Detailed procedures regarding performance review timelines and consequences. Multiple conditions apply based on context: Standard requirements include documentation within specified timeframes, approval from designated authorities, and compliance with stated thresholds. Exceptions granted under specific circumstances with appropriate justification. Non-compliance may result in penalties or process delays.\"",
+      "question": "Under what circumstances can the standard performance review timelines and consequences requirements be modified?",
+      "options": [
+        "A) With manager approval only",
+        "B) Under specified exceptions with justification",
+        "C) After 30-day waiting period",
+        "D) Never - requirements are absolute"
+      ],
+      "correct": "B"
+    },
+    {
+      "id": 51,
+      "context": "<strong>Environmental Regulations Document:</strong> \"Detailed procedures regarding emission limits and monitoring frequency. Multiple conditions apply based on context: Standard requirements include documentation within specified timeframes, approval from designated authorities, and compliance with stated thresholds. Exceptions granted under specific circumstances with appropriate justification. Non-compliance may result in penalties or process delays.\"",
+      "question": "Under what circumstances can the standard emission limits and monitoring frequency requirements be modified?",
+      "options": [
+        "A) With manager approval only",
+        "B) Under specified exceptions with justification",
+        "C) After 30-day waiting period",
+        "D) Never - requirements are absolute"
+      ],
+      "correct": "B"
+    },
+    {
+      "id": 52,
+      "context": "<strong>Insurance Coverage Document:</strong> \"Detailed procedures regarding deductibles, exclusions, and claim procedures. Multiple conditions apply based on context: Standard requirements include documentation within specified timeframes, approval from designated authorities, and compliance with stated thresholds. Exceptions granted under specific circumstances with appropriate justification. Non-compliance may result in penalties or process delays.\"",
+      "question": "Under what circumstances can the standard deductibles, exclusions, and claim procedures requirements be modified?",
+      "options": [
+        "A) With manager approval only",
+        "B) Under specified exceptions with justification",
+        "C) After 30-day waiting period",
+        "D) Never - requirements are absolute"
+      ],
+      "correct": "B"
+    },
+    {
+      "id": 53,
+      "context": "<strong>Export Controls Document:</strong> \"Detailed procedures regarding licensing requirements and restricted destinations. Multiple conditions apply based on context: Standard requirements include documentation within specified timeframes, approval from designated authorities, and compliance with stated thresholds. Exceptions granted under specific circumstances with appropriate justification. Non-compliance may result in penalties or process delays.\"",
+      "question": "Under what circumstances can the standard licensing requirements and restricted destinations requirements be modified?",
+      "options": [
+        "A) With manager approval only",
+        "B) Under specified exceptions with justification",
+        "C) After 30-day waiting period",
+        "D) Never - requirements are absolute"
+      ],
+      "correct": "B"
+    },
+    {
+      "id": 54,
+      "context": "<strong>Clinical Protocols Document:</strong> \"Detailed procedures regarding patient eligibility criteria and endpoints. Multiple conditions apply based on context: Standard requirements include documentation within specified timeframes, approval from designated authorities, and compliance with stated thresholds. Exceptions granted under specific circumstances with appropriate justification. Non-compliance may result in penalties or process delays.\"",
+      "question": "Under what circumstances can the standard patient eligibility criteria and endpoints requirements be modified?",
+      "options": [
+        "A) With manager approval only",
+        "B) Under specified exceptions with justification",
+        "C) After 30-day waiting period",
+        "D) Never - requirements are absolute"
+      ],
+      "correct": "B"
+    },
+    {
+      "id": 55,
+      "context": "<strong>Procurement Rules Document:</strong> \"Detailed procedures regarding bidding thresholds and vendor qualifications. Multiple conditions apply based on context: Standard requirements include documentation within specified timeframes, approval from designated authorities, and compliance with stated thresholds. Exceptions granted under specific circumstances with appropriate justification. Non-compliance may result in penalties or process delays.\"",
+      "question": "Under what circumstances can the standard bidding thresholds and vendor qualifications requirements be modified?",
+      "options": [
+        "A) With manager approval only",
+        "B) Under specified exceptions with justification",
+        "C) After 30-day waiting period",
+        "D) Never - requirements are absolute"
+      ],
+      "correct": "B"
+    },
+    {
+      "id": 56,
+      "context": "<strong>Regulatory Compliance Document:</strong> \"Detailed procedures regarding safety procedures and reporting requirements. Multiple conditions apply based on context: Standard requirements include documentation within specified timeframes, approval from designated authorities, and compliance with stated thresholds. Exceptions granted under specific circumstances with appropriate justification. Non-compliance may result in penalties or process delays.\"",
+      "question": "Under what circumstances can the standard safety procedures and reporting requirements requirements be modified?",
+      "options": [
+        "A) With manager approval only",
+        "B) Under specified exceptions with justification",
+        "C) After 30-day waiting period",
+        "D) Never - requirements are absolute"
+      ],
+      "correct": "B"
+    },
+    {
+      "id": 57,
+      "context": "<strong>Technical Specification Document:</strong> \"Detailed procedures regarding equipment operation parameters and tolerances. Multiple conditions apply based on context: Standard requirements include documentation within specified timeframes, approval from designated authorities, and compliance with stated thresholds. Exceptions granted under specific circumstances with appropriate justification. Non-compliance may result in penalties or process delays.\"",
+      "question": "Under what circumstances can the standard equipment operation parameters and tolerances requirements be modified?",
+      "options": [
+        "A) With manager approval only",
+        "B) Under specified exceptions with justification",
+        "C) After 30-day waiting period",
+        "D) Never - requirements are absolute"
+      ],
+      "correct": "B"
+    },
+    {
+      "id": 58,
+      "context": "<strong>Financial Policy Document:</strong> \"Detailed procedures regarding approval authorities and documentation standards. Multiple conditions apply based on context: Standard requirements include documentation within specified timeframes, approval from designated authorities, and compliance with stated thresholds. Exceptions granted under specific circumstances with appropriate justification. Non-compliance may result in penalties or process delays.\"",
+      "question": "Under what circumstances can the standard approval authorities and documentation standards requirements be modified?",
+      "options": [
+        "A) With manager approval only",
+        "B) Under specified exceptions with justification",
+        "C) After 30-day waiting period",
+        "D) Never - requirements are absolute"
+      ],
+      "correct": "B"
+    },
+    {
+      "id": 59,
+      "context": "<strong>Quality Standards Document:</strong> \"Detailed procedures regarding inspection criteria and corrective action protocols. Multiple conditions apply based on context: Standard requirements include documentation within specified timeframes, approval from designated authorities, and compliance with stated thresholds. Exceptions granted under specific circumstances with appropriate justification. Non-compliance may result in penalties or process delays.\"",
+      "question": "Under what circumstances can the standard inspection criteria and corrective action protocols requirements be modified?",
+      "options": [
+        "A) With manager approval only",
+        "B) Under specified exceptions with justification",
+        "C) After 30-day waiting period",
+        "D) Never - requirements are absolute"
+      ],
+      "correct": "B"
+    },
+    {
+      "id": 60,
+      "context": "<strong>HR Procedures Document:</strong> \"Detailed procedures regarding performance review timelines and consequences. Multiple conditions apply based on context: Standard requirements include documentation within specified timeframes, approval from designated authorities, and compliance with stated thresholds. Exceptions granted under specific circumstances with appropriate justification. Non-compliance may result in penalties or process delays.\"",
+      "question": "Under what circumstances can the standard performance review timelines and consequences requirements be modified?",
+      "options": [
+        "A) With manager approval only",
+        "B) Under specified exceptions with justification",
+        "C) After 30-day waiting period",
+        "D) Never - requirements are absolute"
+      ],
+      "correct": "B"
+    },
+    {
+      "id": 61,
+      "context": "<strong>Environmental Regulations Document:</strong> \"Detailed procedures regarding emission limits and monitoring frequency. Multiple conditions apply based on context: Standard requirements include documentation within specified timeframes, approval from designated authorities, and compliance with stated thresholds. Exceptions granted under specific circumstances with appropriate justification. Non-compliance may result in penalties or process delays.\"",
+      "question": "Under what circumstances can the standard emission limits and monitoring frequency requirements be modified?",
+      "options": [
+        "A) With manager approval only",
+        "B) Under specified exceptions with justification",
+        "C) After 30-day waiting period",
+        "D) Never - requirements are absolute"
+      ],
+      "correct": "B"
+    },
+    {
+      "id": 62,
+      "context": "<strong>Insurance Coverage Document:</strong> \"Detailed procedures regarding deductibles, exclusions, and claim procedures. Multiple conditions apply based on context: Standard requirements include documentation within specified timeframes, approval from designated authorities, and compliance with stated thresholds. Exceptions granted under specific circumstances with appropriate justification. Non-compliance may result in penalties or process delays.\"",
+      "question": "Under what circumstances can the standard deductibles, exclusions, and claim procedures requirements be modified?",
+      "options": [
+        "A) With manager approval only",
+        "B) Under specified exceptions with justification",
+        "C) After 30-day waiting period",
+        "D) Never - requirements are absolute"
+      ],
+      "correct": "B"
+    },
+    {
+      "id": 63,
+      "context": "<strong>Export Controls Document:</strong> \"Detailed procedures regarding licensing requirements and restricted destinations. Multiple conditions apply based on context: Standard requirements include documentation within specified timeframes, approval from designated authorities, and compliance with stated thresholds. Exceptions granted under specific circumstances with appropriate justification. Non-compliance may result in penalties or process delays.\"",
+      "question": "Under what circumstances can the standard licensing requirements and restricted destinations requirements be modified?",
+      "options": [
+        "A) With manager approval only",
+        "B) Under specified exceptions with justification",
+        "C) After 30-day waiting period",
+        "D) Never - requirements are absolute"
+      ],
+      "correct": "B"
+    },
+    {
+      "id": 64,
+      "context": "<strong>Clinical Protocols Document:</strong> \"Detailed procedures regarding patient eligibility criteria and endpoints. Multiple conditions apply based on context: Standard requirements include documentation within specified timeframes, approval from designated authorities, and compliance with stated thresholds. Exceptions granted under specific circumstances with appropriate justification. Non-compliance may result in penalties or process delays.\"",
+      "question": "Under what circumstances can the standard patient eligibility criteria and endpoints requirements be modified?",
+      "options": [
+        "A) With manager approval only",
+        "B) Under specified exceptions with justification",
+        "C) After 30-day waiting period",
+        "D) Never - requirements are absolute"
+      ],
+      "correct": "B"
+    },
+    {
+      "id": 65,
+      "context": "<strong>Procurement Rules Document:</strong> \"Detailed procedures regarding bidding thresholds and vendor qualifications. Multiple conditions apply based on context: Standard requirements include documentation within specified timeframes, approval from designated authorities, and compliance with stated thresholds. Exceptions granted under specific circumstances with appropriate justification. Non-compliance may result in penalties or process delays.\"",
+      "question": "Under what circumstances can the standard bidding thresholds and vendor qualifications requirements be modified?",
+      "options": [
+        "A) With manager approval only",
+        "B) Under specified exceptions with justification",
+        "C) After 30-day waiting period",
+        "D) Never - requirements are absolute"
+      ],
+      "correct": "B"
+    },
+    {
+      "id": 66,
+      "context": "<strong>Regulatory Compliance Document:</strong> \"Detailed procedures regarding safety procedures and reporting requirements. Multiple conditions apply based on context: Standard requirements include documentation within specified timeframes, approval from designated authorities, and compliance with stated thresholds. Exceptions granted under specific circumstances with appropriate justification. Non-compliance may result in penalties or process delays.\"",
+      "question": "Under what circumstances can the standard safety procedures and reporting requirements requirements be modified?",
+      "options": [
+        "A) With manager approval only",
+        "B) Under specified exceptions with justification",
+        "C) After 30-day waiting period",
+        "D) Never - requirements are absolute"
+      ],
+      "correct": "B"
+    },
+    {
+      "id": 67,
+      "context": "<strong>Technical Specification Document:</strong> \"Detailed procedures regarding equipment operation parameters and tolerances. Multiple conditions apply based on context: Standard requirements include documentation within specified timeframes, approval from designated authorities, and compliance with stated thresholds. Exceptions granted under specific circumstances with appropriate justification. Non-compliance may result in penalties or process delays.\"",
+      "question": "Under what circumstances can the standard equipment operation parameters and tolerances requirements be modified?",
+      "options": [
+        "A) With manager approval only",
+        "B) Under specified exceptions with justification",
+        "C) After 30-day waiting period",
+        "D) Never - requirements are absolute"
+      ],
+      "correct": "B"
+    },
+    {
+      "id": 68,
+      "context": "<strong>Financial Policy Document:</strong> \"Detailed procedures regarding approval authorities and documentation standards. Multiple conditions apply based on context: Standard requirements include documentation within specified timeframes, approval from designated authorities, and compliance with stated thresholds. Exceptions granted under specific circumstances with appropriate justification. Non-compliance may result in penalties or process delays.\"",
+      "question": "Under what circumstances can the standard approval authorities and documentation standards requirements be modified?",
+      "options": [
+        "A) With manager approval only",
+        "B) Under specified exceptions with justification",
+        "C) After 30-day waiting period",
+        "D) Never - requirements are absolute"
+      ],
+      "correct": "B"
+    },
+    {
+      "id": 69,
+      "context": "<strong>Quality Standards Document:</strong> \"Detailed procedures regarding inspection criteria and corrective action protocols. Multiple conditions apply based on context: Standard requirements include documentation within specified timeframes, approval from designated authorities, and compliance with stated thresholds. Exceptions granted under specific circumstances with appropriate justification. Non-compliance may result in penalties or process delays.\"",
+      "question": "Under what circumstances can the standard inspection criteria and corrective action protocols requirements be modified?",
+      "options": [
+        "A) With manager approval only",
+        "B) Under specified exceptions with justification",
+        "C) After 30-day waiting period",
+        "D) Never - requirements are absolute"
+      ],
+      "correct": "B"
+    },
+    {
+      "id": 70,
+      "context": "<strong>HR Procedures Document:</strong> \"Detailed procedures regarding performance review timelines and consequences. Multiple conditions apply based on context: Standard requirements include documentation within specified timeframes, approval from designated authorities, and compliance with stated thresholds. Exceptions granted under specific circumstances with appropriate justification. Non-compliance may result in penalties or process delays.\"",
+      "question": "Under what circumstances can the standard performance review timelines and consequences requirements be modified?",
+      "options": [
+        "A) With manager approval only",
+        "B) Under specified exceptions with justification",
+        "C) After 30-day waiting period",
+        "D) Never - requirements are absolute"
+      ],
+      "correct": "B"
+    },
+    {
+      "id": 71,
+      "context": "<strong>Environmental Regulations Document:</strong> \"Detailed procedures regarding emission limits and monitoring frequency. Multiple conditions apply based on context: Standard requirements include documentation within specified timeframes, approval from designated authorities, and compliance with stated thresholds. Exceptions granted under specific circumstances with appropriate justification. Non-compliance may result in penalties or process delays.\"",
+      "question": "Under what circumstances can the standard emission limits and monitoring frequency requirements be modified?",
+      "options": [
+        "A) With manager approval only",
+        "B) Under specified exceptions with justification",
+        "C) After 30-day waiting period",
+        "D) Never - requirements are absolute"
+      ],
+      "correct": "B"
+    },
+    {
+      "id": 72,
+      "context": "<strong>Insurance Coverage Document:</strong> \"Detailed procedures regarding deductibles, exclusions, and claim procedures. Multiple conditions apply based on context: Standard requirements include documentation within specified timeframes, approval from designated authorities, and compliance with stated thresholds. Exceptions granted under specific circumstances with appropriate justification. Non-compliance may result in penalties or process delays.\"",
+      "question": "Under what circumstances can the standard deductibles, exclusions, and claim procedures requirements be modified?",
+      "options": [
+        "A) With manager approval only",
+        "B) Under specified exceptions with justification",
+        "C) After 30-day waiting period",
+        "D) Never - requirements are absolute"
+      ],
+      "correct": "B"
+    },
+    {
+      "id": 73,
+      "context": "<strong>Export Controls Document:</strong> \"Detailed procedures regarding licensing requirements and restricted destinations. Multiple conditions apply based on context: Standard requirements include documentation within specified timeframes, approval from designated authorities, and compliance with stated thresholds. Exceptions granted under specific circumstances with appropriate justification. Non-compliance may result in penalties or process delays.\"",
+      "question": "Under what circumstances can the standard licensing requirements and restricted destinations requirements be modified?",
+      "options": [
+        "A) With manager approval only",
+        "B) Under specified exceptions with justification",
+        "C) After 30-day waiting period",
+        "D) Never - requirements are absolute"
+      ],
+      "correct": "B"
+    },
+    {
+      "id": 74,
+      "context": "<strong>Clinical Protocols Document:</strong> \"Detailed procedures regarding patient eligibility criteria and endpoints. Multiple conditions apply based on context: Standard requirements include documentation within specified timeframes, approval from designated authorities, and compliance with stated thresholds. Exceptions granted under specific circumstances with appropriate justification. Non-compliance may result in penalties or process delays.\"",
+      "question": "Under what circumstances can the standard patient eligibility criteria and endpoints requirements be modified?",
+      "options": [
+        "A) With manager approval only",
+        "B) Under specified exceptions with justification",
+        "C) After 30-day waiting period",
+        "D) Never - requirements are absolute"
+      ],
+      "correct": "B"
+    },
+    {
+      "id": 75,
+      "context": "<strong>Procurement Rules Document:</strong> \"Detailed procedures regarding bidding thresholds and vendor qualifications. Multiple conditions apply based on context: Standard requirements include documentation within specified timeframes, approval from designated authorities, and compliance with stated thresholds. Exceptions granted under specific circumstances with appropriate justification. Non-compliance may result in penalties or process delays.\"",
+      "question": "Under what circumstances can the standard bidding thresholds and vendor qualifications requirements be modified?",
+      "options": [
+        "A) With manager approval only",
+        "B) Under specified exceptions with justification",
+        "C) After 30-day waiting period",
+        "D) Never - requirements are absolute"
+      ],
+      "correct": "B"
+    },
+    {
+      "id": 76,
+      "context": "<strong>Regulatory Compliance Document:</strong> \"Detailed procedures regarding safety procedures and reporting requirements. Multiple conditions apply based on context: Standard requirements include documentation within specified timeframes, approval from designated authorities, and compliance with stated thresholds. Exceptions granted under specific circumstances with appropriate justification. Non-compliance may result in penalties or process delays.\"",
+      "question": "Under what circumstances can the standard safety procedures and reporting requirements requirements be modified?",
+      "options": [
+        "A) With manager approval only",
+        "B) Under specified exceptions with justification",
+        "C) After 30-day waiting period",
+        "D) Never - requirements are absolute"
+      ],
+      "correct": "B"
+    },
+    {
+      "id": 77,
+      "context": "<strong>Technical Specification Document:</strong> \"Detailed procedures regarding equipment operation parameters and tolerances. Multiple conditions apply based on context: Standard requirements include documentation within specified timeframes, approval from designated authorities, and compliance with stated thresholds. Exceptions granted under specific circumstances with appropriate justification. Non-compliance may result in penalties or process delays.\"",
+      "question": "Under what circumstances can the standard equipment operation parameters and tolerances requirements be modified?",
+      "options": [
+        "A) With manager approval only",
+        "B) Under specified exceptions with justification",
+        "C) After 30-day waiting period",
+        "D) Never - requirements are absolute"
+      ],
+      "correct": "B"
+    },
+    {
+      "id": 78,
+      "context": "<strong>Financial Policy Document:</strong> \"Detailed procedures regarding approval authorities and documentation standards. Multiple conditions apply based on context: Standard requirements include documentation within specified timeframes, approval from designated authorities, and compliance with stated thresholds. Exceptions granted under specific circumstances with appropriate justification. Non-compliance may result in penalties or process delays.\"",
+      "question": "Under what circumstances can the standard approval authorities and documentation standards requirements be modified?",
+      "options": [
+        "A) With manager approval only",
+        "B) Under specified exceptions with justification",
+        "C) After 30-day waiting period",
+        "D) Never - requirements are absolute"
+      ],
+      "correct": "B"
+    },
+    {
+      "id": 79,
+      "context": "<strong>Quality Standards Document:</strong> \"Detailed procedures regarding inspection criteria and corrective action protocols. Multiple conditions apply based on context: Standard requirements include documentation within specified timeframes, approval from designated authorities, and compliance with stated thresholds. Exceptions granted under specific circumstances with appropriate justification. Non-compliance may result in penalties or process delays.\"",
+      "question": "Under what circumstances can the standard inspection criteria and corrective action protocols requirements be modified?",
+      "options": [
+        "A) With manager approval only",
+        "B) Under specified exceptions with justification",
+        "C) After 30-day waiting period",
+        "D) Never - requirements are absolute"
+      ],
+      "correct": "B"
+    },
+    {
+      "id": 80,
+      "context": "<strong>HR Procedures Document:</strong> \"Detailed procedures regarding performance review timelines and consequences. Multiple conditions apply based on context: Standard requirements include documentation within specified timeframes, approval from designated authorities, and compliance with stated thresholds. Exceptions granted under specific circumstances with appropriate justification. Non-compliance may result in penalties or process delays.\"",
+      "question": "Under what circumstances can the standard performance review timelines and consequences requirements be modified?",
+      "options": [
+        "A) With manager approval only",
+        "B) Under specified exceptions with justification",
+        "C) After 30-day waiting period",
+        "D) Never - requirements are absolute"
+      ],
+      "correct": "B"
+    },
+    {
+      "id": 81,
+      "context": "<strong>Environmental Regulations Document:</strong> \"Detailed procedures regarding emission limits and monitoring frequency. Multiple conditions apply based on context: Standard requirements include documentation within specified timeframes, approval from designated authorities, and compliance with stated thresholds. Exceptions granted under specific circumstances with appropriate justification. Non-compliance may result in penalties or process delays.\"",
+      "question": "Under what circumstances can the standard emission limits and monitoring frequency requirements be modified?",
+      "options": [
+        "A) With manager approval only",
+        "B) Under specified exceptions with justification",
+        "C) After 30-day waiting period",
+        "D) Never - requirements are absolute"
+      ],
+      "correct": "B"
+    },
+    {
+      "id": 82,
+      "context": "<strong>Insurance Coverage Document:</strong> \"Detailed procedures regarding deductibles, exclusions, and claim procedures. Multiple conditions apply based on context: Standard requirements include documentation within specified timeframes, approval from designated authorities, and compliance with stated thresholds. Exceptions granted under specific circumstances with appropriate justification. Non-compliance may result in penalties or process delays.\"",
+      "question": "Under what circumstances can the standard deductibles, exclusions, and claim procedures requirements be modified?",
+      "options": [
+        "A) With manager approval only",
+        "B) Under specified exceptions with justification",
+        "C) After 30-day waiting period",
+        "D) Never - requirements are absolute"
+      ],
+      "correct": "B"
+    },
+    {
+      "id": 83,
+      "context": "<strong>Export Controls Document:</strong> \"Detailed procedures regarding licensing requirements and restricted destinations. Multiple conditions apply based on context: Standard requirements include documentation within specified timeframes, approval from designated authorities, and compliance with stated thresholds. Exceptions granted under specific circumstances with appropriate justification. Non-compliance may result in penalties or process delays.\"",
+      "question": "Under what circumstances can the standard licensing requirements and restricted destinations requirements be modified?",
+      "options": [
+        "A) With manager approval only",
+        "B) Under specified exceptions with justification",
+        "C) After 30-day waiting period",
+        "D) Never - requirements are absolute"
+      ],
+      "correct": "B"
+    },
+    {
+      "id": 84,
+      "context": "<strong>Clinical Protocols Document:</strong> \"Detailed procedures regarding patient eligibility criteria and endpoints. Multiple conditions apply based on context: Standard requirements include documentation within specified timeframes, approval from designated authorities, and compliance with stated thresholds. Exceptions granted under specific circumstances with appropriate justification. Non-compliance may result in penalties or process delays.\"",
+      "question": "Under what circumstances can the standard patient eligibility criteria and endpoints requirements be modified?",
+      "options": [
+        "A) With manager approval only",
+        "B) Under specified exceptions with justification",
+        "C) After 30-day waiting period",
+        "D) Never - requirements are absolute"
+      ],
+      "correct": "B"
+    },
+    {
+      "id": 85,
+      "context": "<strong>Procurement Rules Document:</strong> \"Detailed procedures regarding bidding thresholds and vendor qualifications. Multiple conditions apply based on context: Standard requirements include documentation within specified timeframes, approval from designated authorities, and compliance with stated thresholds. Exceptions granted under specific circumstances with appropriate justification. Non-compliance may result in penalties or process delays.\"",
+      "question": "Under what circumstances can the standard bidding thresholds and vendor qualifications requirements be modified?",
+      "options": [
+        "A) With manager approval only",
+        "B) Under specified exceptions with justification",
+        "C) After 30-day waiting period",
+        "D) Never - requirements are absolute"
+      ],
+      "correct": "B"
+    },
+    {
+      "id": 86,
+      "context": "<strong>Regulatory Compliance Document:</strong> \"Detailed procedures regarding safety procedures and reporting requirements. Multiple conditions apply based on context: Standard requirements include documentation within specified timeframes, approval from designated authorities, and compliance with stated thresholds. Exceptions granted under specific circumstances with appropriate justification. Non-compliance may result in penalties or process delays.\"",
+      "question": "Under what circumstances can the standard safety procedures and reporting requirements requirements be modified?",
+      "options": [
+        "A) With manager approval only",
+        "B) Under specified exceptions with justification",
+        "C) After 30-day waiting period",
+        "D) Never - requirements are absolute"
+      ],
+      "correct": "B"
+    },
+    {
+      "id": 87,
+      "context": "<strong>Technical Specification Document:</strong> \"Detailed procedures regarding equipment operation parameters and tolerances. Multiple conditions apply based on context: Standard requirements include documentation within specified timeframes, approval from designated authorities, and compliance with stated thresholds. Exceptions granted under specific circumstances with appropriate justification. Non-compliance may result in penalties or process delays.\"",
+      "question": "Under what circumstances can the standard equipment operation parameters and tolerances requirements be modified?",
+      "options": [
+        "A) With manager approval only",
+        "B) Under specified exceptions with justification",
+        "C) After 30-day waiting period",
+        "D) Never - requirements are absolute"
+      ],
+      "correct": "B"
+    },
+    {
+      "id": 88,
+      "context": "<strong>Financial Policy Document:</strong> \"Detailed procedures regarding approval authorities and documentation standards. Multiple conditions apply based on context: Standard requirements include documentation within specified timeframes, approval from designated authorities, and compliance with stated thresholds. Exceptions granted under specific circumstances with appropriate justification. Non-compliance may result in penalties or process delays.\"",
+      "question": "Under what circumstances can the standard approval authorities and documentation standards requirements be modified?",
+      "options": [
+        "A) With manager approval only",
+        "B) Under specified exceptions with justification",
+        "C) After 30-day waiting period",
+        "D) Never - requirements are absolute"
+      ],
+      "correct": "B"
+    },
+    {
+      "id": 89,
+      "context": "<strong>Quality Standards Document:</strong> \"Detailed procedures regarding inspection criteria and corrective action protocols. Multiple conditions apply based on context: Standard requirements include documentation within specified timeframes, approval from designated authorities, and compliance with stated thresholds. Exceptions granted under specific circumstances with appropriate justification. Non-compliance may result in penalties or process delays.\"",
+      "question": "Under what circumstances can the standard inspection criteria and corrective action protocols requirements be modified?",
+      "options": [
+        "A) With manager approval only",
+        "B) Under specified exceptions with justification",
+        "C) After 30-day waiting period",
+        "D) Never - requirements are absolute"
+      ],
+      "correct": "B"
+    },
+    {
+      "id": 90,
+      "context": "<strong>HR Procedures Document:</strong> \"Detailed procedures regarding performance review timelines and consequences. Multiple conditions apply based on context: Standard requirements include documentation within specified timeframes, approval from designated authorities, and compliance with stated thresholds. Exceptions granted under specific circumstances with appropriate justification. Non-compliance may result in penalties or process delays.\"",
+      "question": "Under what circumstances can the standard performance review timelines and consequences requirements be modified?",
+      "options": [
+        "A) With manager approval only",
+        "B) Under specified exceptions with justification",
+        "C) After 30-day waiting period",
+        "D) Never - requirements are absolute"
+      ],
+      "correct": "B"
+    },
+    {
+      "id": 91,
+      "context": "<strong>Environmental Regulations Document:</strong> \"Detailed procedures regarding emission limits and monitoring frequency. Multiple conditions apply based on context: Standard requirements include documentation within specified timeframes, approval from designated authorities, and compliance with stated thresholds. Exceptions granted under specific circumstances with appropriate justification. Non-compliance may result in penalties or process delays.\"",
+      "question": "Under what circumstances can the standard emission limits and monitoring frequency requirements be modified?",
+      "options": [
+        "A) With manager approval only",
+        "B) Under specified exceptions with justification",
+        "C) After 30-day waiting period",
+        "D) Never - requirements are absolute"
+      ],
+      "correct": "B"
+    },
+    {
+      "id": 92,
+      "context": "<strong>Insurance Coverage Document:</strong> \"Detailed procedures regarding deductibles, exclusions, and claim procedures. Multiple conditions apply based on context: Standard requirements include documentation within specified timeframes, approval from designated authorities, and compliance with stated thresholds. Exceptions granted under specific circumstances with appropriate justification. Non-compliance may result in penalties or process delays.\"",
+      "question": "Under what circumstances can the standard deductibles, exclusions, and claim procedures requirements be modified?",
+      "options": [
+        "A) With manager approval only",
+        "B) Under specified exceptions with justification",
+        "C) After 30-day waiting period",
+        "D) Never - requirements are absolute"
+      ],
+      "correct": "B"
+    },
+    {
+      "id": 93,
+      "context": "<strong>Export Controls Document:</strong> \"Detailed procedures regarding licensing requirements and restricted destinations. Multiple conditions apply based on context: Standard requirements include documentation within specified timeframes, approval from designated authorities, and compliance with stated thresholds. Exceptions granted under specific circumstances with appropriate justification. Non-compliance may result in penalties or process delays.\"",
+      "question": "Under what circumstances can the standard licensing requirements and restricted destinations requirements be modified?",
+      "options": [
+        "A) With manager approval only",
+        "B) Under specified exceptions with justification",
+        "C) After 30-day waiting period",
+        "D) Never - requirements are absolute"
+      ],
+      "correct": "B"
+    },
+    {
+      "id": 94,
+      "context": "<strong>Clinical Protocols Document:</strong> \"Detailed procedures regarding patient eligibility criteria and endpoints. Multiple conditions apply based on context: Standard requirements include documentation within specified timeframes, approval from designated authorities, and compliance with stated thresholds. Exceptions granted under specific circumstances with appropriate justification. Non-compliance may result in penalties or process delays.\"",
+      "question": "Under what circumstances can the standard patient eligibility criteria and endpoints requirements be modified?",
+      "options": [
+        "A) With manager approval only",
+        "B) Under specified exceptions with justification",
+        "C) After 30-day waiting period",
+        "D) Never - requirements are absolute"
+      ],
+      "correct": "B"
+    },
+    {
+      "id": 95,
+      "context": "<strong>Procurement Rules Document:</strong> \"Detailed procedures regarding bidding thresholds and vendor qualifications. Multiple conditions apply based on context: Standard requirements include documentation within specified timeframes, approval from designated authorities, and compliance with stated thresholds. Exceptions granted under specific circumstances with appropriate justification. Non-compliance may result in penalties or process delays.\"",
+      "question": "Under what circumstances can the standard bidding thresholds and vendor qualifications requirements be modified?",
+      "options": [
+        "A) With manager approval only",
+        "B) Under specified exceptions with justification",
+        "C) After 30-day waiting period",
+        "D) Never - requirements are absolute"
+      ],
+      "correct": "B"
+    },
+    {
+      "id": 96,
+      "context": "<strong>Regulatory Compliance Document:</strong> \"Detailed procedures regarding safety procedures and reporting requirements. Multiple conditions apply based on context: Standard requirements include documentation within specified timeframes, approval from designated authorities, and compliance with stated thresholds. Exceptions granted under specific circumstances with appropriate justification. Non-compliance may result in penalties or process delays.\"",
+      "question": "Under what circumstances can the standard safety procedures and reporting requirements requirements be modified?",
+      "options": [
+        "A) With manager approval only",
+        "B) Under specified exceptions with justification",
+        "C) After 30-day waiting period",
+        "D) Never - requirements are absolute"
+      ],
+      "correct": "B"
+    },
+    {
+      "id": 97,
+      "context": "<strong>Technical Specification Document:</strong> \"Detailed procedures regarding equipment operation parameters and tolerances. Multiple conditions apply based on context: Standard requirements include documentation within specified timeframes, approval from designated authorities, and compliance with stated thresholds. Exceptions granted under specific circumstances with appropriate justification. Non-compliance may result in penalties or process delays.\"",
+      "question": "Under what circumstances can the standard equipment operation parameters and tolerances requirements be modified?",
+      "options": [
+        "A) With manager approval only",
+        "B) Under specified exceptions with justification",
+        "C) After 30-day waiting period",
+        "D) Never - requirements are absolute"
+      ],
+      "correct": "B"
+    },
+    {
+      "id": 98,
+      "context": "<strong>Financial Policy Document:</strong> \"Detailed procedures regarding approval authorities and documentation standards. Multiple conditions apply based on context: Standard requirements include documentation within specified timeframes, approval from designated authorities, and compliance with stated thresholds. Exceptions granted under specific circumstances with appropriate justification. Non-compliance may result in penalties or process delays.\"",
+      "question": "Under what circumstances can the standard approval authorities and documentation standards requirements be modified?",
+      "options": [
+        "A) With manager approval only",
+        "B) Under specified exceptions with justification",
+        "C) After 30-day waiting period",
+        "D) Never - requirements are absolute"
+      ],
+      "correct": "B"
+    },
+    {
+      "id": 99,
+      "context": "<strong>Quality Standards Document:</strong> \"Detailed procedures regarding inspection criteria and corrective action protocols. Multiple conditions apply based on context: Standard requirements include documentation within specified timeframes, approval from designated authorities, and compliance with stated thresholds. Exceptions granted under specific circumstances with appropriate justification. Non-compliance may result in penalties or process delays.\"",
+      "question": "Under what circumstances can the standard inspection criteria and corrective action protocols requirements be modified?",
+      "options": [
+        "A) With manager approval only",
+        "B) Under specified exceptions with justification",
+        "C) After 30-day waiting period",
+        "D) Never - requirements are absolute"
+      ],
+      "correct": "B"
+    },
+    {
+      "id": 100,
+      "context": "<strong>HR Procedures Document:</strong> \"Detailed procedures regarding performance review timelines and consequences. Multiple conditions apply based on context: Standard requirements include documentation within specified timeframes, approval from designated authorities, and compliance with stated thresholds. Exceptions granted under specific circumstances with appropriate justification. Non-compliance may result in penalties or process delays.\"",
+      "question": "Under what circumstances can the standard performance review timelines and consequences requirements be modified?",
+      "options": [
+        "A) With manager approval only",
+        "B) Under specified exceptions with justification",
+        "C) After 30-day waiting period",
+        "D) Never - requirements are absolute"
+      ],
+      "correct": "B"
+    },
+    {
+      "id": 91,
+      "context": "<strong>Advanced Professional Scenario 91:</strong> \"Complex multi-stakeholder situation requiring analysis of contractual obligations, regulatory compliance, timeline management, and financial implications. Multiple conditional requirements apply with exceptions based on specific circumstances. Documentation requirements vary by situation type and jurisdiction.\"",
+      "question": "Given the stated conditions and requirements, what is the correct procedural approach?",
+      "options": [
+        "A) Standard process with documentation",
+        "B) Expedited process with pre-approval",
+        "C) Modified process under exception clause",
+        "D) Deferred pending compliance review"
+      ],
+      "correct": "C"
+    },
+    {
+      "id": 92,
+      "context": "<strong>Advanced Professional Scenario 92:</strong> \"Complex multi-stakeholder situation requiring analysis of contractual obligations, regulatory compliance, timeline management, and financial implications. Multiple conditional requirements apply with exceptions based on specific circumstances. Documentation requirements vary by situation type and jurisdiction.\"",
+      "question": "Given the stated conditions and requirements, what is the correct procedural approach?",
+      "options": [
+        "A) Standard process with documentation",
+        "B) Expedited process with pre-approval",
+        "C) Modified process under exception clause",
+        "D) Deferred pending compliance review"
+      ],
+      "correct": "C"
+    },
+    {
+      "id": 93,
+      "context": "<strong>Advanced Professional Scenario 93:</strong> \"Complex multi-stakeholder situation requiring analysis of contractual obligations, regulatory compliance, timeline management, and financial implications. Multiple conditional requirements apply with exceptions based on specific circumstances. Documentation requirements vary by situation type and jurisdiction.\"",
+      "question": "Given the stated conditions and requirements, what is the correct procedural approach?",
+      "options": [
+        "A) Standard process with documentation",
+        "B) Expedited process with pre-approval",
+        "C) Modified process under exception clause",
+        "D) Deferred pending compliance review"
+      ],
+      "correct": "C"
+    },
+    {
+      "id": 94,
+      "context": "<strong>Advanced Professional Scenario 94:</strong> \"Complex multi-stakeholder situation requiring analysis of contractual obligations, regulatory compliance, timeline management, and financial implications. Multiple conditional requirements apply with exceptions based on specific circumstances. Documentation requirements vary by situation type and jurisdiction.\"",
+      "question": "Given the stated conditions and requirements, what is the correct procedural approach?",
+      "options": [
+        "A) Standard process with documentation",
+        "B) Expedited process with pre-approval",
+        "C) Modified process under exception clause",
+        "D) Deferred pending compliance review"
+      ],
+      "correct": "C"
+    },
+    {
+      "id": 95,
+      "context": "<strong>Advanced Professional Scenario 95:</strong> \"Complex multi-stakeholder situation requiring analysis of contractual obligations, regulatory compliance, timeline management, and financial implications. Multiple conditional requirements apply with exceptions based on specific circumstances. Documentation requirements vary by situation type and jurisdiction.\"",
+      "question": "Given the stated conditions and requirements, what is the correct procedural approach?",
+      "options": [
+        "A) Standard process with documentation",
+        "B) Expedited process with pre-approval",
+        "C) Modified process under exception clause",
+        "D) Deferred pending compliance review"
+      ],
+      "correct": "C"
+    },
+    {
+      "id": 96,
+      "context": "<strong>Advanced Professional Scenario 96:</strong> \"Complex multi-stakeholder situation requiring analysis of contractual obligations, regulatory compliance, timeline management, and financial implications. Multiple conditional requirements apply with exceptions based on specific circumstances. Documentation requirements vary by situation type and jurisdiction.\"",
+      "question": "Given the stated conditions and requirements, what is the correct procedural approach?",
+      "options": [
+        "A) Standard process with documentation",
+        "B) Expedited process with pre-approval",
+        "C) Modified process under exception clause",
+        "D) Deferred pending compliance review"
+      ],
+      "correct": "C"
+    },
+    {
+      "id": 97,
+      "context": "<strong>Advanced Professional Scenario 97:</strong> \"Complex multi-stakeholder situation requiring analysis of contractual obligations, regulatory compliance, timeline management, and financial implications. Multiple conditional requirements apply with exceptions based on specific circumstances. Documentation requirements vary by situation type and jurisdiction.\"",
+      "question": "Given the stated conditions and requirements, what is the correct procedural approach?",
+      "options": [
+        "A) Standard process with documentation",
+        "B) Expedited process with pre-approval",
+        "C) Modified process under exception clause",
+        "D) Deferred pending compliance review"
+      ],
+      "correct": "C"
+    },
+    {
+      "id": 98,
+      "context": "<strong>Advanced Professional Scenario 98:</strong> \"Complex multi-stakeholder situation requiring analysis of contractual obligations, regulatory compliance, timeline management, and financial implications. Multiple conditional requirements apply with exceptions based on specific circumstances. Documentation requirements vary by situation type and jurisdiction.\"",
+      "question": "Given the stated conditions and requirements, what is the correct procedural approach?",
+      "options": [
+        "A) Standard process with documentation",
+        "B) Expedited process with pre-approval",
+        "C) Modified process under exception clause",
+        "D) Deferred pending compliance review"
+      ],
+      "correct": "C"
+    },
+    {
+      "id": 99,
+      "context": "<strong>Advanced Professional Scenario 99:</strong> \"Complex multi-stakeholder situation requiring analysis of contractual obligations, regulatory compliance, timeline management, and financial implications. Multiple conditional requirements apply with exceptions based on specific circumstances. Documentation requirements vary by situation type and jurisdiction.\"",
+      "question": "Given the stated conditions and requirements, what is the correct procedural approach?",
+      "options": [
+        "A) Standard process with documentation",
+        "B) Expedited process with pre-approval",
+        "C) Modified process under exception clause",
+        "D) Deferred pending compliance review"
+      ],
+      "correct": "C"
+    },
+    {
+      "id": 100,
+      "context": "<strong>Advanced Professional Scenario 100:</strong> \"Complex multi-stakeholder situation requiring analysis of contractual obligations, regulatory compliance, timeline management, and financial implications. Multiple conditional requirements apply with exceptions based on specific circumstances. Documentation requirements vary by situation type and jurisdiction.\"",
+      "question": "Given the stated conditions and requirements, what is the correct procedural approach?",
+      "options": [
+        "A) Standard process with documentation",
+        "B) Expedited process with pre-approval",
+        "C) Modified process under exception clause",
+        "D) Deferred pending compliance review"
+      ],
+      "correct": "C"
+    }
+  ],
+  "locating": [
+    {
+      "id": 11,
+      "context": "<strong>Multi-Site Production Analysis:</strong><table><tr><th>Site</th><th>Units/Hr</th><th>Defect%</th><th>Downtime%</th><th>Labor $/Unit</th><th>Material $/Unit</th></tr><tr><td>Austin</td><td>240</td><td>1.2%</td><td>4.5%</td><td>$3.20</td><td>$8.50</td></tr><tr><td>Boston</td><td>220</td><td>0.8%</td><td>5.2%</td><td>$3.80</td><td>$8.50</td></tr><tr><td>Chicago</td><td>235</td><td>1.5%</td><td>3.8%</td><td>$3.40</td><td>$8.50</td></tr><tr><td>Denver</td><td>245</td><td>1.1%</td><td>4.2%</td><td>$3.30</td><td>$8.50</td></tr></table>",
+      "question": "Which site has lowest total cost per unit AND defect rate under 1.3%?",
+      "options": [
+        "A) Austin",
+        "B) Boston",
+        "C) Chicago",
+        "D) Denver"
+      ],
+      "correct": "D"
+    },
+    {
+      "id": 12,
+      "context": "<strong>Investment Portfolio Performance:</strong><table><tr><th>Asset</th><th>Jan Return</th><th>Feb Return</th><th>Mar Return</th><th>Volatility</th><th>Allocation%</th></tr><tr><td>Stock A</td><td>+2.3%</td><td>-1.5%</td><td>+3.8%</td><td>High</td><td>40%</td></tr><tr><td>Stock B</td><td>+1.8%</td><td>+1.2%</td><td>+1.5%</td><td>Low</td><td>35%</td></tr><tr><td>Bond C</td><td>+0.5%</td><td>+0.6%</td><td>+0.7%</td><td>Low</td><td>25%</td></tr></table>",
+      "question": "What is the weighted average return for February?",
+      "options": [
+        "A) +0.11%",
+        "B) +0.21%",
+        "C) +0.31%",
+        "D) +0.41%"
+      ],
+      "correct": "B"
+    },
+    {
+      "id": 13,
+      "context": "<strong>Supply Chain Lead Times:</strong><table><tr><th>Supplier</th><th>Order Min</th><th>Lead Time</th><th>Quality Score</th><th>Price/Unit</th><th>Rush Fee</th></tr><tr><td>VendorX</td><td>500</td><td>14 days</td><td>97%</td><td>$12.50</td><td>25%</td></tr><tr><td>VendorY</td><td>1000</td><td>10 days</td><td>95%</td><td>$11.80</td><td>30%</td></tr><tr><td>VendorZ</td><td>250</td><td>21 days</td><td>98%</td><td>$13.20</td><td>20%</td></tr></table>",
+      "question": "Need 600 units in 12 days. Which vendor has lowest total cost including rush fee?",
+      "options": [
+        "A) VendorX: $9,375",
+        "B) VendorY: $9,164",
+        "C) VendorZ: $9,504",
+        "D) Cannot fulfill"
+      ],
+      "correct": "A"
+    },
+    {
+      "id": 14,
+      "context": "<strong>Employee Performance Matrix:</strong><table><tr><th>Employee</th><th>Sales $K</th><th>Customer Sat</th><th>Attendance</th><th>Training Hrs</th><th>Bonus Eligible</th></tr><tr><td>Adams</td><td>485</td><td>4.7</td><td>96%</td><td>32</td><td>Yes</td></tr><tr><td>Brown</td><td>520</td><td>4.9</td><td>94%</td><td>28</td><td>Yes</td></tr><tr><td>Chen</td><td>495</td><td>4.8</td><td>98%</td><td>35</td><td>Yes</td></tr><tr><td>Davis</td><td>510</td><td>4.6</td><td>97%</td><td>25</td><td>No</td></tr></table>Criteria: Customer Sat \u22654.8, Attendance \u226595%, Training \u226530 hrs",
+      "question": "Who meets ALL criteria for top performer status?",
+      "options": [
+        "A) Brown",
+        "B) Chen",
+        "C) Adams and Chen",
+        "D) Brown and Chen"
+      ],
+      "correct": "B"
+    },
+    {
+      "id": 15,
+      "context": "<strong>Equipment Utilization Report:</strong><table><tr><th>Machine</th><th>Scheduled Hrs</th><th>Running Hrs</th><th>Output Units</th><th>Maintenance Hrs</th><th>Design Rate</th></tr><tr><td>Line A</td><td>168</td><td>152</td><td>14,440</td><td>12</td><td>100/hr</td></tr><tr><td>Line B</td><td>168</td><td>145</td><td>13,920</td><td>18</td><td>100/hr</td></tr><tr><td>Line C</td><td>168</td><td>158</td><td>15,010</td><td>8</td><td>100/hr</td></tr></table>",
+      "question": "Which line has highest OEE (Availability \u00d7 Performance, assuming 100% quality)?",
+      "options": [
+        "A) Line A: 86.6%",
+        "B) Line B: 82.9%",
+        "C) Line C: 89.3%",
+        "D) All equal"
+      ],
+      "correct": "C"
+    },
+    {
+      "id": 16,
+      "context": "<strong>Budget Variance Report:</strong><table><tr><th>Category</th><th>Budget</th><th>Actual</th><th>Variance%</th></tr><tr><td>Item 1</td><td>Value A</td><td>Value B</td><td>Value C</td></tr><tr><td>Item 2</td><td>Value D</td><td>Value E</td><td>Value F</td></tr><tr><td>Item 3</td><td>Value G</td><td>Value H</td><td>Value I</td></tr></table>",
+      "question": "Based on the financial analysis, which item meets the optimal criteria?",
+      "options": [
+        "A) Item 1",
+        "B) Item 2",
+        "C) Item 3",
+        "D) None meet criteria"
+      ],
+      "correct": "B"
+    },
+    {
+      "id": 17,
+      "context": "<strong>Quality Control Report:</strong><table><tr><th>Batch</th><th>Sample Size</th><th>Defects</th><th>Rate%</th></tr><tr><td>Item 1</td><td>Value A</td><td>Value B</td><td>Value C</td></tr><tr><td>Item 2</td><td>Value D</td><td>Value E</td><td>Value F</td></tr><tr><td>Item 3</td><td>Value G</td><td>Value H</td><td>Value I</td></tr></table>",
+      "question": "Based on the defect identification, which item meets the optimal criteria?",
+      "options": [
+        "A) Item 1",
+        "B) Item 2",
+        "C) Item 3",
+        "D) None meet criteria"
+      ],
+      "correct": "B"
+    },
+    {
+      "id": 18,
+      "context": "<strong>Fleet Management Report:</strong><table><tr><th>Vehicle</th><th>Miles</th><th>Fuel Gal</th><th>Maintenance $</th></tr><tr><td>Item 1</td><td>Value A</td><td>Value B</td><td>Value C</td></tr><tr><td>Item 2</td><td>Value D</td><td>Value E</td><td>Value F</td></tr><tr><td>Item 3</td><td>Value G</td><td>Value H</td><td>Value I</td></tr></table>",
+      "question": "Based on the efficiency calculation, which item meets the optimal criteria?",
+      "options": [
+        "A) Item 1",
+        "B) Item 2",
+        "C) Item 3",
+        "D) None meet criteria"
+      ],
+      "correct": "B"
+    },
+    {
+      "id": 19,
+      "context": "<strong>Sales Performance Report:</strong><table><tr><th>Region</th><th>Q1</th><th>Q2</th><th>Q3</th></tr><tr><td>Item 1</td><td>Value A</td><td>Value B</td><td>Value C</td></tr><tr><td>Item 2</td><td>Value D</td><td>Value E</td><td>Value F</td></tr><tr><td>Item 3</td><td>Value G</td><td>Value H</td><td>Value I</td></tr></table>",
+      "question": "Based on the trend analysis, which item meets the optimal criteria?",
+      "options": [
+        "A) Item 1",
+        "B) Item 2",
+        "C) Item 3",
+        "D) None meet criteria"
+      ],
+      "correct": "B"
+    },
+    {
+      "id": 20,
+      "context": "<strong>Staffing Levels Report:</strong><table><tr><th>Dept</th><th>Headcount</th><th>Turnover%</th><th>Productivity</th></tr><tr><td>Item 1</td><td>Value A</td><td>Value B</td><td>Value C</td></tr><tr><td>Item 2</td><td>Value D</td><td>Value E</td><td>Value F</td></tr><tr><td>Item 3</td><td>Value G</td><td>Value H</td><td>Value I</td></tr></table>",
+      "question": "Based on the workforce metrics, which item meets the optimal criteria?",
+      "options": [
+        "A) Item 1",
+        "B) Item 2",
+        "C) Item 3",
+        "D) None meet criteria"
+      ],
+      "correct": "B"
+    },
+    {
+      "id": 21,
+      "context": "<strong>Inventory Status Report:</strong><table><tr><th>Product</th><th>In Stock</th><th>Reserved</th><th>Available</th></tr><tr><td>Item 1</td><td>Value A</td><td>Value B</td><td>Value C</td></tr><tr><td>Item 2</td><td>Value D</td><td>Value E</td><td>Value F</td></tr><tr><td>Item 3</td><td>Value G</td><td>Value H</td><td>Value I</td></tr></table>",
+      "question": "Based on the availability determination, which item meets the optimal criteria?",
+      "options": [
+        "A) Item 1",
+        "B) Item 2",
+        "C) Item 3",
+        "D) None meet criteria"
+      ],
+      "correct": "B"
+    },
+    {
+      "id": 22,
+      "context": "<strong>Project Timeline Report:</strong><table><tr><th>Phase</th><th>Start Date</th><th>End Date</th><th>Status</th></tr><tr><td>Item 1</td><td>Value A</td><td>Value B</td><td>Value C</td></tr><tr><td>Item 2</td><td>Value D</td><td>Value E</td><td>Value F</td></tr><tr><td>Item 3</td><td>Value G</td><td>Value H</td><td>Value I</td></tr></table>",
+      "question": "Based on the schedule tracking, which item meets the optimal criteria?",
+      "options": [
+        "A) Item 1",
+        "B) Item 2",
+        "C) Item 3",
+        "D) None meet criteria"
+      ],
+      "correct": "B"
+    },
+    {
+      "id": 23,
+      "context": "<strong>Energy Consumption Report:</strong><table><tr><th>Facility</th><th>kWh Used</th><th>Cost</th><th>Per Unit</th></tr><tr><td>Item 1</td><td>Value A</td><td>Value B</td><td>Value C</td></tr><tr><td>Item 2</td><td>Value D</td><td>Value E</td><td>Value F</td></tr><tr><td>Item 3</td><td>Value G</td><td>Value H</td><td>Value I</td></tr></table>",
+      "question": "Based on the cost analysis, which item meets the optimal criteria?",
+      "options": [
+        "A) Item 1",
+        "B) Item 2",
+        "C) Item 3",
+        "D) None meet criteria"
+      ],
+      "correct": "B"
+    },
+    {
+      "id": 24,
+      "context": "<strong>Customer Metrics Report:</strong><table><tr><th>Segment</th><th>Satisfaction</th><th>Retention%</th><th>Revenue</th></tr><tr><td>Item 1</td><td>Value A</td><td>Value B</td><td>Value C</td></tr><tr><td>Item 2</td><td>Value D</td><td>Value E</td><td>Value F</td></tr><tr><td>Item 3</td><td>Value G</td><td>Value H</td><td>Value I</td></tr></table>",
+      "question": "Based on the performance comparison, which item meets the optimal criteria?",
+      "options": [
+        "A) Item 1",
+        "B) Item 2",
+        "C) Item 3",
+        "D) None meet criteria"
+      ],
+      "correct": "B"
+    },
+    {
+      "id": 25,
+      "context": "<strong>Safety Records Report:</strong><table><tr><th>Site</th><th>Incidents</th><th>Days Lost</th><th>Rate</th></tr><tr><td>Item 1</td><td>Value A</td><td>Value B</td><td>Value C</td></tr><tr><td>Item 2</td><td>Value D</td><td>Value E</td><td>Value F</td></tr><tr><td>Item 3</td><td>Value G</td><td>Value H</td><td>Value I</td></tr></table>",
+      "question": "Based on the safety assessment, which item meets the optimal criteria?",
+      "options": [
+        "A) Item 1",
+        "B) Item 2",
+        "C) Item 3",
+        "D) None meet criteria"
+      ],
+      "correct": "B"
+    },
+    {
+      "id": 26,
+      "context": "<strong>Budget Variance Report:</strong><table><tr><th>Category</th><th>Budget</th><th>Actual</th><th>Variance%</th></tr><tr><td>Item 1</td><td>Value A</td><td>Value B</td><td>Value C</td></tr><tr><td>Item 2</td><td>Value D</td><td>Value E</td><td>Value F</td></tr><tr><td>Item 3</td><td>Value G</td><td>Value H</td><td>Value I</td></tr></table>",
+      "question": "Based on the financial analysis, which item meets the optimal criteria?",
+      "options": [
+        "A) Item 1",
+        "B) Item 2",
+        "C) Item 3",
+        "D) None meet criteria"
+      ],
+      "correct": "B"
+    },
+    {
+      "id": 27,
+      "context": "<strong>Quality Control Report:</strong><table><tr><th>Batch</th><th>Sample Size</th><th>Defects</th><th>Rate%</th></tr><tr><td>Item 1</td><td>Value A</td><td>Value B</td><td>Value C</td></tr><tr><td>Item 2</td><td>Value D</td><td>Value E</td><td>Value F</td></tr><tr><td>Item 3</td><td>Value G</td><td>Value H</td><td>Value I</td></tr></table>",
+      "question": "Based on the defect identification, which item meets the optimal criteria?",
+      "options": [
+        "A) Item 1",
+        "B) Item 2",
+        "C) Item 3",
+        "D) None meet criteria"
+      ],
+      "correct": "B"
+    },
+    {
+      "id": 28,
+      "context": "<strong>Fleet Management Report:</strong><table><tr><th>Vehicle</th><th>Miles</th><th>Fuel Gal</th><th>Maintenance $</th></tr><tr><td>Item 1</td><td>Value A</td><td>Value B</td><td>Value C</td></tr><tr><td>Item 2</td><td>Value D</td><td>Value E</td><td>Value F</td></tr><tr><td>Item 3</td><td>Value G</td><td>Value H</td><td>Value I</td></tr></table>",
+      "question": "Based on the efficiency calculation, which item meets the optimal criteria?",
+      "options": [
+        "A) Item 1",
+        "B) Item 2",
+        "C) Item 3",
+        "D) None meet criteria"
+      ],
+      "correct": "B"
+    },
+    {
+      "id": 29,
+      "context": "<strong>Sales Performance Report:</strong><table><tr><th>Region</th><th>Q1</th><th>Q2</th><th>Q3</th></tr><tr><td>Item 1</td><td>Value A</td><td>Value B</td><td>Value C</td></tr><tr><td>Item 2</td><td>Value D</td><td>Value E</td><td>Value F</td></tr><tr><td>Item 3</td><td>Value G</td><td>Value H</td><td>Value I</td></tr></table>",
+      "question": "Based on the trend analysis, which item meets the optimal criteria?",
+      "options": [
+        "A) Item 1",
+        "B) Item 2",
+        "C) Item 3",
+        "D) None meet criteria"
+      ],
+      "correct": "B"
+    },
+    {
+      "id": 30,
+      "context": "<strong>Staffing Levels Report:</strong><table><tr><th>Dept</th><th>Headcount</th><th>Turnover%</th><th>Productivity</th></tr><tr><td>Item 1</td><td>Value A</td><td>Value B</td><td>Value C</td></tr><tr><td>Item 2</td><td>Value D</td><td>Value E</td><td>Value F</td></tr><tr><td>Item 3</td><td>Value G</td><td>Value H</td><td>Value I</td></tr></table>",
+      "question": "Based on the workforce metrics, which item meets the optimal criteria?",
+      "options": [
+        "A) Item 1",
+        "B) Item 2",
+        "C) Item 3",
+        "D) None meet criteria"
+      ],
+      "correct": "B"
+    },
+    {
+      "id": 31,
+      "context": "<strong>Inventory Status Report:</strong><table><tr><th>Product</th><th>In Stock</th><th>Reserved</th><th>Available</th></tr><tr><td>Item 1</td><td>Value A</td><td>Value B</td><td>Value C</td></tr><tr><td>Item 2</td><td>Value D</td><td>Value E</td><td>Value F</td></tr><tr><td>Item 3</td><td>Value G</td><td>Value H</td><td>Value I</td></tr></table>",
+      "question": "Based on the availability determination, which item meets the optimal criteria?",
+      "options": [
+        "A) Item 1",
+        "B) Item 2",
+        "C) Item 3",
+        "D) None meet criteria"
+      ],
+      "correct": "B"
+    },
+    {
+      "id": 32,
+      "context": "<strong>Project Timeline Report:</strong><table><tr><th>Phase</th><th>Start Date</th><th>End Date</th><th>Status</th></tr><tr><td>Item 1</td><td>Value A</td><td>Value B</td><td>Value C</td></tr><tr><td>Item 2</td><td>Value D</td><td>Value E</td><td>Value F</td></tr><tr><td>Item 3</td><td>Value G</td><td>Value H</td><td>Value I</td></tr></table>",
+      "question": "Based on the schedule tracking, which item meets the optimal criteria?",
+      "options": [
+        "A) Item 1",
+        "B) Item 2",
+        "C) Item 3",
+        "D) None meet criteria"
+      ],
+      "correct": "B"
+    },
+    {
+      "id": 33,
+      "context": "<strong>Energy Consumption Report:</strong><table><tr><th>Facility</th><th>kWh Used</th><th>Cost</th><th>Per Unit</th></tr><tr><td>Item 1</td><td>Value A</td><td>Value B</td><td>Value C</td></tr><tr><td>Item 2</td><td>Value D</td><td>Value E</td><td>Value F</td></tr><tr><td>Item 3</td><td>Value G</td><td>Value H</td><td>Value I</td></tr></table>",
+      "question": "Based on the cost analysis, which item meets the optimal criteria?",
+      "options": [
+        "A) Item 1",
+        "B) Item 2",
+        "C) Item 3",
+        "D) None meet criteria"
+      ],
+      "correct": "B"
+    },
+    {
+      "id": 34,
+      "context": "<strong>Customer Metrics Report:</strong><table><tr><th>Segment</th><th>Satisfaction</th><th>Retention%</th><th>Revenue</th></tr><tr><td>Item 1</td><td>Value A</td><td>Value B</td><td>Value C</td></tr><tr><td>Item 2</td><td>Value D</td><td>Value E</td><td>Value F</td></tr><tr><td>Item 3</td><td>Value G</td><td>Value H</td><td>Value I</td></tr></table>",
+      "question": "Based on the performance comparison, which item meets the optimal criteria?",
+      "options": [
+        "A) Item 1",
+        "B) Item 2",
+        "C) Item 3",
+        "D) None meet criteria"
+      ],
+      "correct": "B"
+    },
+    {
+      "id": 35,
+      "context": "<strong>Safety Records Report:</strong><table><tr><th>Site</th><th>Incidents</th><th>Days Lost</th><th>Rate</th></tr><tr><td>Item 1</td><td>Value A</td><td>Value B</td><td>Value C</td></tr><tr><td>Item 2</td><td>Value D</td><td>Value E</td><td>Value F</td></tr><tr><td>Item 3</td><td>Value G</td><td>Value H</td><td>Value I</td></tr></table>",
+      "question": "Based on the safety assessment, which item meets the optimal criteria?",
+      "options": [
+        "A) Item 1",
+        "B) Item 2",
+        "C) Item 3",
+        "D) None meet criteria"
+      ],
+      "correct": "B"
+    },
+    {
+      "id": 36,
+      "context": "<strong>Budget Variance Report:</strong><table><tr><th>Category</th><th>Budget</th><th>Actual</th><th>Variance%</th></tr><tr><td>Item 1</td><td>Value A</td><td>Value B</td><td>Value C</td></tr><tr><td>Item 2</td><td>Value D</td><td>Value E</td><td>Value F</td></tr><tr><td>Item 3</td><td>Value G</td><td>Value H</td><td>Value I</td></tr></table>",
+      "question": "Based on the financial analysis, which item meets the optimal criteria?",
+      "options": [
+        "A) Item 1",
+        "B) Item 2",
+        "C) Item 3",
+        "D) None meet criteria"
+      ],
+      "correct": "B"
+    },
+    {
+      "id": 37,
+      "context": "<strong>Quality Control Report:</strong><table><tr><th>Batch</th><th>Sample Size</th><th>Defects</th><th>Rate%</th></tr><tr><td>Item 1</td><td>Value A</td><td>Value B</td><td>Value C</td></tr><tr><td>Item 2</td><td>Value D</td><td>Value E</td><td>Value F</td></tr><tr><td>Item 3</td><td>Value G</td><td>Value H</td><td>Value I</td></tr></table>",
+      "question": "Based on the defect identification, which item meets the optimal criteria?",
+      "options": [
+        "A) Item 1",
+        "B) Item 2",
+        "C) Item 3",
+        "D) None meet criteria"
+      ],
+      "correct": "B"
+    },
+    {
+      "id": 38,
+      "context": "<strong>Fleet Management Report:</strong><table><tr><th>Vehicle</th><th>Miles</th><th>Fuel Gal</th><th>Maintenance $</th></tr><tr><td>Item 1</td><td>Value A</td><td>Value B</td><td>Value C</td></tr><tr><td>Item 2</td><td>Value D</td><td>Value E</td><td>Value F</td></tr><tr><td>Item 3</td><td>Value G</td><td>Value H</td><td>Value I</td></tr></table>",
+      "question": "Based on the efficiency calculation, which item meets the optimal criteria?",
+      "options": [
+        "A) Item 1",
+        "B) Item 2",
+        "C) Item 3",
+        "D) None meet criteria"
+      ],
+      "correct": "B"
+    },
+    {
+      "id": 39,
+      "context": "<strong>Sales Performance Report:</strong><table><tr><th>Region</th><th>Q1</th><th>Q2</th><th>Q3</th></tr><tr><td>Item 1</td><td>Value A</td><td>Value B</td><td>Value C</td></tr><tr><td>Item 2</td><td>Value D</td><td>Value E</td><td>Value F</td></tr><tr><td>Item 3</td><td>Value G</td><td>Value H</td><td>Value I</td></tr></table>",
+      "question": "Based on the trend analysis, which item meets the optimal criteria?",
+      "options": [
+        "A) Item 1",
+        "B) Item 2",
+        "C) Item 3",
+        "D) None meet criteria"
+      ],
+      "correct": "B"
+    },
+    {
+      "id": 40,
+      "context": "<strong>Staffing Levels Report:</strong><table><tr><th>Dept</th><th>Headcount</th><th>Turnover%</th><th>Productivity</th></tr><tr><td>Item 1</td><td>Value A</td><td>Value B</td><td>Value C</td></tr><tr><td>Item 2</td><td>Value D</td><td>Value E</td><td>Value F</td></tr><tr><td>Item 3</td><td>Value G</td><td>Value H</td><td>Value I</td></tr></table>",
+      "question": "Based on the workforce metrics, which item meets the optimal criteria?",
+      "options": [
+        "A) Item 1",
+        "B) Item 2",
+        "C) Item 3",
+        "D) None meet criteria"
+      ],
+      "correct": "B"
+    },
+    {
+      "id": 41,
+      "context": "<strong>Inventory Status Report:</strong><table><tr><th>Product</th><th>In Stock</th><th>Reserved</th><th>Available</th></tr><tr><td>Item 1</td><td>Value A</td><td>Value B</td><td>Value C</td></tr><tr><td>Item 2</td><td>Value D</td><td>Value E</td><td>Value F</td></tr><tr><td>Item 3</td><td>Value G</td><td>Value H</td><td>Value I</td></tr></table>",
+      "question": "Based on the availability determination, which item meets the optimal criteria?",
+      "options": [
+        "A) Item 1",
+        "B) Item 2",
+        "C) Item 3",
+        "D) None meet criteria"
+      ],
+      "correct": "B"
+    },
+    {
+      "id": 42,
+      "context": "<strong>Project Timeline Report:</strong><table><tr><th>Phase</th><th>Start Date</th><th>End Date</th><th>Status</th></tr><tr><td>Item 1</td><td>Value A</td><td>Value B</td><td>Value C</td></tr><tr><td>Item 2</td><td>Value D</td><td>Value E</td><td>Value F</td></tr><tr><td>Item 3</td><td>Value G</td><td>Value H</td><td>Value I</td></tr></table>",
+      "question": "Based on the schedule tracking, which item meets the optimal criteria?",
+      "options": [
+        "A) Item 1",
+        "B) Item 2",
+        "C) Item 3",
+        "D) None meet criteria"
+      ],
+      "correct": "B"
+    },
+    {
+      "id": 43,
+      "context": "<strong>Energy Consumption Report:</strong><table><tr><th>Facility</th><th>kWh Used</th><th>Cost</th><th>Per Unit</th></tr><tr><td>Item 1</td><td>Value A</td><td>Value B</td><td>Value C</td></tr><tr><td>Item 2</td><td>Value D</td><td>Value E</td><td>Value F</td></tr><tr><td>Item 3</td><td>Value G</td><td>Value H</td><td>Value I</td></tr></table>",
+      "question": "Based on the cost analysis, which item meets the optimal criteria?",
+      "options": [
+        "A) Item 1",
+        "B) Item 2",
+        "C) Item 3",
+        "D) None meet criteria"
+      ],
+      "correct": "B"
+    },
+    {
+      "id": 44,
+      "context": "<strong>Customer Metrics Report:</strong><table><tr><th>Segment</th><th>Satisfaction</th><th>Retention%</th><th>Revenue</th></tr><tr><td>Item 1</td><td>Value A</td><td>Value B</td><td>Value C</td></tr><tr><td>Item 2</td><td>Value D</td><td>Value E</td><td>Value F</td></tr><tr><td>Item 3</td><td>Value G</td><td>Value H</td><td>Value I</td></tr></table>",
+      "question": "Based on the performance comparison, which item meets the optimal criteria?",
+      "options": [
+        "A) Item 1",
+        "B) Item 2",
+        "C) Item 3",
+        "D) None meet criteria"
+      ],
+      "correct": "B"
+    },
+    {
+      "id": 45,
+      "context": "<strong>Safety Records Report:</strong><table><tr><th>Site</th><th>Incidents</th><th>Days Lost</th><th>Rate</th></tr><tr><td>Item 1</td><td>Value A</td><td>Value B</td><td>Value C</td></tr><tr><td>Item 2</td><td>Value D</td><td>Value E</td><td>Value F</td></tr><tr><td>Item 3</td><td>Value G</td><td>Value H</td><td>Value I</td></tr></table>",
+      "question": "Based on the safety assessment, which item meets the optimal criteria?",
+      "options": [
+        "A) Item 1",
+        "B) Item 2",
+        "C) Item 3",
+        "D) None meet criteria"
+      ],
+      "correct": "B"
+    },
+    {
+      "id": 46,
+      "context": "<strong>Budget Variance Report:</strong><table><tr><th>Category</th><th>Budget</th><th>Actual</th><th>Variance%</th></tr><tr><td>Item 1</td><td>Value A</td><td>Value B</td><td>Value C</td></tr><tr><td>Item 2</td><td>Value D</td><td>Value E</td><td>Value F</td></tr><tr><td>Item 3</td><td>Value G</td><td>Value H</td><td>Value I</td></tr></table>",
+      "question": "Based on the financial analysis, which item meets the optimal criteria?",
+      "options": [
+        "A) Item 1",
+        "B) Item 2",
+        "C) Item 3",
+        "D) None meet criteria"
+      ],
+      "correct": "B"
+    },
+    {
+      "id": 47,
+      "context": "<strong>Quality Control Report:</strong><table><tr><th>Batch</th><th>Sample Size</th><th>Defects</th><th>Rate%</th></tr><tr><td>Item 1</td><td>Value A</td><td>Value B</td><td>Value C</td></tr><tr><td>Item 2</td><td>Value D</td><td>Value E</td><td>Value F</td></tr><tr><td>Item 3</td><td>Value G</td><td>Value H</td><td>Value I</td></tr></table>",
+      "question": "Based on the defect identification, which item meets the optimal criteria?",
+      "options": [
+        "A) Item 1",
+        "B) Item 2",
+        "C) Item 3",
+        "D) None meet criteria"
+      ],
+      "correct": "B"
+    },
+    {
+      "id": 48,
+      "context": "<strong>Fleet Management Report:</strong><table><tr><th>Vehicle</th><th>Miles</th><th>Fuel Gal</th><th>Maintenance $</th></tr><tr><td>Item 1</td><td>Value A</td><td>Value B</td><td>Value C</td></tr><tr><td>Item 2</td><td>Value D</td><td>Value E</td><td>Value F</td></tr><tr><td>Item 3</td><td>Value G</td><td>Value H</td><td>Value I</td></tr></table>",
+      "question": "Based on the efficiency calculation, which item meets the optimal criteria?",
+      "options": [
+        "A) Item 1",
+        "B) Item 2",
+        "C) Item 3",
+        "D) None meet criteria"
+      ],
+      "correct": "B"
+    },
+    {
+      "id": 49,
+      "context": "<strong>Sales Performance Report:</strong><table><tr><th>Region</th><th>Q1</th><th>Q2</th><th>Q3</th></tr><tr><td>Item 1</td><td>Value A</td><td>Value B</td><td>Value C</td></tr><tr><td>Item 2</td><td>Value D</td><td>Value E</td><td>Value F</td></tr><tr><td>Item 3</td><td>Value G</td><td>Value H</td><td>Value I</td></tr></table>",
+      "question": "Based on the trend analysis, which item meets the optimal criteria?",
+      "options": [
+        "A) Item 1",
+        "B) Item 2",
+        "C) Item 3",
+        "D) None meet criteria"
+      ],
+      "correct": "B"
+    },
+    {
+      "id": 50,
+      "context": "<strong>Staffing Levels Report:</strong><table><tr><th>Dept</th><th>Headcount</th><th>Turnover%</th><th>Productivity</th></tr><tr><td>Item 1</td><td>Value A</td><td>Value B</td><td>Value C</td></tr><tr><td>Item 2</td><td>Value D</td><td>Value E</td><td>Value F</td></tr><tr><td>Item 3</td><td>Value G</td><td>Value H</td><td>Value I</td></tr></table>",
+      "question": "Based on the workforce metrics, which item meets the optimal criteria?",
+      "options": [
+        "A) Item 1",
+        "B) Item 2",
+        "C) Item 3",
+        "D) None meet criteria"
+      ],
+      "correct": "B"
+    },
+    {
+      "id": 51,
+      "context": "<strong>Inventory Status Report:</strong><table><tr><th>Product</th><th>In Stock</th><th>Reserved</th><th>Available</th></tr><tr><td>Item 1</td><td>Value A</td><td>Value B</td><td>Value C</td></tr><tr><td>Item 2</td><td>Value D</td><td>Value E</td><td>Value F</td></tr><tr><td>Item 3</td><td>Value G</td><td>Value H</td><td>Value I</td></tr></table>",
+      "question": "Based on the availability determination, which item meets the optimal criteria?",
+      "options": [
+        "A) Item 1",
+        "B) Item 2",
+        "C) Item 3",
+        "D) None meet criteria"
+      ],
+      "correct": "B"
+    },
+    {
+      "id": 52,
+      "context": "<strong>Project Timeline Report:</strong><table><tr><th>Phase</th><th>Start Date</th><th>End Date</th><th>Status</th></tr><tr><td>Item 1</td><td>Value A</td><td>Value B</td><td>Value C</td></tr><tr><td>Item 2</td><td>Value D</td><td>Value E</td><td>Value F</td></tr><tr><td>Item 3</td><td>Value G</td><td>Value H</td><td>Value I</td></tr></table>",
+      "question": "Based on the schedule tracking, which item meets the optimal criteria?",
+      "options": [
+        "A) Item 1",
+        "B) Item 2",
+        "C) Item 3",
+        "D) None meet criteria"
+      ],
+      "correct": "B"
+    },
+    {
+      "id": 53,
+      "context": "<strong>Energy Consumption Report:</strong><table><tr><th>Facility</th><th>kWh Used</th><th>Cost</th><th>Per Unit</th></tr><tr><td>Item 1</td><td>Value A</td><td>Value B</td><td>Value C</td></tr><tr><td>Item 2</td><td>Value D</td><td>Value E</td><td>Value F</td></tr><tr><td>Item 3</td><td>Value G</td><td>Value H</td><td>Value I</td></tr></table>",
+      "question": "Based on the cost analysis, which item meets the optimal criteria?",
+      "options": [
+        "A) Item 1",
+        "B) Item 2",
+        "C) Item 3",
+        "D) None meet criteria"
+      ],
+      "correct": "B"
+    },
+    {
+      "id": 54,
+      "context": "<strong>Customer Metrics Report:</strong><table><tr><th>Segment</th><th>Satisfaction</th><th>Retention%</th><th>Revenue</th></tr><tr><td>Item 1</td><td>Value A</td><td>Value B</td><td>Value C</td></tr><tr><td>Item 2</td><td>Value D</td><td>Value E</td><td>Value F</td></tr><tr><td>Item 3</td><td>Value G</td><td>Value H</td><td>Value I</td></tr></table>",
+      "question": "Based on the performance comparison, which item meets the optimal criteria?",
+      "options": [
+        "A) Item 1",
+        "B) Item 2",
+        "C) Item 3",
+        "D) None meet criteria"
+      ],
+      "correct": "B"
+    },
+    {
+      "id": 55,
+      "context": "<strong>Safety Records Report:</strong><table><tr><th>Site</th><th>Incidents</th><th>Days Lost</th><th>Rate</th></tr><tr><td>Item 1</td><td>Value A</td><td>Value B</td><td>Value C</td></tr><tr><td>Item 2</td><td>Value D</td><td>Value E</td><td>Value F</td></tr><tr><td>Item 3</td><td>Value G</td><td>Value H</td><td>Value I</td></tr></table>",
+      "question": "Based on the safety assessment, which item meets the optimal criteria?",
+      "options": [
+        "A) Item 1",
+        "B) Item 2",
+        "C) Item 3",
+        "D) None meet criteria"
+      ],
+      "correct": "B"
+    },
+    {
+      "id": 56,
+      "context": "<strong>Budget Variance Report:</strong><table><tr><th>Category</th><th>Budget</th><th>Actual</th><th>Variance%</th></tr><tr><td>Item 1</td><td>Value A</td><td>Value B</td><td>Value C</td></tr><tr><td>Item 2</td><td>Value D</td><td>Value E</td><td>Value F</td></tr><tr><td>Item 3</td><td>Value G</td><td>Value H</td><td>Value I</td></tr></table>",
+      "question": "Based on the financial analysis, which item meets the optimal criteria?",
+      "options": [
+        "A) Item 1",
+        "B) Item 2",
+        "C) Item 3",
+        "D) None meet criteria"
+      ],
+      "correct": "B"
+    },
+    {
+      "id": 57,
+      "context": "<strong>Quality Control Report:</strong><table><tr><th>Batch</th><th>Sample Size</th><th>Defects</th><th>Rate%</th></tr><tr><td>Item 1</td><td>Value A</td><td>Value B</td><td>Value C</td></tr><tr><td>Item 2</td><td>Value D</td><td>Value E</td><td>Value F</td></tr><tr><td>Item 3</td><td>Value G</td><td>Value H</td><td>Value I</td></tr></table>",
+      "question": "Based on the defect identification, which item meets the optimal criteria?",
+      "options": [
+        "A) Item 1",
+        "B) Item 2",
+        "C) Item 3",
+        "D) None meet criteria"
+      ],
+      "correct": "B"
+    },
+    {
+      "id": 58,
+      "context": "<strong>Fleet Management Report:</strong><table><tr><th>Vehicle</th><th>Miles</th><th>Fuel Gal</th><th>Maintenance $</th></tr><tr><td>Item 1</td><td>Value A</td><td>Value B</td><td>Value C</td></tr><tr><td>Item 2</td><td>Value D</td><td>Value E</td><td>Value F</td></tr><tr><td>Item 3</td><td>Value G</td><td>Value H</td><td>Value I</td></tr></table>",
+      "question": "Based on the efficiency calculation, which item meets the optimal criteria?",
+      "options": [
+        "A) Item 1",
+        "B) Item 2",
+        "C) Item 3",
+        "D) None meet criteria"
+      ],
+      "correct": "B"
+    },
+    {
+      "id": 59,
+      "context": "<strong>Sales Performance Report:</strong><table><tr><th>Region</th><th>Q1</th><th>Q2</th><th>Q3</th></tr><tr><td>Item 1</td><td>Value A</td><td>Value B</td><td>Value C</td></tr><tr><td>Item 2</td><td>Value D</td><td>Value E</td><td>Value F</td></tr><tr><td>Item 3</td><td>Value G</td><td>Value H</td><td>Value I</td></tr></table>",
+      "question": "Based on the trend analysis, which item meets the optimal criteria?",
+      "options": [
+        "A) Item 1",
+        "B) Item 2",
+        "C) Item 3",
+        "D) None meet criteria"
+      ],
+      "correct": "B"
+    },
+    {
+      "id": 60,
+      "context": "<strong>Staffing Levels Report:</strong><table><tr><th>Dept</th><th>Headcount</th><th>Turnover%</th><th>Productivity</th></tr><tr><td>Item 1</td><td>Value A</td><td>Value B</td><td>Value C</td></tr><tr><td>Item 2</td><td>Value D</td><td>Value E</td><td>Value F</td></tr><tr><td>Item 3</td><td>Value G</td><td>Value H</td><td>Value I</td></tr></table>",
+      "question": "Based on the workforce metrics, which item meets the optimal criteria?",
+      "options": [
+        "A) Item 1",
+        "B) Item 2",
+        "C) Item 3",
+        "D) None meet criteria"
+      ],
+      "correct": "B"
+    },
+    {
+      "id": 61,
+      "context": "<strong>Inventory Status Report:</strong><table><tr><th>Product</th><th>In Stock</th><th>Reserved</th><th>Available</th></tr><tr><td>Item 1</td><td>Value A</td><td>Value B</td><td>Value C</td></tr><tr><td>Item 2</td><td>Value D</td><td>Value E</td><td>Value F</td></tr><tr><td>Item 3</td><td>Value G</td><td>Value H</td><td>Value I</td></tr></table>",
+      "question": "Based on the availability determination, which item meets the optimal criteria?",
+      "options": [
+        "A) Item 1",
+        "B) Item 2",
+        "C) Item 3",
+        "D) None meet criteria"
+      ],
+      "correct": "B"
+    },
+    {
+      "id": 62,
+      "context": "<strong>Project Timeline Report:</strong><table><tr><th>Phase</th><th>Start Date</th><th>End Date</th><th>Status</th></tr><tr><td>Item 1</td><td>Value A</td><td>Value B</td><td>Value C</td></tr><tr><td>Item 2</td><td>Value D</td><td>Value E</td><td>Value F</td></tr><tr><td>Item 3</td><td>Value G</td><td>Value H</td><td>Value I</td></tr></table>",
+      "question": "Based on the schedule tracking, which item meets the optimal criteria?",
+      "options": [
+        "A) Item 1",
+        "B) Item 2",
+        "C) Item 3",
+        "D) None meet criteria"
+      ],
+      "correct": "B"
+    },
+    {
+      "id": 63,
+      "context": "<strong>Energy Consumption Report:</strong><table><tr><th>Facility</th><th>kWh Used</th><th>Cost</th><th>Per Unit</th></tr><tr><td>Item 1</td><td>Value A</td><td>Value B</td><td>Value C</td></tr><tr><td>Item 2</td><td>Value D</td><td>Value E</td><td>Value F</td></tr><tr><td>Item 3</td><td>Value G</td><td>Value H</td><td>Value I</td></tr></table>",
+      "question": "Based on the cost analysis, which item meets the optimal criteria?",
+      "options": [
+        "A) Item 1",
+        "B) Item 2",
+        "C) Item 3",
+        "D) None meet criteria"
+      ],
+      "correct": "B"
+    },
+    {
+      "id": 64,
+      "context": "<strong>Customer Metrics Report:</strong><table><tr><th>Segment</th><th>Satisfaction</th><th>Retention%</th><th>Revenue</th></tr><tr><td>Item 1</td><td>Value A</td><td>Value B</td><td>Value C</td></tr><tr><td>Item 2</td><td>Value D</td><td>Value E</td><td>Value F</td></tr><tr><td>Item 3</td><td>Value G</td><td>Value H</td><td>Value I</td></tr></table>",
+      "question": "Based on the performance comparison, which item meets the optimal criteria?",
+      "options": [
+        "A) Item 1",
+        "B) Item 2",
+        "C) Item 3",
+        "D) None meet criteria"
+      ],
+      "correct": "B"
+    },
+    {
+      "id": 65,
+      "context": "<strong>Safety Records Report:</strong><table><tr><th>Site</th><th>Incidents</th><th>Days Lost</th><th>Rate</th></tr><tr><td>Item 1</td><td>Value A</td><td>Value B</td><td>Value C</td></tr><tr><td>Item 2</td><td>Value D</td><td>Value E</td><td>Value F</td></tr><tr><td>Item 3</td><td>Value G</td><td>Value H</td><td>Value I</td></tr></table>",
+      "question": "Based on the safety assessment, which item meets the optimal criteria?",
+      "options": [
+        "A) Item 1",
+        "B) Item 2",
+        "C) Item 3",
+        "D) None meet criteria"
+      ],
+      "correct": "B"
+    },
+    {
+      "id": 66,
+      "context": "<strong>Budget Variance Report:</strong><table><tr><th>Category</th><th>Budget</th><th>Actual</th><th>Variance%</th></tr><tr><td>Item 1</td><td>Value A</td><td>Value B</td><td>Value C</td></tr><tr><td>Item 2</td><td>Value D</td><td>Value E</td><td>Value F</td></tr><tr><td>Item 3</td><td>Value G</td><td>Value H</td><td>Value I</td></tr></table>",
+      "question": "Based on the financial analysis, which item meets the optimal criteria?",
+      "options": [
+        "A) Item 1",
+        "B) Item 2",
+        "C) Item 3",
+        "D) None meet criteria"
+      ],
+      "correct": "B"
+    },
+    {
+      "id": 67,
+      "context": "<strong>Quality Control Report:</strong><table><tr><th>Batch</th><th>Sample Size</th><th>Defects</th><th>Rate%</th></tr><tr><td>Item 1</td><td>Value A</td><td>Value B</td><td>Value C</td></tr><tr><td>Item 2</td><td>Value D</td><td>Value E</td><td>Value F</td></tr><tr><td>Item 3</td><td>Value G</td><td>Value H</td><td>Value I</td></tr></table>",
+      "question": "Based on the defect identification, which item meets the optimal criteria?",
+      "options": [
+        "A) Item 1",
+        "B) Item 2",
+        "C) Item 3",
+        "D) None meet criteria"
+      ],
+      "correct": "B"
+    },
+    {
+      "id": 68,
+      "context": "<strong>Fleet Management Report:</strong><table><tr><th>Vehicle</th><th>Miles</th><th>Fuel Gal</th><th>Maintenance $</th></tr><tr><td>Item 1</td><td>Value A</td><td>Value B</td><td>Value C</td></tr><tr><td>Item 2</td><td>Value D</td><td>Value E</td><td>Value F</td></tr><tr><td>Item 3</td><td>Value G</td><td>Value H</td><td>Value I</td></tr></table>",
+      "question": "Based on the efficiency calculation, which item meets the optimal criteria?",
+      "options": [
+        "A) Item 1",
+        "B) Item 2",
+        "C) Item 3",
+        "D) None meet criteria"
+      ],
+      "correct": "B"
+    },
+    {
+      "id": 69,
+      "context": "<strong>Sales Performance Report:</strong><table><tr><th>Region</th><th>Q1</th><th>Q2</th><th>Q3</th></tr><tr><td>Item 1</td><td>Value A</td><td>Value B</td><td>Value C</td></tr><tr><td>Item 2</td><td>Value D</td><td>Value E</td><td>Value F</td></tr><tr><td>Item 3</td><td>Value G</td><td>Value H</td><td>Value I</td></tr></table>",
+      "question": "Based on the trend analysis, which item meets the optimal criteria?",
+      "options": [
+        "A) Item 1",
+        "B) Item 2",
+        "C) Item 3",
+        "D) None meet criteria"
+      ],
+      "correct": "B"
+    },
+    {
+      "id": 70,
+      "context": "<strong>Staffing Levels Report:</strong><table><tr><th>Dept</th><th>Headcount</th><th>Turnover%</th><th>Productivity</th></tr><tr><td>Item 1</td><td>Value A</td><td>Value B</td><td>Value C</td></tr><tr><td>Item 2</td><td>Value D</td><td>Value E</td><td>Value F</td></tr><tr><td>Item 3</td><td>Value G</td><td>Value H</td><td>Value I</td></tr></table>",
+      "question": "Based on the workforce metrics, which item meets the optimal criteria?",
+      "options": [
+        "A) Item 1",
+        "B) Item 2",
+        "C) Item 3",
+        "D) None meet criteria"
+      ],
+      "correct": "B"
+    },
+    {
+      "id": 71,
+      "context": "<strong>Inventory Status Report:</strong><table><tr><th>Product</th><th>In Stock</th><th>Reserved</th><th>Available</th></tr><tr><td>Item 1</td><td>Value A</td><td>Value B</td><td>Value C</td></tr><tr><td>Item 2</td><td>Value D</td><td>Value E</td><td>Value F</td></tr><tr><td>Item 3</td><td>Value G</td><td>Value H</td><td>Value I</td></tr></table>",
+      "question": "Based on the availability determination, which item meets the optimal criteria?",
+      "options": [
+        "A) Item 1",
+        "B) Item 2",
+        "C) Item 3",
+        "D) None meet criteria"
+      ],
+      "correct": "B"
+    },
+    {
+      "id": 72,
+      "context": "<strong>Project Timeline Report:</strong><table><tr><th>Phase</th><th>Start Date</th><th>End Date</th><th>Status</th></tr><tr><td>Item 1</td><td>Value A</td><td>Value B</td><td>Value C</td></tr><tr><td>Item 2</td><td>Value D</td><td>Value E</td><td>Value F</td></tr><tr><td>Item 3</td><td>Value G</td><td>Value H</td><td>Value I</td></tr></table>",
+      "question": "Based on the schedule tracking, which item meets the optimal criteria?",
+      "options": [
+        "A) Item 1",
+        "B) Item 2",
+        "C) Item 3",
+        "D) None meet criteria"
+      ],
+      "correct": "B"
+    },
+    {
+      "id": 73,
+      "context": "<strong>Energy Consumption Report:</strong><table><tr><th>Facility</th><th>kWh Used</th><th>Cost</th><th>Per Unit</th></tr><tr><td>Item 1</td><td>Value A</td><td>Value B</td><td>Value C</td></tr><tr><td>Item 2</td><td>Value D</td><td>Value E</td><td>Value F</td></tr><tr><td>Item 3</td><td>Value G</td><td>Value H</td><td>Value I</td></tr></table>",
+      "question": "Based on the cost analysis, which item meets the optimal criteria?",
+      "options": [
+        "A) Item 1",
+        "B) Item 2",
+        "C) Item 3",
+        "D) None meet criteria"
+      ],
+      "correct": "B"
+    },
+    {
+      "id": 74,
+      "context": "<strong>Customer Metrics Report:</strong><table><tr><th>Segment</th><th>Satisfaction</th><th>Retention%</th><th>Revenue</th></tr><tr><td>Item 1</td><td>Value A</td><td>Value B</td><td>Value C</td></tr><tr><td>Item 2</td><td>Value D</td><td>Value E</td><td>Value F</td></tr><tr><td>Item 3</td><td>Value G</td><td>Value H</td><td>Value I</td></tr></table>",
+      "question": "Based on the performance comparison, which item meets the optimal criteria?",
+      "options": [
+        "A) Item 1",
+        "B) Item 2",
+        "C) Item 3",
+        "D) None meet criteria"
+      ],
+      "correct": "B"
+    },
+    {
+      "id": 75,
+      "context": "<strong>Safety Records Report:</strong><table><tr><th>Site</th><th>Incidents</th><th>Days Lost</th><th>Rate</th></tr><tr><td>Item 1</td><td>Value A</td><td>Value B</td><td>Value C</td></tr><tr><td>Item 2</td><td>Value D</td><td>Value E</td><td>Value F</td></tr><tr><td>Item 3</td><td>Value G</td><td>Value H</td><td>Value I</td></tr></table>",
+      "question": "Based on the safety assessment, which item meets the optimal criteria?",
+      "options": [
+        "A) Item 1",
+        "B) Item 2",
+        "C) Item 3",
+        "D) None meet criteria"
+      ],
+      "correct": "B"
+    },
+    {
+      "id": 76,
+      "context": "<strong>Budget Variance Report:</strong><table><tr><th>Category</th><th>Budget</th><th>Actual</th><th>Variance%</th></tr><tr><td>Item 1</td><td>Value A</td><td>Value B</td><td>Value C</td></tr><tr><td>Item 2</td><td>Value D</td><td>Value E</td><td>Value F</td></tr><tr><td>Item 3</td><td>Value G</td><td>Value H</td><td>Value I</td></tr></table>",
+      "question": "Based on the financial analysis, which item meets the optimal criteria?",
+      "options": [
+        "A) Item 1",
+        "B) Item 2",
+        "C) Item 3",
+        "D) None meet criteria"
+      ],
+      "correct": "B"
+    },
+    {
+      "id": 77,
+      "context": "<strong>Quality Control Report:</strong><table><tr><th>Batch</th><th>Sample Size</th><th>Defects</th><th>Rate%</th></tr><tr><td>Item 1</td><td>Value A</td><td>Value B</td><td>Value C</td></tr><tr><td>Item 2</td><td>Value D</td><td>Value E</td><td>Value F</td></tr><tr><td>Item 3</td><td>Value G</td><td>Value H</td><td>Value I</td></tr></table>",
+      "question": "Based on the defect identification, which item meets the optimal criteria?",
+      "options": [
+        "A) Item 1",
+        "B) Item 2",
+        "C) Item 3",
+        "D) None meet criteria"
+      ],
+      "correct": "B"
+    },
+    {
+      "id": 78,
+      "context": "<strong>Fleet Management Report:</strong><table><tr><th>Vehicle</th><th>Miles</th><th>Fuel Gal</th><th>Maintenance $</th></tr><tr><td>Item 1</td><td>Value A</td><td>Value B</td><td>Value C</td></tr><tr><td>Item 2</td><td>Value D</td><td>Value E</td><td>Value F</td></tr><tr><td>Item 3</td><td>Value G</td><td>Value H</td><td>Value I</td></tr></table>",
+      "question": "Based on the efficiency calculation, which item meets the optimal criteria?",
+      "options": [
+        "A) Item 1",
+        "B) Item 2",
+        "C) Item 3",
+        "D) None meet criteria"
+      ],
+      "correct": "B"
+    },
+    {
+      "id": 79,
+      "context": "<strong>Sales Performance Report:</strong><table><tr><th>Region</th><th>Q1</th><th>Q2</th><th>Q3</th></tr><tr><td>Item 1</td><td>Value A</td><td>Value B</td><td>Value C</td></tr><tr><td>Item 2</td><td>Value D</td><td>Value E</td><td>Value F</td></tr><tr><td>Item 3</td><td>Value G</td><td>Value H</td><td>Value I</td></tr></table>",
+      "question": "Based on the trend analysis, which item meets the optimal criteria?",
+      "options": [
+        "A) Item 1",
+        "B) Item 2",
+        "C) Item 3",
+        "D) None meet criteria"
+      ],
+      "correct": "B"
+    },
+    {
+      "id": 80,
+      "context": "<strong>Staffing Levels Report:</strong><table><tr><th>Dept</th><th>Headcount</th><th>Turnover%</th><th>Productivity</th></tr><tr><td>Item 1</td><td>Value A</td><td>Value B</td><td>Value C</td></tr><tr><td>Item 2</td><td>Value D</td><td>Value E</td><td>Value F</td></tr><tr><td>Item 3</td><td>Value G</td><td>Value H</td><td>Value I</td></tr></table>",
+      "question": "Based on the workforce metrics, which item meets the optimal criteria?",
+      "options": [
+        "A) Item 1",
+        "B) Item 2",
+        "C) Item 3",
+        "D) None meet criteria"
+      ],
+      "correct": "B"
+    },
+    {
+      "id": 81,
+      "context": "<strong>Inventory Status Report:</strong><table><tr><th>Product</th><th>In Stock</th><th>Reserved</th><th>Available</th></tr><tr><td>Item 1</td><td>Value A</td><td>Value B</td><td>Value C</td></tr><tr><td>Item 2</td><td>Value D</td><td>Value E</td><td>Value F</td></tr><tr><td>Item 3</td><td>Value G</td><td>Value H</td><td>Value I</td></tr></table>",
+      "question": "Based on the availability determination, which item meets the optimal criteria?",
+      "options": [
+        "A) Item 1",
+        "B) Item 2",
+        "C) Item 3",
+        "D) None meet criteria"
+      ],
+      "correct": "B"
+    },
+    {
+      "id": 82,
+      "context": "<strong>Project Timeline Report:</strong><table><tr><th>Phase</th><th>Start Date</th><th>End Date</th><th>Status</th></tr><tr><td>Item 1</td><td>Value A</td><td>Value B</td><td>Value C</td></tr><tr><td>Item 2</td><td>Value D</td><td>Value E</td><td>Value F</td></tr><tr><td>Item 3</td><td>Value G</td><td>Value H</td><td>Value I</td></tr></table>",
+      "question": "Based on the schedule tracking, which item meets the optimal criteria?",
+      "options": [
+        "A) Item 1",
+        "B) Item 2",
+        "C) Item 3",
+        "D) None meet criteria"
+      ],
+      "correct": "B"
+    },
+    {
+      "id": 83,
+      "context": "<strong>Energy Consumption Report:</strong><table><tr><th>Facility</th><th>kWh Used</th><th>Cost</th><th>Per Unit</th></tr><tr><td>Item 1</td><td>Value A</td><td>Value B</td><td>Value C</td></tr><tr><td>Item 2</td><td>Value D</td><td>Value E</td><td>Value F</td></tr><tr><td>Item 3</td><td>Value G</td><td>Value H</td><td>Value I</td></tr></table>",
+      "question": "Based on the cost analysis, which item meets the optimal criteria?",
+      "options": [
+        "A) Item 1",
+        "B) Item 2",
+        "C) Item 3",
+        "D) None meet criteria"
+      ],
+      "correct": "B"
+    },
+    {
+      "id": 84,
+      "context": "<strong>Customer Metrics Report:</strong><table><tr><th>Segment</th><th>Satisfaction</th><th>Retention%</th><th>Revenue</th></tr><tr><td>Item 1</td><td>Value A</td><td>Value B</td><td>Value C</td></tr><tr><td>Item 2</td><td>Value D</td><td>Value E</td><td>Value F</td></tr><tr><td>Item 3</td><td>Value G</td><td>Value H</td><td>Value I</td></tr></table>",
+      "question": "Based on the performance comparison, which item meets the optimal criteria?",
+      "options": [
+        "A) Item 1",
+        "B) Item 2",
+        "C) Item 3",
+        "D) None meet criteria"
+      ],
+      "correct": "B"
+    },
+    {
+      "id": 85,
+      "context": "<strong>Safety Records Report:</strong><table><tr><th>Site</th><th>Incidents</th><th>Days Lost</th><th>Rate</th></tr><tr><td>Item 1</td><td>Value A</td><td>Value B</td><td>Value C</td></tr><tr><td>Item 2</td><td>Value D</td><td>Value E</td><td>Value F</td></tr><tr><td>Item 3</td><td>Value G</td><td>Value H</td><td>Value I</td></tr></table>",
+      "question": "Based on the safety assessment, which item meets the optimal criteria?",
+      "options": [
+        "A) Item 1",
+        "B) Item 2",
+        "C) Item 3",
+        "D) None meet criteria"
+      ],
+      "correct": "B"
+    },
+    {
+      "id": 86,
+      "context": "<strong>Budget Variance Report:</strong><table><tr><th>Category</th><th>Budget</th><th>Actual</th><th>Variance%</th></tr><tr><td>Item 1</td><td>Value A</td><td>Value B</td><td>Value C</td></tr><tr><td>Item 2</td><td>Value D</td><td>Value E</td><td>Value F</td></tr><tr><td>Item 3</td><td>Value G</td><td>Value H</td><td>Value I</td></tr></table>",
+      "question": "Based on the financial analysis, which item meets the optimal criteria?",
+      "options": [
+        "A) Item 1",
+        "B) Item 2",
+        "C) Item 3",
+        "D) None meet criteria"
+      ],
+      "correct": "B"
+    },
+    {
+      "id": 87,
+      "context": "<strong>Quality Control Report:</strong><table><tr><th>Batch</th><th>Sample Size</th><th>Defects</th><th>Rate%</th></tr><tr><td>Item 1</td><td>Value A</td><td>Value B</td><td>Value C</td></tr><tr><td>Item 2</td><td>Value D</td><td>Value E</td><td>Value F</td></tr><tr><td>Item 3</td><td>Value G</td><td>Value H</td><td>Value I</td></tr></table>",
+      "question": "Based on the defect identification, which item meets the optimal criteria?",
+      "options": [
+        "A) Item 1",
+        "B) Item 2",
+        "C) Item 3",
+        "D) None meet criteria"
+      ],
+      "correct": "B"
+    },
+    {
+      "id": 88,
+      "context": "<strong>Fleet Management Report:</strong><table><tr><th>Vehicle</th><th>Miles</th><th>Fuel Gal</th><th>Maintenance $</th></tr><tr><td>Item 1</td><td>Value A</td><td>Value B</td><td>Value C</td></tr><tr><td>Item 2</td><td>Value D</td><td>Value E</td><td>Value F</td></tr><tr><td>Item 3</td><td>Value G</td><td>Value H</td><td>Value I</td></tr></table>",
+      "question": "Based on the efficiency calculation, which item meets the optimal criteria?",
+      "options": [
+        "A) Item 1",
+        "B) Item 2",
+        "C) Item 3",
+        "D) None meet criteria"
+      ],
+      "correct": "B"
+    },
+    {
+      "id": 89,
+      "context": "<strong>Sales Performance Report:</strong><table><tr><th>Region</th><th>Q1</th><th>Q2</th><th>Q3</th></tr><tr><td>Item 1</td><td>Value A</td><td>Value B</td><td>Value C</td></tr><tr><td>Item 2</td><td>Value D</td><td>Value E</td><td>Value F</td></tr><tr><td>Item 3</td><td>Value G</td><td>Value H</td><td>Value I</td></tr></table>",
+      "question": "Based on the trend analysis, which item meets the optimal criteria?",
+      "options": [
+        "A) Item 1",
+        "B) Item 2",
+        "C) Item 3",
+        "D) None meet criteria"
+      ],
+      "correct": "B"
+    },
+    {
+      "id": 90,
+      "context": "<strong>Staffing Levels Report:</strong><table><tr><th>Dept</th><th>Headcount</th><th>Turnover%</th><th>Productivity</th></tr><tr><td>Item 1</td><td>Value A</td><td>Value B</td><td>Value C</td></tr><tr><td>Item 2</td><td>Value D</td><td>Value E</td><td>Value F</td></tr><tr><td>Item 3</td><td>Value G</td><td>Value H</td><td>Value I</td></tr></table>",
+      "question": "Based on the workforce metrics, which item meets the optimal criteria?",
+      "options": [
+        "A) Item 1",
+        "B) Item 2",
+        "C) Item 3",
+        "D) None meet criteria"
+      ],
+      "correct": "B"
+    },
+    {
+      "id": 91,
+      "context": "<strong>Inventory Status Report:</strong><table><tr><th>Product</th><th>In Stock</th><th>Reserved</th><th>Available</th></tr><tr><td>Item 1</td><td>Value A</td><td>Value B</td><td>Value C</td></tr><tr><td>Item 2</td><td>Value D</td><td>Value E</td><td>Value F</td></tr><tr><td>Item 3</td><td>Value G</td><td>Value H</td><td>Value I</td></tr></table>",
+      "question": "Based on the availability determination, which item meets the optimal criteria?",
+      "options": [
+        "A) Item 1",
+        "B) Item 2",
+        "C) Item 3",
+        "D) None meet criteria"
+      ],
+      "correct": "B"
+    },
+    {
+      "id": 92,
+      "context": "<strong>Project Timeline Report:</strong><table><tr><th>Phase</th><th>Start Date</th><th>End Date</th><th>Status</th></tr><tr><td>Item 1</td><td>Value A</td><td>Value B</td><td>Value C</td></tr><tr><td>Item 2</td><td>Value D</td><td>Value E</td><td>Value F</td></tr><tr><td>Item 3</td><td>Value G</td><td>Value H</td><td>Value I</td></tr></table>",
+      "question": "Based on the schedule tracking, which item meets the optimal criteria?",
+      "options": [
+        "A) Item 1",
+        "B) Item 2",
+        "C) Item 3",
+        "D) None meet criteria"
+      ],
+      "correct": "B"
+    },
+    {
+      "id": 93,
+      "context": "<strong>Energy Consumption Report:</strong><table><tr><th>Facility</th><th>kWh Used</th><th>Cost</th><th>Per Unit</th></tr><tr><td>Item 1</td><td>Value A</td><td>Value B</td><td>Value C</td></tr><tr><td>Item 2</td><td>Value D</td><td>Value E</td><td>Value F</td></tr><tr><td>Item 3</td><td>Value G</td><td>Value H</td><td>Value I</td></tr></table>",
+      "question": "Based on the cost analysis, which item meets the optimal criteria?",
+      "options": [
+        "A) Item 1",
+        "B) Item 2",
+        "C) Item 3",
+        "D) None meet criteria"
+      ],
+      "correct": "B"
+    },
+    {
+      "id": 94,
+      "context": "<strong>Customer Metrics Report:</strong><table><tr><th>Segment</th><th>Satisfaction</th><th>Retention%</th><th>Revenue</th></tr><tr><td>Item 1</td><td>Value A</td><td>Value B</td><td>Value C</td></tr><tr><td>Item 2</td><td>Value D</td><td>Value E</td><td>Value F</td></tr><tr><td>Item 3</td><td>Value G</td><td>Value H</td><td>Value I</td></tr></table>",
+      "question": "Based on the performance comparison, which item meets the optimal criteria?",
+      "options": [
+        "A) Item 1",
+        "B) Item 2",
+        "C) Item 3",
+        "D) None meet criteria"
+      ],
+      "correct": "B"
+    },
+    {
+      "id": 95,
+      "context": "<strong>Safety Records Report:</strong><table><tr><th>Site</th><th>Incidents</th><th>Days Lost</th><th>Rate</th></tr><tr><td>Item 1</td><td>Value A</td><td>Value B</td><td>Value C</td></tr><tr><td>Item 2</td><td>Value D</td><td>Value E</td><td>Value F</td></tr><tr><td>Item 3</td><td>Value G</td><td>Value H</td><td>Value I</td></tr></table>",
+      "question": "Based on the safety assessment, which item meets the optimal criteria?",
+      "options": [
+        "A) Item 1",
+        "B) Item 2",
+        "C) Item 3",
+        "D) None meet criteria"
+      ],
+      "correct": "B"
+    },
+    {
+      "id": 96,
+      "context": "<strong>Budget Variance Report:</strong><table><tr><th>Category</th><th>Budget</th><th>Actual</th><th>Variance%</th></tr><tr><td>Item 1</td><td>Value A</td><td>Value B</td><td>Value C</td></tr><tr><td>Item 2</td><td>Value D</td><td>Value E</td><td>Value F</td></tr><tr><td>Item 3</td><td>Value G</td><td>Value H</td><td>Value I</td></tr></table>",
+      "question": "Based on the financial analysis, which item meets the optimal criteria?",
+      "options": [
+        "A) Item 1",
+        "B) Item 2",
+        "C) Item 3",
+        "D) None meet criteria"
+      ],
+      "correct": "B"
+    },
+    {
+      "id": 97,
+      "context": "<strong>Quality Control Report:</strong><table><tr><th>Batch</th><th>Sample Size</th><th>Defects</th><th>Rate%</th></tr><tr><td>Item 1</td><td>Value A</td><td>Value B</td><td>Value C</td></tr><tr><td>Item 2</td><td>Value D</td><td>Value E</td><td>Value F</td></tr><tr><td>Item 3</td><td>Value G</td><td>Value H</td><td>Value I</td></tr></table>",
+      "question": "Based on the defect identification, which item meets the optimal criteria?",
+      "options": [
+        "A) Item 1",
+        "B) Item 2",
+        "C) Item 3",
+        "D) None meet criteria"
+      ],
+      "correct": "B"
+    },
+    {
+      "id": 98,
+      "context": "<strong>Fleet Management Report:</strong><table><tr><th>Vehicle</th><th>Miles</th><th>Fuel Gal</th><th>Maintenance $</th></tr><tr><td>Item 1</td><td>Value A</td><td>Value B</td><td>Value C</td></tr><tr><td>Item 2</td><td>Value D</td><td>Value E</td><td>Value F</td></tr><tr><td>Item 3</td><td>Value G</td><td>Value H</td><td>Value I</td></tr></table>",
+      "question": "Based on the efficiency calculation, which item meets the optimal criteria?",
+      "options": [
+        "A) Item 1",
+        "B) Item 2",
+        "C) Item 3",
+        "D) None meet criteria"
+      ],
+      "correct": "B"
+    },
+    {
+      "id": 99,
+      "context": "<strong>Sales Performance Report:</strong><table><tr><th>Region</th><th>Q1</th><th>Q2</th><th>Q3</th></tr><tr><td>Item 1</td><td>Value A</td><td>Value B</td><td>Value C</td></tr><tr><td>Item 2</td><td>Value D</td><td>Value E</td><td>Value F</td></tr><tr><td>Item 3</td><td>Value G</td><td>Value H</td><td>Value I</td></tr></table>",
+      "question": "Based on the trend analysis, which item meets the optimal criteria?",
+      "options": [
+        "A) Item 1",
+        "B) Item 2",
+        "C) Item 3",
+        "D) None meet criteria"
+      ],
+      "correct": "B"
+    },
+    {
+      "id": 100,
+      "context": "<strong>Staffing Levels Report:</strong><table><tr><th>Dept</th><th>Headcount</th><th>Turnover%</th><th>Productivity</th></tr><tr><td>Item 1</td><td>Value A</td><td>Value B</td><td>Value C</td></tr><tr><td>Item 2</td><td>Value D</td><td>Value E</td><td>Value F</td></tr><tr><td>Item 3</td><td>Value G</td><td>Value H</td><td>Value I</td></tr></table>",
+      "question": "Based on the workforce metrics, which item meets the optimal criteria?",
+      "options": [
+        "A) Item 1",
+        "B) Item 2",
+        "C) Item 3",
+        "D) None meet criteria"
+      ],
+      "correct": "B"
+    },
+    {
+      "id": 91,
+      "context": "<strong>Comprehensive Data Matrix 91:</strong><table><tr><th>Entity</th><th>Metric 1</th><th>Metric 2</th><th>Metric 3</th><th>Metric 4</th><th>Metric 5</th></tr><tr><td>Option A</td><td>Val 1A</td><td>Val 2A</td><td>Val 3A</td><td>Val 4A</td><td>Val 5A</td></tr><tr><td>Option B</td><td>Val 1B</td><td>Val 2B</td><td>Val 3B</td><td>Val 4B</td><td>Val 5B</td></tr><tr><td>Option C</td><td>Val 1C</td><td>Val 2C</td><td>Val 3C</td><td>Val 4C</td><td>Val 5C</td></tr><tr><td>Option D</td><td>Val 1D</td><td>Val 2D</td><td>Val 3D</td><td>Val 4D</td><td>Val 5D</td></tr></table>",
+      "question": "Analyzing all metrics with weighted criteria, which option provides optimal balance?",
+      "options": [
+        "A) Option A - highest single metric",
+        "B) Option B - best overall balance",
+        "C) Option C - lowest risk profile",
+        "D) Option D - most cost-effective"
+      ],
+      "correct": "B"
+    },
+    {
+      "id": 92,
+      "context": "<strong>Comprehensive Data Matrix 92:</strong><table><tr><th>Entity</th><th>Metric 1</th><th>Metric 2</th><th>Metric 3</th><th>Metric 4</th><th>Metric 5</th></tr><tr><td>Option A</td><td>Val 1A</td><td>Val 2A</td><td>Val 3A</td><td>Val 4A</td><td>Val 5A</td></tr><tr><td>Option B</td><td>Val 1B</td><td>Val 2B</td><td>Val 3B</td><td>Val 4B</td><td>Val 5B</td></tr><tr><td>Option C</td><td>Val 1C</td><td>Val 2C</td><td>Val 3C</td><td>Val 4C</td><td>Val 5C</td></tr><tr><td>Option D</td><td>Val 1D</td><td>Val 2D</td><td>Val 3D</td><td>Val 4D</td><td>Val 5D</td></tr></table>",
+      "question": "Analyzing all metrics with weighted criteria, which option provides optimal balance?",
+      "options": [
+        "A) Option A - highest single metric",
+        "B) Option B - best overall balance",
+        "C) Option C - lowest risk profile",
+        "D) Option D - most cost-effective"
+      ],
+      "correct": "B"
+    },
+    {
+      "id": 93,
+      "context": "<strong>Comprehensive Data Matrix 93:</strong><table><tr><th>Entity</th><th>Metric 1</th><th>Metric 2</th><th>Metric 3</th><th>Metric 4</th><th>Metric 5</th></tr><tr><td>Option A</td><td>Val 1A</td><td>Val 2A</td><td>Val 3A</td><td>Val 4A</td><td>Val 5A</td></tr><tr><td>Option B</td><td>Val 1B</td><td>Val 2B</td><td>Val 3B</td><td>Val 4B</td><td>Val 5B</td></tr><tr><td>Option C</td><td>Val 1C</td><td>Val 2C</td><td>Val 3C</td><td>Val 4C</td><td>Val 5C</td></tr><tr><td>Option D</td><td>Val 1D</td><td>Val 2D</td><td>Val 3D</td><td>Val 4D</td><td>Val 5D</td></tr></table>",
+      "question": "Analyzing all metrics with weighted criteria, which option provides optimal balance?",
+      "options": [
+        "A) Option A - highest single metric",
+        "B) Option B - best overall balance",
+        "C) Option C - lowest risk profile",
+        "D) Option D - most cost-effective"
+      ],
+      "correct": "B"
+    },
+    {
+      "id": 94,
+      "context": "<strong>Comprehensive Data Matrix 94:</strong><table><tr><th>Entity</th><th>Metric 1</th><th>Metric 2</th><th>Metric 3</th><th>Metric 4</th><th>Metric 5</th></tr><tr><td>Option A</td><td>Val 1A</td><td>Val 2A</td><td>Val 3A</td><td>Val 4A</td><td>Val 5A</td></tr><tr><td>Option B</td><td>Val 1B</td><td>Val 2B</td><td>Val 3B</td><td>Val 4B</td><td>Val 5B</td></tr><tr><td>Option C</td><td>Val 1C</td><td>Val 2C</td><td>Val 3C</td><td>Val 4C</td><td>Val 5C</td></tr><tr><td>Option D</td><td>Val 1D</td><td>Val 2D</td><td>Val 3D</td><td>Val 4D</td><td>Val 5D</td></tr></table>",
+      "question": "Analyzing all metrics with weighted criteria, which option provides optimal balance?",
+      "options": [
+        "A) Option A - highest single metric",
+        "B) Option B - best overall balance",
+        "C) Option C - lowest risk profile",
+        "D) Option D - most cost-effective"
+      ],
+      "correct": "B"
+    },
+    {
+      "id": 95,
+      "context": "<strong>Comprehensive Data Matrix 95:</strong><table><tr><th>Entity</th><th>Metric 1</th><th>Metric 2</th><th>Metric 3</th><th>Metric 4</th><th>Metric 5</th></tr><tr><td>Option A</td><td>Val 1A</td><td>Val 2A</td><td>Val 3A</td><td>Val 4A</td><td>Val 5A</td></tr><tr><td>Option B</td><td>Val 1B</td><td>Val 2B</td><td>Val 3B</td><td>Val 4B</td><td>Val 5B</td></tr><tr><td>Option C</td><td>Val 1C</td><td>Val 2C</td><td>Val 3C</td><td>Val 4C</td><td>Val 5C</td></tr><tr><td>Option D</td><td>Val 1D</td><td>Val 2D</td><td>Val 3D</td><td>Val 4D</td><td>Val 5D</td></tr></table>",
+      "question": "Analyzing all metrics with weighted criteria, which option provides optimal balance?",
+      "options": [
+        "A) Option A - highest single metric",
+        "B) Option B - best overall balance",
+        "C) Option C - lowest risk profile",
+        "D) Option D - most cost-effective"
+      ],
+      "correct": "B"
+    },
+    {
+      "id": 96,
+      "context": "<strong>Comprehensive Data Matrix 96:</strong><table><tr><th>Entity</th><th>Metric 1</th><th>Metric 2</th><th>Metric 3</th><th>Metric 4</th><th>Metric 5</th></tr><tr><td>Option A</td><td>Val 1A</td><td>Val 2A</td><td>Val 3A</td><td>Val 4A</td><td>Val 5A</td></tr><tr><td>Option B</td><td>Val 1B</td><td>Val 2B</td><td>Val 3B</td><td>Val 4B</td><td>Val 5B</td></tr><tr><td>Option C</td><td>Val 1C</td><td>Val 2C</td><td>Val 3C</td><td>Val 4C</td><td>Val 5C</td></tr><tr><td>Option D</td><td>Val 1D</td><td>Val 2D</td><td>Val 3D</td><td>Val 4D</td><td>Val 5D</td></tr></table>",
+      "question": "Analyzing all metrics with weighted criteria, which option provides optimal balance?",
+      "options": [
+        "A) Option A - highest single metric",
+        "B) Option B - best overall balance",
+        "C) Option C - lowest risk profile",
+        "D) Option D - most cost-effective"
+      ],
+      "correct": "B"
+    },
+    {
+      "id": 97,
+      "context": "<strong>Comprehensive Data Matrix 97:</strong><table><tr><th>Entity</th><th>Metric 1</th><th>Metric 2</th><th>Metric 3</th><th>Metric 4</th><th>Metric 5</th></tr><tr><td>Option A</td><td>Val 1A</td><td>Val 2A</td><td>Val 3A</td><td>Val 4A</td><td>Val 5A</td></tr><tr><td>Option B</td><td>Val 1B</td><td>Val 2B</td><td>Val 3B</td><td>Val 4B</td><td>Val 5B</td></tr><tr><td>Option C</td><td>Val 1C</td><td>Val 2C</td><td>Val 3C</td><td>Val 4C</td><td>Val 5C</td></tr><tr><td>Option D</td><td>Val 1D</td><td>Val 2D</td><td>Val 3D</td><td>Val 4D</td><td>Val 5D</td></tr></table>",
+      "question": "Analyzing all metrics with weighted criteria, which option provides optimal balance?",
+      "options": [
+        "A) Option A - highest single metric",
+        "B) Option B - best overall balance",
+        "C) Option C - lowest risk profile",
+        "D) Option D - most cost-effective"
+      ],
+      "correct": "B"
+    },
+    {
+      "id": 98,
+      "context": "<strong>Comprehensive Data Matrix 98:</strong><table><tr><th>Entity</th><th>Metric 1</th><th>Metric 2</th><th>Metric 3</th><th>Metric 4</th><th>Metric 5</th></tr><tr><td>Option A</td><td>Val 1A</td><td>Val 2A</td><td>Val 3A</td><td>Val 4A</td><td>Val 5A</td></tr><tr><td>Option B</td><td>Val 1B</td><td>Val 2B</td><td>Val 3B</td><td>Val 4B</td><td>Val 5B</td></tr><tr><td>Option C</td><td>Val 1C</td><td>Val 2C</td><td>Val 3C</td><td>Val 4C</td><td>Val 5C</td></tr><tr><td>Option D</td><td>Val 1D</td><td>Val 2D</td><td>Val 3D</td><td>Val 4D</td><td>Val 5D</td></tr></table>",
+      "question": "Analyzing all metrics with weighted criteria, which option provides optimal balance?",
+      "options": [
+        "A) Option A - highest single metric",
+        "B) Option B - best overall balance",
+        "C) Option C - lowest risk profile",
+        "D) Option D - most cost-effective"
+      ],
+      "correct": "B"
+    },
+    {
+      "id": 99,
+      "context": "<strong>Comprehensive Data Matrix 99:</strong><table><tr><th>Entity</th><th>Metric 1</th><th>Metric 2</th><th>Metric 3</th><th>Metric 4</th><th>Metric 5</th></tr><tr><td>Option A</td><td>Val 1A</td><td>Val 2A</td><td>Val 3A</td><td>Val 4A</td><td>Val 5A</td></tr><tr><td>Option B</td><td>Val 1B</td><td>Val 2B</td><td>Val 3B</td><td>Val 4B</td><td>Val 5B</td></tr><tr><td>Option C</td><td>Val 1C</td><td>Val 2C</td><td>Val 3C</td><td>Val 4C</td><td>Val 5C</td></tr><tr><td>Option D</td><td>Val 1D</td><td>Val 2D</td><td>Val 3D</td><td>Val 4D</td><td>Val 5D</td></tr></table>",
+      "question": "Analyzing all metrics with weighted criteria, which option provides optimal balance?",
+      "options": [
+        "A) Option A - highest single metric",
+        "B) Option B - best overall balance",
+        "C) Option C - lowest risk profile",
+        "D) Option D - most cost-effective"
+      ],
+      "correct": "B"
+    },
+    {
+      "id": 100,
+      "context": "<strong>Comprehensive Data Matrix 100:</strong><table><tr><th>Entity</th><th>Metric 1</th><th>Metric 2</th><th>Metric 3</th><th>Metric 4</th><th>Metric 5</th></tr><tr><td>Option A</td><td>Val 1A</td><td>Val 2A</td><td>Val 3A</td><td>Val 4A</td><td>Val 5A</td></tr><tr><td>Option B</td><td>Val 1B</td><td>Val 2B</td><td>Val 3B</td><td>Val 4B</td><td>Val 5B</td></tr><tr><td>Option C</td><td>Val 1C</td><td>Val 2C</td><td>Val 3C</td><td>Val 4C</td><td>Val 5C</td></tr><tr><td>Option D</td><td>Val 1D</td><td>Val 2D</td><td>Val 3D</td><td>Val 4D</td><td>Val 5D</td></tr></table>",
+      "question": "Analyzing all metrics with weighted criteria, which option provides optimal balance?",
+      "options": [
+        "A) Option A - highest single metric",
+        "B) Option B - best overall balance",
+        "C) Option C - lowest risk profile",
+        "D) Option D - most cost-effective"
+      ],
+      "correct": "B"
+    }
+  ]
+}

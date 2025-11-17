@@ -1,0 +1,727 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>ACT WorkKeys Practice Assessment</title>
+    <style>
+        * {
+            margin: 0;
+            padding: 0;
+            box-sizing: border-box;
+        }
+
+        body {
+            font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+            background: linear-gradient(135deg, #667eea 0%, #764ba2 100%);
+            min-height: 100vh;
+            padding: 20px;
+        }
+
+        .container {
+            max-width: 900px;
+            margin: 0 auto;
+            background: white;
+            border-radius: 15px;
+            box-shadow: 0 20px 60px rgba(0,0,0,0.3);
+            overflow: hidden;
+        }
+
+        .header {
+            background: linear-gradient(135deg, #667eea 0%, #764ba2 100%);
+            color: white;
+            padding: 30px;
+            text-align: center;
+        }
+
+        .header h1 {
+            font-size: 28px;
+            margin-bottom: 10px;
+        }
+
+        .header p {
+            font-size: 14px;
+            opacity: 0.9;
+        }
+
+        .progress-bar {
+            background: #e0e0e0;
+            height: 8px;
+        }
+
+        .progress-fill {
+            background: linear-gradient(90deg, #667eea 0%, #764ba2 100%);
+            height: 100%;
+            width: 0%;
+            transition: width 0.3s ease;
+        }
+
+        .content {
+            padding: 40px;
+        }
+
+        .question-section {
+            display: none;
+            animation: fadeIn 0.5s;
+        }
+
+        .question-section.active {
+            display: block;
+        }
+
+        @keyframes fadeIn {
+            from { opacity: 0; transform: translateY(20px); }
+            to { opacity: 1; transform: translateY(0); }
+        }
+
+        .question-header {
+            display: flex;
+            justify-content: space-between;
+            align-items: center;
+            margin-bottom: 20px;
+            flex-wrap: wrap;
+            gap: 10px;
+        }
+
+        .question-number {
+            background: #667eea;
+            color: white;
+            padding: 8px 16px;
+            border-radius: 20px;
+            font-size: 14px;
+            font-weight: bold;
+        }
+
+        .category-badge {
+            background: #f0f0f0;
+            padding: 8px 16px;
+            border-radius: 20px;
+            font-size: 12px;
+            color: #666;
+        }
+
+        .question-text {
+            font-size: 18px;
+            line-height: 1.6;
+            margin-bottom: 25px;
+            color: #333;
+        }
+
+        .context-box {
+            background: #f8f9fa;
+            border-left: 4px solid #667eea;
+            padding: 15px;
+            margin-bottom: 20px;
+            border-radius: 5px;
+            font-size: 15px;
+            line-height: 1.5;
+        }
+
+        .context-box strong {
+            color: #667eea;
+        }
+
+        table {
+            width: 100%;
+            border-collapse: collapse;
+            margin: 10px 0;
+        }
+
+        table th, table td {
+            border: 1px solid #ddd;
+            padding: 10px;
+            text-align: center;
+        }
+
+        table th {
+            background: #667eea;
+            color: white;
+        }
+
+        .options {
+            display: flex;
+            flex-direction: column;
+            gap: 12px;
+        }
+
+        .option {
+            padding: 15px;
+            border: 2px solid #e0e0e0;
+            border-radius: 8px;
+            cursor: pointer;
+            transition: all 0.3s;
+            background: white;
+        }
+
+        .option:hover {
+            border-color: #667eea;
+            background: #f8f9ff;
+        }
+
+        .option.selected {
+            border-color: #667eea;
+            background: #f8f9ff;
+        }
+
+        .button-group {
+            display: flex;
+            gap: 15px;
+            margin-top: 30px;
+        }
+
+        button {
+            padding: 15px 30px;
+            font-size: 16px;
+            border: none;
+            border-radius: 8px;
+            cursor: pointer;
+            transition: all 0.3s;
+            font-weight: bold;
+        }
+
+        .btn-primary {
+            background: linear-gradient(135deg, #667eea 0%, #764ba2 100%);
+            color: white;
+            flex: 1;
+        }
+
+        .btn-primary:hover {
+            transform: translateY(-2px);
+            box-shadow: 0 5px 15px rgba(102, 126, 234, 0.4);
+        }
+
+        .btn-primary:disabled {
+            background: #ccc;
+            cursor: not-allowed;
+            transform: none;
+        }
+
+        .btn-secondary {
+            background: white;
+            color: #667eea;
+            border: 2px solid #667eea;
+        }
+
+        .btn-secondary:hover {
+            background: #f8f9ff;
+        }
+
+        .feedback {
+            margin-top: 20px;
+            padding: 15px;
+            border-radius: 8px;
+            display: none;
+            animation: slideIn 0.3s;
+        }
+
+        @keyframes slideIn {
+            from { opacity: 0; transform: translateX(-20px); }
+            to { opacity: 1; transform: translateX(0); }
+        }
+
+        .feedback.show {
+            display: block;
+        }
+
+        .feedback.correct {
+            background: #d4edda;
+            border-left: 4px solid #28a745;
+            color: #155724;
+        }
+
+        .feedback.incorrect {
+            background: #f8d7da;
+            border-left: 4px solid #dc3545;
+            color: #721c24;
+        }
+
+        .results {
+            display: none;
+            text-align: center;
+        }
+
+        .results.show {
+            display: block;
+        }
+
+        .score-display {
+            font-size: 72px;
+            font-weight: bold;
+            color: #667eea;
+            margin: 30px 0;
+        }
+
+        .score-message {
+            font-size: 24px;
+            color: #333;
+            margin-bottom: 20px;
+        }
+
+        .score-breakdown {
+            background: #f8f9fa;
+            padding: 20px;
+            border-radius: 8px;
+            margin: 20px 0;
+            text-align: left;
+        }
+
+        .breakdown-item {
+            display: flex;
+            justify-content: space-between;
+            padding: 10px 0;
+            border-bottom: 1px solid #e0e0e0;
+        }
+
+        .breakdown-item:last-child {
+            border-bottom: none;
+        }
+    </style>
+</head>
+<body>
+    <div class="container">
+        <div class="header">
+            <h1>ACT WorkKeys Practice Assessment</h1>
+            <p>33 questions - approximately 55 minutes</p>
+        </div>
+        
+        <div class="progress-bar">
+            <div class="progress-fill" id="progressBar"></div>
+        </div>
+
+        <div class="content" id="contentArea">
+            <!-- Questions will be dynamically generated -->
+        </div>
+
+        <!-- Results Section -->
+        <div class="content">
+            <div class="results" id="results">
+                <h2>Assessment Complete!</h2>
+                <div class="score-display" id="scoreDisplay">0/33</div>
+                <div class="score-message" id="scoreMessage"></div>
+                <div class="score-breakdown">
+                    <div class="breakdown-item">
+                        <span>Applied Mathematics:</span>
+                        <span id="mathScore">0/13</span>
+                    </div>
+                    <div class="breakdown-item">
+                        <span>Reading for Information:</span>
+                        <span id="readingScore">0/11</span>
+                    </div>
+                    <div class="breakdown-item">
+                        <span>Locating Information:</span>
+                        <span id="locatingScore">0/9</span>
+                    </div>
+                </div>
+                <button class="btn-primary" onclick="restartAssessment()">Restart Assessment</button>
+            </div>
+        </div>
+    </div>
+
+    <script>
+        const questions = [
+            // Applied Mathematics Questions (13 total)
+            {
+                id: 1,
+                category: "Applied Mathematics",
+                question: "You work at a coffee shop. A customer orders 3 lattes at $4.50 each and 2 pastries at $3.25 each. What is the total before tax?",
+                options: ["A) $17.75", "B) $20.00", "C) $20.25", "D) $23.50"],
+                correct: "B"
+            },
+            {
+                id: 2,
+                category: "Applied Mathematics",
+                question: "Your company offers a 15% employee discount on all products. If you want to buy a laptop that normally costs $800, how much will you pay after the discount?",
+                options: ["A) $120.00", "B) $680.00", "C) $785.00", "D) $920.00"],
+                correct: "B"
+            },
+            {
+                id: 3,
+                category: "Applied Mathematics",
+                question: "A recipe calls for 2 cups of flour to make 24 cookies. How many cups of flour do you need to make 36 cookies?",
+                options: ["A) 2.5 cups", "B) 3 cups", "C) 3.5 cups", "D) 4 cups"],
+                correct: "B"
+            },
+            {
+                id: 4,
+                category: "Applied Mathematics",
+                question: "A warehouse has 450 boxes. Each box weighs 12 pounds. What is the total weight in pounds?",
+                options: ["A) 462 pounds", "B) 4,500 pounds", "C) 5,400 pounds", "D) 54,000 pounds"],
+                correct: "C"
+            },
+            {
+                id: 5,
+                category: "Applied Mathematics",
+                question: "You earn $18 per hour and worked 45 hours this week. Overtime (over 40 hours) is paid at 1.5 times your regular rate. What is your total pay?",
+                options: ["A) $765", "B) $810", "C) $855", "D) $900"],
+                correct: "C"
+            },
+            {
+                id: 6,
+                category: "Applied Mathematics",
+                question: "A construction project requires 85 bags of cement. Each bag costs $6.75. What is the total cost?",
+                options: ["A) $562.50", "B) $573.75", "C) $583.50", "D) $595.25"],
+                correct: "B"
+            },
+            {
+                id: 7,
+                category: "Applied Mathematics",
+                question: "A machine produces 240 units per hour. How many units will it produce in 6.5 hours?",
+                options: ["A) 1,440 units", "B) 1,520 units", "C) 1,560 units", "D) 1,600 units"],
+                correct: "C"
+            },
+            {
+                id: 8,
+                category: "Applied Mathematics",
+                question: "Your department's budget is $15,000. You've spent $8,750. What percentage of the budget remains?",
+                options: ["A) 41.7%", "B) 42.5%", "C) 58.3%", "D) 62.5%"],
+                correct: "A"
+            },
+            {
+                id: 9,
+                category: "Applied Mathematics",
+                question: "A car travels 315 miles on 12 gallons of gas. What is the fuel efficiency in miles per gallon?",
+                options: ["A) 24.5 mpg", "B) 25.5 mpg", "C) 26.25 mpg", "D) 27 mpg"],
+                correct: "C"
+            },
+            {
+                id: 10,
+                category: "Applied Mathematics",
+                question: "A store marks up wholesale prices by 40%. If a product costs $25 wholesale, what is the retail price?",
+                options: ["A) $30.00", "B) $32.50", "C) $35.00", "D) $37.50"],
+                correct: "C"
+            },
+            {
+                id: 11,
+                category: "Applied Mathematics",
+                question: "You need to paint a room that is 12 feet by 15 feet with 8-foot ceilings. Each gallon covers 350 square feet. How many gallons do you need for two coats?",
+                options: ["A) 2 gallons", "B) 3 gallons", "C) 4 gallons", "D) 5 gallons"],
+                correct: "B"
+            },
+            {
+                id: 12,
+                category: "Applied Mathematics",
+                question: "A restaurant's lunch sales were $3,450 on Monday, $4,125 on Tuesday, and $3,890 on Wednesday. What was the average daily sales?",
+                options: ["A) $3,788.33", "B) $3,815.00", "C) $3,850.00", "D) $3,900.00"],
+                correct: "A"
+            },
+            {
+                id: 13,
+                category: "Applied Mathematics",
+                question: "You invest $5,000 at 3.5% simple interest for 2 years. How much interest will you earn?",
+                options: ["A) $300", "B) $325", "C) $350", "D) $375"],
+                correct: "C"
+            },
+            // Reading for Information Questions (11 total)
+            {
+                id: 14,
+                category: "Reading for Information",
+                context: "<strong>Memo:</strong> \"All employees must complete safety training by Friday. New hires complete it during orientation. Current employees should register on the HR portal. Training takes 2 hours.\"",
+                question: "What is the deadline for completing safety training?",
+                options: ["A) During orientation", "B) Friday", "C) In 2 hours", "D) On the HR portal"],
+                correct: "B"
+            },
+            {
+                id: 15,
+                category: "Reading for Information",
+                context: "<strong>Policy:</strong> \"Employees can request time off with at least 2 weeks notice. Requests submitted less than 1 week before require manager approval. Emergency leave requires documentation within 48 hours of return.\"",
+                question: "What is required for emergency leave?",
+                options: ["A) 2 weeks notice", "B) Manager approval in advance", "C) Documentation within 48 hours of return", "D) HR portal submission"],
+                correct: "C"
+            },
+            {
+                id: 16,
+                category: "Reading for Information",
+                context: "<strong>Instructions:</strong> \"To reset your password: 1) Click 'Forgot Password' on the login page. 2) Enter your employee ID. 3) Answer two security questions. 4) Create a new password with at least 8 characters, one number, and one symbol.\"",
+                question: "What is NOT required for the new password?",
+                options: ["A) At least 8 characters", "B) One number", "C) One symbol", "D) One uppercase letter"],
+                correct: "D"
+            },
+            {
+                id: 17,
+                category: "Reading for Information",
+                context: "<strong>Email:</strong> \"The quarterly meeting has been moved from Conference Room A to the Main Auditorium due to increased attendance. The time remains 2:00 PM on Thursday. Please bring your Q3 reports and budget proposals.\"",
+                question: "What has changed about the meeting?",
+                options: ["A) The date", "B) The time", "C) The location", "D) The required materials"],
+                correct: "C"
+            },
+            {
+                id: 18,
+                category: "Reading for Information",
+                context: "<strong>Procedure:</strong> \"Before operating the forklift: 1) Complete daily inspection checklist. 2) Check tire pressure and fluid levels. 3) Test brakes and horn. 4) Ensure load capacity is not exceeded. Maximum capacity is 5,000 pounds.\"",
+                question: "What is the maximum load capacity?",
+                options: ["A) 500 pounds", "B) 5,000 pounds", "C) 50,000 pounds", "D) Not specified"],
+                correct: "B"
+            },
+            {
+                id: 19,
+                category: "Reading for Information",
+                context: "<strong>Benefits Guide:</strong> \"Health insurance enrollment opens November 1-15. Changes take effect January 1. You can add or remove dependents during this period. Outside this window, changes require a qualifying life event such as marriage, birth, or loss of other coverage.\"",
+                question: "When can you normally change health insurance without a qualifying event?",
+                options: ["A) Anytime", "B) January 1", "C) November 1-15", "D) When you have a life event"],
+                correct: "C"
+            },
+            {
+                id: 20,
+                category: "Reading for Information",
+                context: "<strong>Return Policy:</strong> \"Items can be returned within 30 days with receipt for full refund. Without receipt, store credit only. Electronics have 14-day return period. Opened software and personalized items cannot be returned.\"",
+                question: "What can NOT be returned?",
+                options: ["A) Items over 30 days old", "B) Items without receipt", "C) Electronics after 14 days", "D) Opened software"],
+                correct: "D"
+            },
+            {
+                id: 21,
+                category: "Reading for Information",
+                context: "<strong>Maintenance Notice:</strong> \"The parking lot will be resurfaced Monday-Wednesday, 7 AM to 5 PM. Use the overflow lot on Oak Street. Vehicles left in the main lot will be towed at owner's expense.\"",
+                question: "What happens if you park in the main lot during resurfacing?",
+                options: ["A) Nothing", "B) You receive a warning", "C) You must move to Oak Street", "D) Your vehicle will be towed"],
+                correct: "D"
+            },
+            {
+                id: 22,
+                category: "Reading for Information",
+                context: "<strong>Expense Policy:</strong> \"Meals up to $50 per day are reimbursable without manager approval. Meals over $50 require pre-approval. All expenses must be submitted within 30 days with itemized receipts. Alcohol is not reimbursable.\"",
+                question: "What meal expense requires pre-approval?",
+                options: ["A) Any meal expense", "B) Meals over $50", "C) Meals with alcohol", "D) Meals without receipts"],
+                correct: "B"
+            },
+            {
+                id: 23,
+                category: "Reading for Information",
+                context: "<strong>Training Announcement:</strong> \"Customer service training is mandatory for all front-line staff. Sessions are offered Tuesday and Thursday at 9 AM and 2 PM. Register by calling extension 4567. Each session is 3 hours. Bring your employee handbook.\"",
+                question: "How do you register for training?",
+                options: ["A) Call extension 4567", "B) Attend Tuesday at 9 AM", "C) Bring your handbook", "D) Ask your manager"],
+                correct: "A"
+            },
+            {
+                id: 24,
+                category: "Reading for Information",
+                context: "<strong>Safety Protocol:</strong> \"In case of fire: 1) Pull nearest fire alarm. 2) Evacuate using stairs, not elevators. 3) Proceed to assembly point in north parking lot. 4) Do not re-enter building until cleared by fire marshal.\"",
+                question: "Where should you go after evacuating?",
+                options: ["A) Any parking lot", "B) North parking lot", "C) Stay outside the building", "D) Wait for fire marshal"],
+                correct: "B"
+            },
+            // Locating Information Questions (9 total)
+            {
+                id: 25,
+                category: "Locating Information",
+                context: "<strong>Sales Table:</strong><table><tr><th>Region</th><th>Q1</th><th>Q2</th><th>Q3</th><th>Q4</th></tr><tr><td>North</td><td>25k</td><td>30k</td><td>28k</td><td>35k</td></tr><tr><td>South</td><td>20k</td><td>22k</td><td>24k</td><td>26k</td></tr><tr><td>West</td><td>18k</td><td>21k</td><td>23k</td><td>29k</td></tr></table>",
+                question: "Which region had the highest sales in Q3?",
+                options: ["A) North", "B) South", "C) West"],
+                correct: "A"
+            },
+            {
+                id: 26,
+                category: "Locating Information",
+                context: "<strong>Production Schedule:</strong> Monday-Friday: 8am-5pm, Saturday-Sunday: Closed, except first Sunday of each month: 10am-2pm.",
+                question: "If the first day of next month is a Tuesday, which weekend day(s) could you visit the facility next month?",
+                options: ["A) No weekend days", "B) The first Saturday only", "C) The first Sunday only", "D) Every Sunday"],
+                correct: "C"
+            },
+            {
+                id: 27,
+                category: "Locating Information",
+                context: "<strong>Employee Directory:</strong><table><tr><th>Name</th><th>Department</th><th>Extension</th><th>Email</th></tr><tr><td>Sarah Chen</td><td>HR</td><td>4501</td><td>schen@company.com</td></tr><tr><td>Mike Johnson</td><td>IT</td><td>4502</td><td>mjohnson@company.com</td></tr><tr><td>Lisa Martinez</td><td>Finance</td><td>4503</td><td>lmartinez@company.com</td></tr></table>",
+                question: "What is the extension for the Finance department?",
+                options: ["A) 4501", "B) 4502", "C) 4503", "D) 4504"],
+                correct: "C"
+            },
+            {
+                id: 28,
+                category: "Locating Information",
+                context: "<strong>Shipping Rate Chart:</strong><table><tr><th>Weight</th><th>Zone 1</th><th>Zone 2</th><th>Zone 3</th></tr><tr><td>0-5 lbs</td><td>$8</td><td>$10</td><td>$12</td></tr><tr><td>6-10 lbs</td><td>$12</td><td>$15</td><td>$18</td></tr><tr><td>11-20 lbs</td><td>$18</td><td>$22</td><td>$28</td></tr></table>",
+                question: "How much does it cost to ship a 7-pound package to Zone 2?",
+                options: ["A) $10", "B) $12", "C) $15", "D) $18"],
+                correct: "C"
+            },
+            {
+                id: 29,
+                category: "Locating Information",
+                context: "<strong>Vacation Days by Years of Service:</strong><table><tr><th>Years</th><th>Days</th></tr><tr><td>0-2</td><td>10</td></tr><tr><td>3-5</td><td>15</td></tr><tr><td>6-10</td><td>20</td></tr><tr><td>11+</td><td>25</td></tr></table>",
+                question: "How many vacation days does an employee with 4 years of service get?",
+                options: ["A) 10 days", "B) 15 days", "C) 20 days", "D) 25 days"],
+                correct: "B"
+            },
+            {
+                id: 30,
+                category: "Locating Information",
+                context: "<strong>Temperature Log:</strong><table><tr><th>Time</th><th>Room A</th><th>Room B</th><th>Room C</th></tr><tr><td>8:00 AM</td><td>68°F</td><td>72°F</td><td>70°F</td></tr><tr><td>12:00 PM</td><td>72°F</td><td>75°F</td><td>73°F</td></tr><tr><td>4:00 PM</td><td>70°F</td><td>74°F</td><td>71°F</td></tr></table>",
+                question: "Which room had the highest temperature at noon?",
+                options: ["A) Room A", "B) Room B", "C) Room C", "D) All equal"],
+                correct: "B"
+            },
+            {
+                id: 31,
+                category: "Locating Information",
+                context: "<strong>Meeting Room Availability:</strong> Room 101: 9-11 AM, Room 102: 1-3 PM, Room 103: 10 AM-12 PM, Room 104: All day available",
+                question: "Which room is available at 10:30 AM?",
+                options: ["A) Room 101", "B) Room 102", "C) Room 103", "D) Room 104"],
+                correct: "D"
+            },
+            {
+                id: 32,
+                category: "Locating Information",
+                context: "<strong>Project Timeline:</strong><table><tr><th>Phase</th><th>Start</th><th>End</th><th>Lead</th></tr><tr><td>Planning</td><td>Jan 1</td><td>Jan 31</td><td>Anderson</td></tr><tr><td>Development</td><td>Feb 1</td><td>Apr 30</td><td>Chen</td></tr><tr><td>Testing</td><td>May 1</td><td>May 31</td><td>Davis</td></tr></table>",
+                question: "Who is the lead for the Development phase?",
+                options: ["A) Anderson", "B) Chen", "C) Davis", "D) Not specified"],
+                correct: "B"
+            },
+            {
+                id: 33,
+                category: "Locating Information",
+                context: "<strong>Inventory Status:</strong><table><tr><th>Product</th><th>In Stock</th><th>Reserved</th><th>Available</th></tr><tr><td>Widget A</td><td>500</td><td>150</td><td>350</td></tr><tr><td>Widget B</td><td>300</td><td>100</td><td>200</td></tr><tr><td>Widget C</td><td>450</td><td>200</td><td>250</td></tr></table>",
+                question: "How many Widget B units are reserved?",
+                options: ["A) 100", "B) 200", "C) 300", "D) 400"],
+                correct: "A"
+            }
+        ];
+
+        let currentQuestion = 1;
+        let userAnswers = {};
+        let scores = {
+            total: 0,
+            math: 0,
+            reading: 0,
+            locating: 0
+        };
+
+        function renderQuestion(questionNum) {
+            const q = questions[questionNum - 1];
+            const contentArea = document.getElementById('contentArea');
+            
+            let contextHTML = '';
+            if (q.context) {
+                contextHTML = `<div class="context-box">${q.context}</div>`;
+            }
+
+            const optionsHTML = q.options.map((opt, idx) => {
+                const selected = userAnswers[questionNum] === opt.charAt(0) ? 'selected' : '';
+                return `<div class="option ${selected}" onclick="selectOption(${questionNum}, '${opt.charAt(0)}')">${opt}</div>`;
+            }).join('');
+
+            const prevButton = questionNum > 1 ? 
+                `<button class="btn-secondary" onclick="previousQuestion()">Previous</button>` : '';
+
+            contentArea.innerHTML = `
+                <div class="question-section active">
+                    <div class="question-header">
+                        <span class="question-number">Question ${questionNum} of 33</span>
+                        <span class="category-badge">${q.category}</span>
+                    </div>
+                    ${contextHTML}
+                    <div class="question-text">${q.question}</div>
+                    <div class="options" id="optionsContainer">
+                        ${optionsHTML}
+                    </div>
+                    <div class="feedback" id="feedback"></div>
+                    <div class="button-group">
+                        ${prevButton}
+                        <button class="btn-primary" onclick="checkAnswer(${questionNum})">Submit Answer</button>
+                    </div>
+                </div>
+            `;
+
+            updateProgress();
+        }
+
+        function selectOption(questionNum, answer) {
+            userAnswers[questionNum] = answer;
+            const options = document.querySelectorAll('#optionsContainer .option');
+            options.forEach(opt => {
+                opt.classList.remove('selected');
+                if (opt.textContent.startsWith(answer + ')')) {
+                    opt.classList.add('selected');
+                }
+            });
+        }
+
+        function checkAnswer(questionNum) {
+            const userAnswer = userAnswers[questionNum];
+            const feedback = document.getElementById('feedback');
+            const q = questions[questionNum - 1];
+            
+            if (!userAnswer) {
+                alert('Please select an answer before submitting.');
+                return;
+            }
+
+            const isCorrect = userAnswer === q.correct;
+
+            if (isCorrect) {
+                feedback.className = 'feedback correct show';
+                feedback.innerHTML = '✓ Correct! Well done.';
+                
+                // Score tracking
+                if (!scores[`q${questionNum}`]) {
+                    scores.total++;
+                    if (questionNum <= 13) scores.math++;
+                    else if (questionNum <= 24) scores.reading++;
+                    else scores.locating++;
+                    scores[`q${questionNum}`] = true;
+                }
+            } else {
+                feedback.className = 'feedback incorrect show';
+                const correctOption = q.options.find(opt => opt.startsWith(q.correct));
+                feedback.innerHTML = `✗ Incorrect. The correct answer is: ${correctOption}`;
+            }
+
+            setTimeout(() => {
+                if (questionNum < 33) {
+                    nextQuestion();
+                } else {
+                    showResults();
+                }
+            }, 2000);
+        }
+
+        function nextQuestion() {
+            currentQuestion++;
+            renderQuestion(currentQuestion);
+        }
+
+        function previousQuestion() {
+            if (currentQuestion > 1) {
+                currentQuestion--;
+                renderQuestion(currentQuestion);
+            }
+        }
+
+        function updateProgress() {
+            const progress = ((currentQuestion - 1) / 33) * 100;
+            document.getElementById('progressBar').style.width = progress + '%';
+        }
+
+        function showResults() {
+            document.getElementById('contentArea').style.display = 'none';
+            document.getElementById('results').classList.add('show');
+            
+            document.getElementById('scoreDisplay').textContent = `${scores.total}/33`;
+            document.getElementById('mathScore').textContent = `${scores.math}/13`;
+            document.getElementById('readingScore').textContent = `${scores.reading}/11`;
+            document.getElementById('locatingScore').textContent = `${scores.locating}/9`;
+            
+            const percentage = (scores.total / 33) * 100;
+            let message = '';
+            if (percentage >= 85) message = 'Excellent! You have strong workplace skills.';
+            else if (percentage >= 70) message = 'Good job! You demonstrate solid competency.';
+            else if (percentage >= 50) message = 'Fair. Consider reviewing the areas you struggled with.';
+            else message = 'Keep practicing. Focus on improving your workplace skills.';
+            
+            document.getElementById('scoreMessage').textContent = message;
+            document.getElementById('progressBar').style.width = '100%';
+        }
+
+        function restartAssessment() {
+            currentQuestion = 1;
+            userAnswers = {};
+            scores = { total: 0, math: 0, reading: 0, locating: 0 };
+            
+            document.getElementById('contentArea').style.display = 'block';
+            document.getElementById('results').classList.remove('show');
+            renderQuestion(1);
+        }
+
+        // Initialize
+        renderQuestion(1);
+    </script>
+</body>
+</html>
