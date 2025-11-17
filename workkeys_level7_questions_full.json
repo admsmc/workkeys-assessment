@@ -5,7 +5,7 @@
       "question": "Your company invests $50,000 at 4.5% compound interest annually. After 3 years, what is the total value? (Use formula: A = P(1 + r)^t)",
       "options": [
         "A) $56,750",
-        "B) $57,091",
+        "B) $57,058",
         "C) $57,330",
         "D) $58,125"
       ],
@@ -202,7 +202,7 @@
       "id": 19,
       "question": "A vehicle depreciates 18% per year. If it's worth $28,000 now, what will it be worth in 3 years?",
       "options": [
-        "A) $15,428",
+        "A) $15,438",
         "B) $16,250",
         "C) $17,146",
         "D) $18,250"
