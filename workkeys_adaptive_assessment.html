@@ -762,17 +762,45 @@
             // Find an unused question at this level
             let questionIndex = 0;
             let attempts = 0;
-            let maxAttempts = Math.min(questions.length * 2, 100);
-            do {
+            let maxAttempts = questions.length * 3; // Try 3x the pool size
+            let foundUnused = false;
+            
+            // Try to find an unused question
+            while (attempts < maxAttempts) {
                 questionIndex = Math.floor(Math.random() * questions.length);
                 attempts++;
-                if (attempts > maxAttempts) {
-                    // If we've tried many times, just use any question
-                    questionIndex = Math.floor(Math.random() * questions.length);
+                
+                if (!usedQuestions.has(`${currentLevel}-${questionIndex}`)) {
+                    foundUnused = true;
                     break;
                 }
-            } while (usedQuestions.has(`${currentLevel}-${questionIndex}`));
-
+            }
+            
+            // If all questions at this level are used, we've exhausted the pool
+            if (!foundUnused) {
+                // Check if all questions are truly used
+                const usedAtThisLevel = Array.from(usedQuestions)
+                    .filter(key => key.startsWith(`${currentLevel}-`))
+                    .length;
+                
+                if (usedAtThisLevel >= questions.length) {
+                    // All questions at this level used - end assessment
+                    console.log(`All ${questions.length} questions at level ${currentLevel} exhausted`);
+                    showResults();
+                    return;
+                }
+                
+                // Otherwise find first unused
+                for (let i = 0; i < questions.length; i++) {
+                    if (!usedQuestions.has(`${currentLevel}-${i}`)) {
+                        questionIndex = i;
+                        foundUnused = true;
+                        break;
+                    }
+                }
+            }
+            
+            // Mark as used and display
             usedQuestions.add(`${currentLevel}-${questionIndex}`);
             const q = questions[questionIndex];
 
