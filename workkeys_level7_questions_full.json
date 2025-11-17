@@ -1148,7 +1148,7 @@
         "C) $5,000",
         "D) $50,000"
       ],
-      "correct": "B"
+      "correct": "D"
     },
     {
       "id": 15,
@@ -1227,22 +1227,22 @@
       "context": "<strong>Environmental Regulations Document:</strong> \"Detailed procedures regarding emission limits and monitoring frequency. Multiple conditions apply based on context: Standard requirements include documentation within specified timeframes, approval from designated authorities, and compliance with stated thresholds. Exceptions granted under specific circumstances with appropriate justification. Non-compliance may result in penalties or process delays.\"",
       "question": "Under what circumstances can the standard emission limits and monitoring frequency requirements be modified?",
       "options": [
-        "A) With manager approval only",
-        "B) Under specified exceptions with justification",
-        "C) After 30-day waiting period",
-        "D) Never - requirements are absolute"
+        "A) $3,333",
+        "B) $6,667",
+        "C) $8,000",
+        "D) $10,000"
       ],
-      "correct": "B"
+      "correct": "A"
     },
     {
       "id": 22,
       "context": "<strong>Insurance Coverage Document:</strong> \"Detailed procedures regarding deductibles, exclusions, and claim procedures. Multiple conditions apply based on context: Standard requirements include documentation within specified timeframes, approval from designated authorities, and compliance with stated thresholds. Exceptions granted under specific circumstances with appropriate justification. Non-compliance may result in penalties or process delays.\"",
       "question": "Under what circumstances can the standard deductibles, exclusions, and claim procedures requirements be modified?",
       "options": [
-        "A) With manager approval only",
-        "B) Under specified exceptions with justification",
-        "C) After 30-day waiting period",
-        "D) Never - requirements are absolute"
+        "A) 4 weeks",
+        "B) 14 weeks",
+        "C) 26 weeks",
+        "D) 28 weeks"
       ],
       "correct": "B"
     },
@@ -2434,7 +2434,7 @@
         "C) Item 3",
         "D) None meet criteria"
       ],
-      "correct": "B"
+      "correct": "A"
     },
     {
       "id": 22,
